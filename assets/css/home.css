@@ -91,7 +91,7 @@ header {
     margin-bottom: 1rem;
     font-size: 2rem;
 }
-.description-card p, .support-card p {
+.description-card p, .support-card p, .contact-card p {
     color: var(--text-secondary);
     line-height: 1.8;
 }
@@ -158,7 +158,7 @@ header {
     .hero h1 {
         font-size: 2.2rem;
     }
-    .description-card, .support-card {
+    .description-card, .support-card, .contact-card {
         padding: 1.5rem;
     }
 }
