@@ -1,63 +1,69 @@
 <!DOCTYPE html>
 <html lang="id">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Home</title>
-  <link rel="icon" href="assets/images/Logo.png" type="image/png" />
-  <link rel="stylesheet" href="assets/css/style.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Beranda - Oriana.dev</title>
+    <link rel="icon" href="assets/images/Logo.png" type="image/png" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
+
+    <link rel="stylesheet" href="assets/css/home.css" />
 </head>
 <body>
 
-  <header>
-    <div class="logo">
-        <img src="assets/images/Logo.png" alt="Logo" />
+    <header>
+        <div class="logo">
+            <img src="assets/images/Logo.png" alt="Logo" />
+        </div>
+    </header>
+
+    <div class="container">
+        <section class="hero">
+            <h1>Welcome to My Personal Project</h1>
+            <p class="subtitle">Hello! I'm Oriana, a solo developer. This is my Simulator WOS.</p>
+        </section>
+
+        <section class="description-card">
+            <h2>Chief Gear Simulator</h2>
+            <p>This simulator allows you to estimate the materials required to upgrade gears to max level. It also features a Total Material Used summary that automatically tracks all materials consumed.</p>
+            
+            <div class="features-grid">
+                <div class="feature-item">
+                    <i class="fa-solid fa-gear"></i>
+                    <h3>Full Flexibility</h3>
+                    <p>Features like Set Level, Reset Level, and Input Materials give you full control.</p>
+                </div>
+                <div class="feature-item">
+                    <i class="fas fa-sync-alt"></i>
+                    <h3>Easy Reset</h3>
+                    <p>A "Reset Materials" button is available if you want to start your calculations fresh.</p>
+                </div>
+                <div class="feature-item">
+                    <i class="fas fa-shield-alt"></i>
+                    <h3>For Simulation Only</h3>
+                    <p>This tool is strictly for simulation and personal calculation purposes.</p>
+                </div>
+            </div>
+            
+            <a href="chief-gears-simulator.html" class="btn-primary">
+                Try The Simulator <i class="fas fa-arrow-right"></i>
+            </a>
+
+        </section>
+
+        <section class="support-card">
+            <h2>Support My Work</h2>
+            <p>If you find this project helpful, your support will help me continue creating more. Stay tuned for my next projects!</p>
+            <a href="https://ko-fi.com/orianadev" target="_blank" class="btn-donate">
+                <i class="fas fa-coffee"></i> Support with Ko-fi
+            </a>
+        </section>
     </div>
-    <nav>
-      <a href="index.html">Home</a>
-      <a href="chief-gears-simulator.html">Chief Gear Simulator</a>
-    </nav>
-    <div class="hamburger" onclick="toggleSidebar()">
-      <div></div>
-      <div></div>
-      <div></div>
-    </div>
-  </header>
 
-  <div class="sidebar" id="sidebar">
-    <a href="index.html">Home</a>
-    <a href="chief-gears-simulator.html">Chief Gear Simulator</a>
-  </div>
-  <div class="overlay" id="overlay" onclick="toggleSidebar()"></div>
-
-  <div class="container">
-    <div class="card">
-      <h2>Welcome</h2>
-      <p>Hello! I'm Leo, a solo developer. Welcome to my personal project: Chief Gear Simulator.
-
-This simulator allows you to estimate the materials required to upgrade gears all the way to max level. It also features a Total Material Used summary that automatically tracks all materials consumed.
-
-To help you better match your game account, I've added features like Set Level, Reset Level, and Input Materials — giving you full flexibility. There's also a Reset Materials button if you want to start fresh.
-
-Please note: this tool is strictly for simulation and personal calculation purposes only. It is not intended for any illegal activity whatsoever.
-
-If you find this project helpful and would like to support my work, you can make a contact through this link:
-
-<br>
-<br>
-<br>
-<a href="discord://discordapp.com/users/384692013855145993" class="btn">Discord</a>
-<a href="https://ko-fi.com/eliasleo" class="btn">Donate</a>
-<br>
-<br>
-<br>
-
-This is your way of supporting me to keep creating more.
-Stay tuned for my next projects!</p>
-      
-    </div>
-  </div>
-
-  <script src="assets/js/script.js"></script>
-</body>
+    </body>
 </html>

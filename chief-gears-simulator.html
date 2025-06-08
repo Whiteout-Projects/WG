@@ -1,202 +1,152 @@
 <!DOCTYPE html>
 <html lang="id">
 <head>
-  <link rel="icon" href="data:,">
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Chief Gear Simulator</title>
-  <link rel="icon" href="assets/images/Logo.png" type="image/png" />
-  <link rel="stylesheet" href="assets/css/style.css" />
-  <link rel="stylesheet" href="assets/css/mystyle.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chief Gear Simulator</title>
+    <link rel="icon" href="assets/images/Logo.png" type="image/png" />
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
+    
+    <link rel="stylesheet" href="assets/css/gears.css" />
 </head>
 <body>
 
-  <header>
-    <div class="logo">
-        <img src="assets/images/Logo.png" alt="Logo" />
-    </div>
-    <nav>
-      <a href="index.html">Home</a>
-      <a href="chief-gears-simulator.html">Chief Gear Simulator</a>
-    </nav>
-    <div class="hamburger" onclick="toggleSidebar()">
-      <div></div>
-      <div></div>
-      <div></div>
-    </div>
-  </header>
-
-  <div class="sidebar" id="sidebar">
-    <a href="index.html">Home</a>
-    <a href="chief-gears-simulator.html">Chief Gear Simulator</a>
-  </div>
-  <div class="overlay" id="overlay" onclick="toggleSidebar()"></div>
-
-  <div class="container">
-    <div class="card card-wide">
-        <h2>Chief Gear Simulator</h2>
-        <button class="btn" id="open-level-modal" title="Set Start Levels">⚙️</button>
-        <button class="btn" id="reset-levels" title="Reset Levels">🔄</button>
-        <div class="gear-layout">
-          <div class="box-left">
-            <div class="gear-box" id="1" >
-              <div class="gear-tier" id="gear-tier-1"></div>
-              <div id="icon-data-1">
-                <!-- <img src="assets/images/Crude_Cap.png" alt="Crude Cap" class="gear-img" /> -->
-              </div>
-              <div class="gear-stars" id="gear-stars-1">
-
-              </div>
-            </div>
-            <div class="gear-box" id="2">
-              <div class="gear-tier" id="gear-tier-2"></div>
-              <div id="icon-data-2">
-                <!-- <img src="assets/images/Crude_Coat.png" alt="Crude Coat" class="gear-img" /> -->
-              </div>
-              <div class="gear-stars" id="gear-stars-2">
-
-              </div>            
-            </div>
-            <div class="gear-box" id="3">
-              <div class="gear-tier" id="gear-tier-3"></div>
-              <div id="icon-data-3">
-                <!-- <img src="assets/images/Crude_Ring.png" alt="Crude Ring" class="gear-img" /> -->
-              </div>
-              <div class="gear-stars" id="gear-stars-3">
-
-              </div>              
-            </div>
-          </div>
-          <div class="box-middle">
-            <div id="gear-preview" class="hidden">
-              <img src="" alt="Preview Gear" />
-            </div>
-          </div>
-          <div class="box-right">
-            <div class="gear-box" id="4">
-              <div class="gear-tier" id="gear-tier-4"></div>
-              <div id="icon-data-4">
-                <!-- <img src="assets/images/Crude_Watch.png" alt="Crude Watch" class="gear-img" /> -->
-              </div>
-              <div class="gear-stars" id="gear-stars-4">
-  
-              </div>            
-            </div>
-            <div class="gear-box" id="5">
-              <div class="gear-tier" id="gear-tier-5"></div>
-              <div id="icon-data-5">
-                <!-- <img src="assets/images/Crude_Pants.png" alt="Crude Pants" class="gear-img" /> -->
-              </div>
-              <div class="gear-stars" id="gear-stars-5">
-
-              </div>            
-            </div>
-            <div class="gear-box" id="6">
-              <div class="gear-tier" id="gear-tier-6"></div>
-              <div id="icon-data-6">
-                <!-- <img src="assets/images/Crude_Shortstaff.png" alt="Crude Shortstaff" class="gear-img" /> -->
-              </div>
-              <div class="gear-stars" id="gear-stars-6">
-
-              </div>            
-            </div>
-          </div>
+    <header>
+        <div class="logo">
+            <img src="assets/images/Logo.png" alt="Logo" />
         </div>
-        <div class="card-materials">
-          <h2>Required Materials</h2>
-          <div class="button-group">
-            <button id="resetMaterialsBtn" class="btn">
-              🧹
-            </button>
-          </div>
-          <div class="materials">
-            <div class="material-box">
-              <img src="assets/images/Hardened_Alloy.png" alt="Material Hardened Alloy" />
-              <div class="material-amount">0/0</div>
+    </header>
+
+    <div class="container">
+        <div class="card card-wide">
+            
+            <a href="index.html" class="back-link">
+                <i class="fas fa-arrow-left"></i> Back to Home
+            </a>
+
+            <h2>Chief Gear Simulator</h2>
+
+            <div class="top-actions">
+                <button class="btn" id="open-level-modal" title="Set Start Levels">⚙️</button>
+                <button class="btn" id="reset-levels" title="Reset Levels">🔄</button>
             </div>
-            <div class="material-box">
-              <img src="assets/images/Polishing_Solution.png" alt="Material Polishing Solution" />
-              <div class="material-amount">0/0</div>
+            
+            <div class="gear-layout">
+                <div class="box-left">
+                    <div class="gear-box" id="1">
+                        <div class="gear-tier" id="gear-tier-1"></div>
+                        <div id="icon-data-1"></div>
+                        <div class="gear-stars" id="gear-stars-1"></div>
+                    </div>
+                    <div class="gear-box" id="2">
+                        <div class="gear-tier" id="gear-tier-2"></div>
+                        <div id="icon-data-2"></div>
+                        <div class="gear-stars" id="gear-stars-2"></div>
+                    </div>
+                    <div class="gear-box" id="3">
+                        <div class="gear-tier" id="gear-tier-3"></div>
+                        <div id="icon-data-3"></div>
+                        <div class="gear-stars" id="gear-stars-3"></div>
+                    </div>
+                </div>
+                <div class="box-middle">
+                    <div id="gear-preview" class="hidden">
+                        <img src="" alt="Preview Gear" />
+                    </div>
+                </div>
+                <div class="box-right">
+                    <div class="gear-box" id="4">
+                        <div class="gear-tier" id="gear-tier-4"></div>
+                        <div id="icon-data-4"></div>
+                        <div class="gear-stars" id="gear-stars-4"></div>
+                    </div>
+                    <div class="gear-box" id="5">
+                        <div class="gear-tier" id="gear-tier-5"></div>
+                        <div id="icon-data-5"></div>
+                        <div class="gear-stars" id="gear-stars-5"></div>
+                    </div>
+                    <div class="gear-box" id="6">
+                        <div class="gear-tier" id="gear-tier-6"></div>
+                        <div id="icon-data-6"></div>
+                        <div class="gear-stars" id="gear-stars-6"></div>
+                    </div>
+                </div>
             </div>
-            <div class="material-box">
-              <img src="assets/images/Design_Plans.png" alt="Material Design Plans" />
-              <div class="material-amount">0/0</div>
+            <div class="card-materials">
+              <h2>Required Materials</h2>
+              
+              <button id="resetMaterialsBtn" class="btn" title="Reset Used Materials">🧹</button>
+              
+              <div class="materials">
+                  </div>
+              <button class="btn" id="upgrade">Upgrade</button>
+              <div id="used-material-summary"></div>
             </div>
-            <div class="material-box">
-              <img src="assets/images/Lunar_Amber.png" alt="Material Lunar Amber" />
-              <div class="material-amount">0/0</div>
-            </div>
-          </div>
-          <button class="btn" id="upgrade">Upgrade</button>
-          <div id="used-material-summary"></div>
         </div>
     </div>
-  </div>
 
-
-<div class="material-input-modal hidden" id="materialModal">
-  <div class="modal-content">
-    <h3 id="modal-title">Add Material</h3>
-    <input type="number" id="materialInput" placeholder="Enter amount" min="0" />
-    <div class="modal-buttons">
-      <button id="confirmAdd" class="btn">Add</button>
-      <button id="cancelAdd" class="btn btn-cancel">Cancel</button>
+    <div class="material-input-modal hidden" id="materialModal">
+        <div class="modal-content">
+            <h3 id="modal-title">Add Material</h3>
+            <input type="number" id="materialInput" placeholder="Enter amount" min="0" />
+            <div class="modal-buttons">
+                <button id="confirmAdd" class="btn">Add</button>
+                <button id="cancelAdd" class="btn btn-cancel">Cancel</button>
+            </div>
+        </div>
     </div>
-  </div>
-</div>
 
-<!-- Modal -->
-<div id="levelModal" class="modal hidden">
-  <div class="modal-content">
-    <h3>Set Start Levels (0-42)</h3>
-    <form id="levelForm">
-      <!-- Loop 6 gear input -->
-      <div class="level-input-group">
-        <label for="level1">Gear 1 Level:</label>
-        <input type="number" id="level1" name="1" min="0" max="42" value="0" />
-      </div>
-      <div class="level-input-group">
-        <label for="level2">Gear 2 Level:</label>
-        <input type="number" id="level2" name="2" min="0" max="42" value="0" />
-      </div>
-      <div class="level-input-group">
-        <label for="level3">Gear 3 Level:</label>
-        <input type="number" id="level3" name="3" min="0" max="42" value="0" />
-      </div>
-      <div class="level-input-group">
-        <label for="level4">Gear 4 Level:</label>
-        <input type="number" id="level4" name="4" min="0" max="42" value="0" />
-      </div>
-      <div class="level-input-group">
-        <label for="level5">Gear 5 Level:</label>
-        <input type="number" id="level5" name="5" min="0" max="42" value="0" />
-      </div>
-      <div class="level-input-group">
-        <label for="level6">Gear 6 Level:</label>
-        <input type="number" id="level6" name="6" min="0" max="42" value="0" />
-      </div>
+    <div id="levelModal" class="modal hidden">
+        <div class="modal-content">
+            <h3>Set Start Levels (0-42)</h3>
+            <form id="levelForm">
+                <div class="level-input-group">
+                    <label for="level1">Gear 1 Level:</label>
+                    <input type="number" id="level1" name="1" min="0" max="42" value="0" />
+                </div>
+                <div class="level-input-group">
+                    <label for="level2">Gear 2 Level:</label>
+                    <input type="number" id="level2" name="2" min="0" max="42" value="0" />
+                </div>
+                <div class="level-input-group">
+                    <label for="level3">Gear 3 Level:</label>
+                    <input type="number" id="level3" name="3" min="0" max="42" value="0" />
+                </div>
+                <div class="level-input-group">
+                    <label for="level4">Gear 4 Level:</label>
+                    <input type="number" id="level4" name="4" min="0" max="42" value="0" />
+                </div>
+                <div class="level-input-group">
+                    <label for="level5">Gear 5 Level:</label>
+                    <input type="number" id="level5" name="5" min="0" max="42" value="0" />
+                </div>
+                <div class="level-input-group">
+                    <label for="level6">Gear 6 Level:</label>
+                    <input type="number" id="level6" name="6" min="0" max="42" value="0" />
+                </div>
+                <div class="modal-buttons">
+                    <button type="submit" class="btn">Save</button>
+                    <button type="button" id="cancelModal" class="btn btn-secondary">Cancel</button>
+                </div>
+            </form>
+        </div>
+    </div>
 
-      <div class="modal-buttons">
-        <button type="submit" class="btn">Save</button>
-        <button type="button" id="cancelModal" class="btn btn-secondary">Cancel</button>
-      </div>
-    </form>
-  </div>
-</div>
+    <div id="custom-alert" class="custom-alert hidden">
+        <div class="custom-alert-content">
+            <p id="custom-alert-message"></p>
+            <button id="alert-ok-btn">OK</button>
+        </div>
+    </div>
+    <div id="custom-alert" class="custom-alert hidden"></div>
+    <audio id="upgrade-sound" src="assets/sounds/upgrade_gear.mp3" preload="auto"></audio>
+    <audio id="click-sound" src="assets/sounds/click.mp3" preload="auto"></audio>
 
-<div id="custom-alert" class="custom-alert hidden">
-  <div class="custom-alert-content">
-    <p id="custom-alert-message"></p>
-    <button id="alert-ok-btn">OK</button>
-  </div>
-</div>
-
-<audio id="upgrade-sound" src="assets/sounds/upgrade_gear.mp3" preload="auto"></audio>
-<audio id="click-sound" src="assets/sounds/click.mp3" preload="auto"></audio>
-
-
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-<script src="assets/js/script.js"></script>
-<script src="assets/js/myscript.js"></script>
-</body>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="assets/js/gears.js"></script> </body>
 </html>
