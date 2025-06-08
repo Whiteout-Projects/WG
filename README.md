@@ -36,13 +36,13 @@ If you find this tool helpful and would like to support my work, feel free to do
 This is not mandatory — it's simply a way to show your appreciation and support future updates ❤️
 
 🌍 International Donation (USD):
-👉 https://ko-fi.com/orianadev (No login required)
+👉 https://ko-fi.com/eliasleo (No login required)
 
 📜 License
 This project is open-source
 
 👋 About Me
-Hi! I'm Oriana, a solo developer passionate about tools that enhance gaming experience and productivity.
+Hi! I'm Leo, a solo developer passionate about tools that enhance gaming experience and productivity.
 Feel free to explore, fork, and contribute! ✨
 
 I'm planning more tools and simulators in the future — follow me on GitHub and stay updated 🚀
