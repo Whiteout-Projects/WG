@@ -78,7 +78,7 @@ header {
 }
 
 /* --- Gaya Kartu Umum untuk Section --- */
-.description-card, .support-card {
+.description-card, .support-card, .contact-card {
     background-color: var(--background-card);
     padding: 2.5rem; /* Padding lebih besar */
     border-radius: 16px;
@@ -86,7 +86,7 @@ header {
     box-shadow: 0 8px 24px var(--shadow-color);
     text-align: center;
 }
-.description-card h2, .support-card h2 {
+.description-card h2, .support-card h2, .contact-card h2 {
     color: var(--text-primary);
     margin-bottom: 1rem;
     font-size: 2rem;
