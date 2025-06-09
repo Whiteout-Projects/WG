@@ -22,13 +22,13 @@ This simulator is designed purely for planning and calculation. It helps you und
 ## 🚀 Getting Started
 
 No installation needed — just open the project in a browser:
-[https://bit.ly/Whiteout-Gear-Sim](https://bit.ly/Whiteout-Gear-Sim)
+[https://bit.ly/Wos-Sim](https://bit.ly/Wos-Sim)
 
 Or clone this repo and run it locally:
 
 ```bash
-git clone https://github.com/your-username/chief-gear-simulator.git
-cd chief-gear-simulator
+git clone https://github.com/your-username/WG.git
+cd WG
 # Open index.html in your browser
 
 🤝 Support the Developer
