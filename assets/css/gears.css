@@ -1,8 +1,8 @@
 /* ===================================================
-   KODE FINAL gears.css (TEMA MINIMALIS & KONSISTEN)
+   KODE CSS HASIL REFACTORING & PEMBERSIHAN
    =================================================== */
 
-/* --- Variabel Warna --- */
+/* --- 1. Variabel & Gaya Global --- */
 :root {
     --background-dark: #111827;
     --background-card: #1F2937;
@@ -16,7 +16,6 @@
     --glow-color: rgba(138, 92, 254, 0.4);
 }
 
-/* --- Gaya Dasar --- */
 * {
     margin: 0;
     padding: 0;
@@ -29,14 +28,11 @@ body {
     color: var(--text-primary);
 }
 
-/* --- Header & Logo (Gaya Minimalis) --- */
+
+/* --- 2. Struktur Utama & Layout --- */
 header {
     padding: 2rem 0;
-}
-
-.logo {
-    width: fit-content;
-    margin: 0 auto;
+    text-align: center;
 }
 
 .logo img {
@@ -44,7 +40,6 @@ header {
     object-fit: contain;
 }
 
-/* --- Container & Kartu Utama --- */
 .container {
     display: flex;
     justify-content: center;
@@ -56,9 +51,10 @@ header {
     background-color: var(--background-card);
     padding: 2.5rem;
     border-radius: 16px;
-    border: 1px solid #374151;
+    border: 1px solid var(--background-feature);
     box-shadow: 0 8px 24px var(--shadow-color);
     width: 100%;
+    max-width: 900px;
 }
 
 .card h2 {
@@ -71,11 +67,47 @@ header {
     text-align: center;
 }
 
-.card-wide {
-    max-width: 900px;
+/* --- 3. Elemen Umum (Tombol & Tautan) --- */
+.btn {
+    display: inline-block;
+    padding: 8px 16px;
+    border-radius: 8px;
+    border: none;
+    font-weight: 600;
+    cursor: pointer;
+    text-decoration: none;
+    background: var(--accent-gradient);
+    color: #fff;
+    transition: all .3s ease;
+    font-size: 1rem;
+    text-align: center;
 }
 
-/* --- GAYA BARU: Tombol Kembali --- */
+.btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 15px var(--glow-color);
+}
+
+.btn-secondary {
+    background: var(--background-feature);
+    color: var(--text-secondary);
+}
+
+.btn-secondary:hover {
+    color: var(--text-primary);
+    background: var(--accent-primary);
+    transform: none;
+    box-shadow: none;
+}
+
+#upgrade {
+    width: 100%;
+    max-width: 300px;
+    padding: 12px;
+    font-size: 1.1rem;
+    margin-top: 1rem;
+}
+
 .back-link {
     display: inline-block;
     color: var(--text-secondary);
@@ -93,45 +125,6 @@ header {
     margin-right: 8px;
 }
 
-/* Di dalam file gears.css */
-
-/* =================================
-   PERBAIKAN POSISI TOMBOL RESET MATERIAL
-   ================================= */
-
-/* Jadikan kartu material sebagai 'jangkar' posisi */
-.card-materials {
-    position: relative;
-    /* Ini penting agar tombol bisa diposisikan di dalamnya */
-}
-
-/* Gaya spesifik HANYA untuk tombol #resetMaterialsBtn */
-#resetMaterialsBtn {
-    position: absolute;
-    /* Membuat posisinya 'melayang' */
-    top: 1.5rem;
-    /* Sesuaikan jarak dari atas kartu material */
-    right: 1.5rem;
-    /* Posisikan di pojok kanan */
-
-    /* Atur ulang gaya agar seperti tombol ikon */
-    margin: 0;
-    padding: 6px 10px;
-    font-size: 1.2rem;
-    background: var(--background-feature);
-    /* Warna latar yang subtle */
-    color: var(--text-secondary);
-}
-
-#resetMaterialsBtn:hover {
-    color: var(--text-primary);
-    background: var(--accent-primary);
-    transform: none;
-    /* Hapus efek hover naik */
-    box-shadow: none;
-}
-
-/* --- Tombol Aksi (Center) --- */
 .top-actions {
     display: flex;
     justify-content: center;
@@ -140,38 +133,23 @@ header {
     margin-bottom: 1rem;
 }
 
-.top-actions .btn {
-    margin-top: 0;
-    background: var(--background-feature);
-    color: var(--text-secondary);
-}
-
-.top-actions .btn:hover {
-    color: var(--text-primary);
-    background: var(--accent-primary);
-    transform: none;
-    box-shadow: none;
-}
-
-/* Sisa CSS lainnya sama seperti sebelumnya karena sudah stabil */
+/* --- 4. Komponen: Tata Letak Gear --- */
 .gear-layout {
-    clear: both;
     display: flex;
     justify-content: space-between;
     max-width: 300px;
     margin: 1.5rem auto 2rem auto;
-    position: relative
+    position: relative;
 }
 
 .box-middle {
-    flex-grow: 1
+    flex-grow: 1;
 }
 
-.box-left,
-.box-right {
+.box-left, .box-right {
     display: flex;
     flex-direction: column;
-    gap: 1rem
+    gap: 1rem;
 }
 
 .gear-box {
@@ -182,12 +160,12 @@ header {
     border-radius: 10px;
     box-shadow: 0 8px 24px rgba(0, 0, 0, .3);
     cursor: pointer;
-    transition: transform .2s ease, box-shadow .2s ease
+    transition: transform .2s ease, box-shadow .2s ease;
 }
 
 .gear-box:hover {
     transform: scale(1.1);
-    box-shadow: 0 12px 30px rgba(0, 0, 0, .5)
+    box-shadow: 0 12px 30px rgba(0, 0, 0, .5);
 }
 
 .gear-box img.gear-img {
@@ -195,23 +173,21 @@ header {
     width: 100%;
     height: 100%;
     border-radius: 10px;
-    object-fit: cover
+    object-fit: cover;
 }
 
+/* Offset untuk gear kiri dan kanan */
 .box-left .gear-box:nth-child(2) {
-    transform: translateX(-20px)
+    transform: translateX(-20px);
 }
-
 .box-left .gear-box:nth-child(2):hover {
-    transform: translateX(-20px) scale(1.1)
+    transform: translateX(-20px) scale(1.1);
 }
-
 .box-right .gear-box:nth-child(2) {
-    transform: translateX(20px)
+    transform: translateX(20px);
 }
-
 .box-right .gear-box:nth-child(2):hover {
-    transform: translateX(20px) scale(1.1)
+    transform: translateX(20px) scale(1.1);
 }
 
 .gear-tier {
@@ -223,7 +199,7 @@ header {
     font-size: 8px;
     padding: 2px;
     z-index: 3;
-    pointer-events: none
+    pointer-events: none;
 }
 
 .gear-stars {
@@ -240,9 +216,15 @@ header {
 }
 
 .star {
-    text-shadow: 1px 1px 2px #000
+    text-shadow: 1px 1px 2px #000;
 }
 
+.gear-box.glow-gold {
+    animation: accent-glow-animation 1.5s infinite ease-in-out;
+}
+
+
+/* --- 5. Komponen: Pratinjau Gear --- */
 #gear-preview {
     position: absolute;
     top: 50%;
@@ -250,58 +232,24 @@ header {
     transform: translate(-50%, -50%);
     z-index: 10;
     pointer-events: none;
-    animation: floatUpDown 2s ease-in-out infinite
+    animation: floatUpDown 2s ease-in-out infinite;
 }
 
 #gear-preview img {
     width: 120px;
-    height: auto
+    height: auto;
 }
 
-@keyframes floatUpDown {
-    0% {
-        margin-top: 0
-    }
 
-    50% {
-        margin-top: -10px
-    }
-
-    100% {
-        margin-top: 0
-    }
-}
-
-@keyframes accent-glow-animation {
-    0% {
-        box-shadow: 0 0 4px 2px var(--glow-color)
-    }
-
-    50% {
-        box-shadow: 0 0 12px 5px var(--glow-color)
-    }
-
-    100% {
-        box-shadow: 0 0 4px 2px var(--glow-color)
-    }
-}
-
-.gear-box.glow-gold {
-    animation: accent-glow-animation 1.5s infinite ease-in-out
-}
-
+/* --- 6. Komponen: Panel Material --- */
 .card-materials {
+    position: relative; /* Untuk positioning tombol reset */
     background-color: var(--background-dark);
     border-radius: 12px;
     padding: 1.5rem;
     margin: 2rem auto 0;
-    border: 1px solid #374151;
-    text-align: center
-}
-
-.card-materials h2 {
-    font-size: 1.5rem;
-    color: var(--text-primary)
+    border: 1px solid var(--background-feature);
+    text-align: center;
 }
 
 .materials {
@@ -309,7 +257,7 @@ header {
     justify-content: center;
     gap: 1.5rem;
     margin: 1.5rem 0;
-    flex-wrap: wrap
+    flex-wrap: wrap;
 }
 
 .material-box {
@@ -317,7 +265,7 @@ header {
     flex-direction: column;
     align-items: center;
     cursor: pointer;
-    width: 65px
+    width: 65px;
 }
 
 .material-box img {
@@ -327,18 +275,18 @@ header {
     object-fit: cover;
     background-color: var(--background-card);
     border: 1px solid #4B5563;
-    transition: transform .3s ease
+    transition: transform .3s ease;
 }
 
 .material-box:hover img {
-    transform: scale(1.05)
+    transform: scale(1.05);
 }
 
 .material-amount {
     margin-top: 6px;
     font-size: 10px;
     font-weight: 600;
-    color: var(--text-secondary)
+    color: var(--text-secondary);
 }
 
 .max-materials span {
@@ -347,37 +295,21 @@ header {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
-    color: transparent
+    color: transparent;
 }
 
-.btn {
-    padding: 8px 16px;
-    border-radius: 8px;
-    border: none;
-    font-weight: 600;
-    cursor: pointer;
-    background: var(--accent-gradient);
-    color: #fff;
-    transition: all .3s ease;
-    font-size: 1rem
+#resetMaterialsBtn {
+    position: absolute;
+    top: 1.5rem;
+    right: 1.5rem;
+    margin: 0;
+    padding: 6px 10px;
+    font-size: 1.2rem;
 }
 
-.btn:hover {
-    transform: translateY(-2px);
-    box-shadow: 0 4px 15px var(--glow-color)
-}
 
-#upgrade {
-    width: 100%;
-    max-width: 300px;
-    padding: 12px;
-    font-size: 1.1rem;
-    margin-top: 1rem
-}
-
-.modal,
-.custom-alert,
-.material-input-modal {
+/* --- 7. Komponen: Modal & Alert --- */
+.modal-overlay {
     position: fixed;
     top: 0;
     left: 0;
@@ -387,33 +319,53 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    z-index: 9999
+    z-index: 9999;
 }
 
-.modal-content,
-.custom-alert-content {
+.modal-content {
     background: var(--background-card);
     color: var(--text-primary);
-    padding: 20px 30px;
+    padding: 2rem;
     border-radius: 12px;
-    border: 1px solid #374151;
+    border: 1px solid var(--background-feature);
     box-shadow: 0 0 25px rgba(0, 0, 0, .5);
     animation: scaleIn .3s ease;
     text-align: center;
     width: 90%;
-    max-width: 380px
+    max-width: 380px;
 }
 
-.modal-content h3,
-.custom-alert-content p {
-    color: var(--text-primary)
+.modal-content h3 {
+    margin-bottom: 1.5rem;
+}
+
+.modal-content p {
+    margin-bottom: 1.5rem;
+    color: var(--text-primary);
+}
+
+.modal-buttons {
+    display: flex;
+    gap: 1rem;
+    margin-top: 1.5rem;
+}
+
+.modal-buttons .btn {
+    flex: 1;
+    margin-top: 0;
+}
+
+
+/* --- 8. Komponen: Formulir --- */
+.level-input-group {
+    margin-bottom: 1rem;
 }
 
 .level-input-group label {
     color: var(--text-secondary);
     display: block;
     margin-bottom: 5px;
-    text-align: left
+    text-align: left;
 }
 
 .level-input-group input,
@@ -421,87 +373,27 @@ header {
     width: 100%;
     padding: 10px;
     border-radius: 6px;
-    border: 1px solid #374151;
+    border: 1px solid var(--background-feature);
     background-color: var(--background-dark);
     color: var(--text-primary);
-    font-size: 1rem
+    font-size: 1rem;
 }
 
 .level-input-group input:focus,
 #materialInput:focus {
     outline: 0;
     border-color: var(--accent-primary);
-    box-shadow: 0 0 0 3px var(--glow-color)
+    box-shadow: 0 0 0 3px var(--glow-color);
 }
 
-.modal-buttons {
-    display: flex;
-    gap: 1rem;
-    margin-top: 1.5rem
-}
 
-.modal-buttons .btn {
-    flex: 1;
-    margin-top: 0
-}
-
-.btn-secondary,
-.btn-cancel {
-    background: #4B5563
-}
-
-.btn-secondary:hover,
-.btn-cancel:hover {
-    filter: brightness(1.2);
-    box-shadow: none;
-    transform: none
-}
-
-@keyframes scaleIn {
-    0% {
-        transform: scale(.8);
-        opacity: 0
-    }
-
-    100% {
-        transform: scale(1);
-        opacity: 1
-    }
-}
-
-.hidden {
-    display: none !important
-}
-
-.show {
-    display: flex !important
-}
-
-.custom-alert-content button {
-    margin-top: 1rem;
-    padding: 8px 24px;
-    border-radius: 8px;
-    border: none;
-    font-weight: 600;
-    cursor: pointer;
-    background: var(--accent-gradient);
-    color: #fff;
-    transition: all .3s ease;
-    font-size: 1rem
-}
-
-.custom-alert-content button:hover {
-    transform: translateY(-2px);
-    box-shadow: 0 4px 15px var(--glow-color)
-}
-
+/* --- 9. Komponen: Ringkasan Material Bekas --- */
 .used-materials-summary-card {
     background-color: var(--background-feature);
-    color: var(--text-primary);
     border-radius: 12px;
     padding: 1rem 1.5rem;
     max-width: 400px;
-    margin: 20px auto
+    margin: 20px auto;
 }
 
 .used-materials-summary-card h4 {
@@ -512,13 +404,13 @@ header {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
-    color: transparent
+    color: transparent;
 }
 
 .materials-list {
     display: flex;
     flex-direction: column;
-    gap: 8px
+    gap: 8px;
 }
 
 .material-row {
@@ -527,89 +419,164 @@ header {
     background-color: var(--background-dark);
     padding: 8px 12px;
     border-radius: 8px;
-    font-size: .9rem
+    font-size: .9rem;
 }
 
 .material-name {
-    color: var(--text-secondary)
+    color: var(--text-secondary);
 }
 
 .material-total {
     font-weight: 700;
-    color: var(--text-primary)
+    color: var(--text-primary);
 }
 
-/* Mobile L (425px) */
-@media (max-width: 425px) {
-  .gear-box {
-    width: 75px;
-    height: 75px;
-  }
 
-  .gear-tier {
-    font-size: 11px;
-  }
-
-  .gear-stars {
-    font-size: 10px;
-  }
-
-  #gear-preview {
-    top: 59%;
-  }
-
-  #gear-preview img {
-    width: 140px;
-    height: auto;
-  }
+/* --- 10. Kelas Utilitas & Animasi --- */
+.hidden {
+    display: none;
 }
 
-/* Mobile M (375px) */
-@media (max-width: 375px) {
-  .gear-box {
-    width: 65px;
-    height: 65px;
-  }
-
-  .gear-tier {
-    font-size: 9px;
-  }
-
-  .gear-stars {
-    font-size: 8px;
-  }
-
-  #gear-preview {
-    top: 56%;
-  }
-
-  #gear-preview img {
-    width: 120px;
-    height: auto;
-  }
+@keyframes floatUpDown {
+    0%, 100% { margin-top: 0; }
+    50% { margin-top: -10px; }
 }
 
-/* Mobile S (320px) */
-@media (max-width: 320px) {
-  .gear-box {
-    width: 50px;
-    height: 50px;
-  }
+@keyframes accent-glow-animation {
+    0%, 100% { box-shadow: 0 0 4px 2px var(--glow-color); }
+    50% { box-shadow: 0 0 12px 5px var(--glow-color); }
+}
 
-  .gear-tier {
-    font-size: 7px;
-  }
+@keyframes scaleIn {
+    0% { transform: scale(.8); opacity: 0; }
+    100% { transform: scale(1); opacity: 1; }
+}
 
-  .gear-stars {
-    font-size: 6px;
-  }
 
-  #gear-preview {
-    top: 57%;
-  }
+/* --- 11. Desain Responsif (Media Queries) --- */
 
-  #gear-preview img {
-    width: 70px;
-    height: auto;
-  }
+/* Tablet & Perangkat Kecil (<= 768px) */
+@media (max-width: 768px) {
+    .container {
+        padding: 0 1rem 1rem 1rem;
+    }
+    .card {
+        padding: 1.5rem;
+    }
+}
+
+/* Mobile (<= 480px) */
+@media (max-width: 480px) {
+    body {
+        font-size: 14px;
+    }
+
+    .gear-box {
+        width: 55px;
+        height: 55px;
+    }
+
+    .gear-tier {
+        font-size: 7px;
+    }
+
+    .gear-stars {
+        font-size: 7px;
+    }
+
+    #gear-preview img {
+        width: 100px;
+    }
+
+    .materials {
+        gap: 1rem;
+    }
+
+    .material-box {
+        width: 60px;
+    }
+    .material-box img {
+        height: 60px;
+    }
+
+        /* Offset untuk gear kiri dan kanan */
+    .box-left .gear-box:nth-child(1) {
+        transform: translateX(15px);
+    }
+    .box-left .gear-box:nth-child(1):hover {
+        transform: translateX(15px) scale(1.1);
+    }
+
+    .box-left .gear-box:nth-child(2) {
+        transform: translateX(0px);
+    }
+    .box-left .gear-box:nth-child(2):hover {
+        transform: translateX(0px) scale(1.1);
+    }
+
+    .box-left .gear-box:nth-child(3) {
+        transform: translateX(15px);
+    }
+    .box-left .gear-box:nth-child(3):hover {
+        transform: translateX(15px) scale(1.1);
+    }
+
+    .box-right .gear-box:nth-child(1) {
+        transform: translateX(-15px);
+    }
+    .box-right .gear-box:nth-child(1):hover {
+        transform: translateX(-15px) scale(1.1);
+    }
+
+    .box-right .gear-box:nth-child(2) {
+        transform: translateX(0px);
+    }
+    .box-right .gear-box:nth-child(2):hover {
+        transform: translateX(0px) scale(1.1);
+    }
+
+    .box-right .gear-box:nth-child(3) {
+        transform: translateX(-15px);
+    }
+    .box-right .gear-box:nth-child(3):hover {
+        transform: translateX(-15px) scale(1.1);
+    }
+}
+
+/* Mobile Kecil (<= 360px) */
+@media (max-width: 360px) {
+    .gear-box {
+        width: 50px;
+        height: 50px;
+    }
+    
+    #gear-preview img {
+        width: 80px;
+    }
+}
+
+.language-switcher {
+    text-align: right;
+    margin-bottom: 1rem;
+    position: relative;
+}
+
+.language-switcher select {
+    background-color: var(--background-feature);
+    color: var(--text-primary);
+    border: 1px solid var(--background-card);
+    padding: 5px 10px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+}
+
+.language-switcher select:focus {
+    outline: none;
+    box-shadow: 0 0 0 2px var(--accent-primary);
+}
+
+.language-switcher i {
+    margin-right: 8px;
+    color: var(--text-secondary);
 }
