@@ -1,0 +1,3158 @@
+{
+  "1": {
+    "paths": {
+      "1": {
+        "levels": {
+          "0": {
+            "charm_name": "Lancer",
+            "category": "left",
+            "icon": "assets/images/charms/empty.png",
+            "materials": {
+              "charmDesigns": 5,
+              "charmGuides": 5,
+              "charmSecrets": 0
+            }
+          },
+          "1": {
+            "charm_name": "Lancer",
+            "category": "left",
+            "icon": "assets/images/charms/Lancer_1.png",
+            "materials": {
+              "charmDesigns": 5,
+              "charmGuides": 5,
+              "charmSecrets": 0
+            }
+          },
+          "2": {
+            "charm_name": "Lancer",
+            "category": "left",
+            "icon": "assets/images/charms/Lancer_2.png",
+            "materials": {
+              "charmDesigns": 15,
+              "charmGuides": 40,
+              "charmSecrets": 0
+            }
+          },
+          "3": {
+            "charm_name": "Lancer",
+            "category": "left",
+            "icon": "assets/images/charms/Lancer_3.png",
+            "materials": {
+              "charmDesigns": 40,
+              "charmGuides": 60,
+              "charmSecrets": 0
+            }
+          },
+          "4": {
+            "charm_name": "Lancer",
+            "category": "left",
+            "icon": "assets/images/charms/Lancer_4.png",
+            "materials": {
+              "charmDesigns": 100,
+              "charmGuides": 80,
+              "charmSecrets": 0
+            }
+          },
+          "5": {
+            "charm_name": "Lancer",
+            "category": "left",
+            "icon": "assets/images/charms/Lancer_5.png",
+            "materials": {
+              "charmDesigns": 200,
+              "charmGuides": 100,
+              "charmSecrets": 0
+            }
+          },
+          "6": {
+            "charm_name": "Lancer",
+            "category": "left",
+            "icon": "assets/images/charms/Lancer_6.png",
+            "materials": {
+              "charmDesigns": 300,
+              "charmGuides": 120,
+              "charmSecrets": 0
+            }
+          },
+          "7": {
+            "charm_name": "Lancer",
+            "category": "left",
+            "icon": "assets/images/charms/Lancer_7.png",
+            "materials": {
+              "charmDesigns": 400,
+              "charmGuides": 140,
+              "charmSecrets": 0
+            }
+          },
+          "8": {
+            "charm_name": "Lancer",
+            "category": "left",
+            "icon": "assets/images/charms/Lancer_8.png",
+            "materials": {
+              "charmDesigns": 400,
+              "charmGuides": 200,
+              "charmSecrets": 0
+            }
+          },
+          "9": {
+            "charm_name": "Lancer",
+            "category": "left",
+            "icon": "assets/images/charms/Lancer_9.png",
+            "materials": {
+              "charmDesigns": 400,
+              "charmGuides": 300,
+              "charmSecrets": 0
+            }
+          },
+          "10": {
+            "charm_name": "Lancer",
+            "category": "left",
+            "icon": "assets/images/charms/Lancer_10.png",
+            "materials": {
+              "charmDesigns": 420,
+              "charmGuides": 420,
+              "charmSecrets": 0
+            }
+          },
+          "11": {
+            "charm_name": "Lancer",
+            "category": "left",
+            "icon": "assets/images/charms/Lancer_11.png",
+            "materials": {
+              "charmDesigns": 420,
+              "charmGuides": 560,
+              "charmSecrets": 0
+            }
+          },
+          "12": {
+            "charm_name": "Lancer",
+            "category": "left",
+            "icon": "assets/images/charms/Lancer_12.png",
+            "materials": {
+              "charmDesigns": 450,
+              "charmGuides": 580,
+              "charmSecrets": 15
+            }
+          },
+          "13": {
+            "charm_name": "Lancer",
+            "category": "left",
+            "icon": "assets/images/charms/Lancer_13.png",
+            "materials": {
+              "charmDesigns": 450,
+              "charmGuides": 580,
+              "charmSecrets": 30
+            }
+          },
+          "14": {
+            "charm_name": "Lancer",
+            "category": "left",
+            "icon": "assets/images/charms/Lancer_14.png",
+            "materials": {
+              "charmDesigns": 500,
+              "charmGuides": 600,
+              "charmSecrets": 45
+            }
+          },
+          "15": {
+            "charm_name": "Lancer",
+            "category": "left",
+            "icon": "assets/images/charms/Lancer_15.png",
+            "materials": {
+              "charmDesigns": 500,
+              "charmGuides": 600,
+              "charmSecrets": 70
+            }
+          },
+          "16": {
+            "charm_name": "Lancer",
+            "category": "left",
+            "icon": "assets/images/charms/Lancer_16.png",
+            "materials": {
+              "charmDesigns": 550,
+              "charmGuides": 650,
+              "charmSecrets": 100
+            }
+          }
+        }
+      },
+      "2": {
+        "levels": {
+          "0": {
+            "charm_name": "Lancer",
+            "category": "left",
+            "icon": "assets/images/charms/empty.png",
+            "materials": {
+              "charmDesigns": 5,
+              "charmGuides": 5,
+              "charmSecrets": 0
+            }
+          },
+          "1": {
+            "charm_name": "Lancer",
+            "category": "left",
+            "icon": "assets/images/charms/Lancer_1.png",
+            "materials": {
+              "charmDesigns": 5,
+              "charmGuides": 5,
+              "charmSecrets": 0
+            }
+          },
+          "2": {
+            "charm_name": "Lancer",
+            "category": "left",
+            "icon": "assets/images/charms/Lancer_2.png",
+            "materials": {
+              "charmDesigns": 15,
+              "charmGuides": 40,
+              "charmSecrets": 0
+            }
+          },
+          "3": {
+            "charm_name": "Lancer",
+            "category": "left",
+            "icon": "assets/images/charms/Lancer_3.png",
+            "materials": {
+              "charmDesigns": 40,
+              "charmGuides": 60,
+              "charmSecrets": 0
+            }
+          },
+          "4": {
+            "charm_name": "Lancer",
+            "category": "left",
+            "icon": "assets/images/charms/Lancer_4.png",
+            "materials": {
+              "charmDesigns": 100,
+              "charmGuides": 80,
+              "charmSecrets": 0
+            }
+          },
+          "5": {
+            "charm_name": "Lancer",
+            "category": "left",
+            "icon": "assets/images/charms/Lancer_5.png",
+            "materials": {
+              "charmDesigns": 200,
+              "charmGuides": 100,
+              "charmSecrets": 0
+            }
+          },
+          "6": {
+            "charm_name": "Lancer",
+            "category": "left",
+            "icon": "assets/images/charms/Lancer_6.png",
+            "materials": {
+              "charmDesigns": 300,
+              "charmGuides": 120,
+              "charmSecrets": 0
+            }
+          },
+          "7": {
+            "charm_name": "Lancer",
+            "category": "left",
+            "icon": "assets/images/charms/Lancer_7.png",
+            "materials": {
+              "charmDesigns": 400,
+              "charmGuides": 140,
+              "charmSecrets": 0
+            }
+          },
+          "8": {
+            "charm_name": "Lancer",
+            "category": "left",
+            "icon": "assets/images/charms/Lancer_8.png",
+            "materials": {
+              "charmDesigns": 400,
+              "charmGuides": 200,
+              "charmSecrets": 0
+            }
+          },
+          "9": {
+            "charm_name": "Lancer",
+            "category": "left",
+            "icon": "assets/images/charms/Lancer_9.png",
+            "materials": {
+              "charmDesigns": 400,
+              "charmGuides": 300,
+              "charmSecrets": 0
+            }
+          },
+          "10": {
+            "charm_name": "Lancer",
+            "category": "left",
+            "icon": "assets/images/charms/Lancer_10.png",
+            "materials": {
+              "charmDesigns": 420,
+              "charmGuides": 420,
+              "charmSecrets": 0
+            }
+          },
+          "11": {
+            "charm_name": "Lancer",
+            "category": "left",
+            "icon": "assets/images/charms/Lancer_11.png",
+            "materials": {
+              "charmDesigns": 420,
+              "charmGuides": 560,
+              "charmSecrets": 0
+            }
+          },
+          "12": {
+            "charm_name": "Lancer",
+            "category": "left",
+            "icon": "assets/images/charms/Lancer_12.png",
+            "materials": {
+              "charmDesigns": 450,
+              "charmGuides": 580,
+              "charmSecrets": 15
+            }
+          },
+          "13": {
+            "charm_name": "Lancer",
+            "category": "left",
+            "icon": "assets/images/charms/Lancer_13.png",
+            "materials": {
+              "charmDesigns": 450,
+              "charmGuides": 580,
+              "charmSecrets": 30
+            }
+          },
+          "14": {
+            "charm_name": "Lancer",
+            "category": "left",
+            "icon": "assets/images/charms/Lancer_14.png",
+            "materials": {
+              "charmDesigns": 500,
+              "charmGuides": 600,
+              "charmSecrets": 45
+            }
+          },
+          "15": {
+            "charm_name": "Lancer",
+            "category": "left",
+            "icon": "assets/images/charms/Lancer_15.png",
+            "materials": {
+              "charmDesigns": 500,
+              "charmGuides": 600,
+              "charmSecrets": 70
+            }
+          },
+          "16": {
+            "charm_name": "Lancer",
+            "category": "left",
+            "icon": "assets/images/charms/Lancer_16.png",
+            "materials": {
+              "charmDesigns": 550,
+              "charmGuides": 650,
+              "charmSecrets": 100
+            }
+          }
+        }
+      },
+      "3": {
+        "levels": {
+          "0": {
+            "charm_name": "Lancer",
+            "category": "left",
+            "icon": "assets/images/charms/empty.png",
+            "materials": {
+              "charmDesigns": 5,
+              "charmGuides": 5,
+              "charmSecrets": 0
+            }
+          },
+          "1": {
+            "charm_name": "Lancer",
+            "category": "left",
+            "icon": "assets/images/charms/Lancer_1.png",
+            "materials": {
+              "charmDesigns": 5,
+              "charmGuides": 5,
+              "charmSecrets": 0
+            }
+          },
+          "2": {
+            "charm_name": "Lancer",
+            "category": "left",
+            "icon": "assets/images/charms/Lancer_2.png",
+            "materials": {
+              "charmDesigns": 15,
+              "charmGuides": 40,
+              "charmSecrets": 0
+            }
+          },
+          "3": {
+            "charm_name": "Lancer",
+            "category": "left",
+            "icon": "assets/images/charms/Lancer_3.png",
+            "materials": {
+              "charmDesigns": 40,
+              "charmGuides": 60,
+              "charmSecrets": 0
+            }
+          },
+          "4": {
+            "charm_name": "Lancer",
+            "category": "left",
+            "icon": "assets/images/charms/Lancer_4.png",
+            "materials": {
+              "charmDesigns": 100,
+              "charmGuides": 80,
+              "charmSecrets": 0
+            }
+          },
+          "5": {
+            "charm_name": "Lancer",
+            "category": "left",
+            "icon": "assets/images/charms/Lancer_5.png",
+            "materials": {
+              "charmDesigns": 200,
+              "charmGuides": 100,
+              "charmSecrets": 0
+            }
+          },
+          "6": {
+            "charm_name": "Lancer",
+            "category": "left",
+            "icon": "assets/images/charms/Lancer_6.png",
+            "materials": {
+              "charmDesigns": 300,
+              "charmGuides": 120,
+              "charmSecrets": 0
+            }
+          },
+          "7": {
+            "charm_name": "Lancer",
+            "category": "left",
+            "icon": "assets/images/charms/Lancer_7.png",
+            "materials": {
+              "charmDesigns": 400,
+              "charmGuides": 140,
+              "charmSecrets": 0
+            }
+          },
+          "8": {
+            "charm_name": "Lancer",
+            "category": "left",
+            "icon": "assets/images/charms/Lancer_8.png",
+            "materials": {
+              "charmDesigns": 400,
+              "charmGuides": 200,
+              "charmSecrets": 0
+            }
+          },
+          "9": {
+            "charm_name": "Lancer",
+            "category": "left",
+            "icon": "assets/images/charms/Lancer_9.png",
+            "materials": {
+              "charmDesigns": 400,
+              "charmGuides": 300,
+              "charmSecrets": 0
+            }
+          },
+          "10": {
+            "charm_name": "Lancer",
+            "category": "left",
+            "icon": "assets/images/charms/Lancer_10.png",
+            "materials": {
+              "charmDesigns": 420,
+              "charmGuides": 420,
+              "charmSecrets": 0
+            }
+          },
+          "11": {
+            "charm_name": "Lancer",
+            "category": "left",
+            "icon": "assets/images/charms/Lancer_11.png",
+            "materials": {
+              "charmDesigns": 420,
+              "charmGuides": 560,
+              "charmSecrets": 0
+            }
+          },
+          "12": {
+            "charm_name": "Lancer",
+            "category": "left",
+            "icon": "assets/images/charms/Lancer_12.png",
+            "materials": {
+              "charmDesigns": 450,
+              "charmGuides": 580,
+              "charmSecrets": 15
+            }
+          },
+          "13": {
+            "charm_name": "Lancer",
+            "category": "left",
+            "icon": "assets/images/charms/Lancer_13.png",
+            "materials": {
+              "charmDesigns": 450,
+              "charmGuides": 580,
+              "charmSecrets": 30
+            }
+          },
+          "14": {
+            "charm_name": "Lancer",
+            "category": "left",
+            "icon": "assets/images/charms/Lancer_14.png",
+            "materials": {
+              "charmDesigns": 500,
+              "charmGuides": 600,
+              "charmSecrets": 45
+            }
+          },
+          "15": {
+            "charm_name": "Lancer",
+            "category": "left",
+            "icon": "assets/images/charms/Lancer_15.png",
+            "materials": {
+              "charmDesigns": 500,
+              "charmGuides": 600,
+              "charmSecrets": 70
+            }
+          },
+          "16": {
+            "charm_name": "Lancer",
+            "category": "left",
+            "icon": "assets/images/charms/Lancer_16.png",
+            "materials": {
+              "charmDesigns": 550,
+              "charmGuides": 650,
+              "charmSecrets": 100
+            }
+          }
+        }
+      }
+    }
+  },
+  "2": {
+    "paths": {
+      "1": {
+        "levels": {
+          "0": {
+            "charm_name": "Infantry",
+            "category": "left",
+            "icon": "assets/images/charms/empty.png",
+            "materials": {
+              "charmDesigns": 5,
+              "charmGuides": 5,
+              "charmSecrets": 0
+            }
+          },
+          "1": {
+            "charm_name": "Infantry",
+            "category": "left",
+            "icon": "assets/images/charms/Infantry_1.png",
+            "materials": {
+              "charmDesigns": 5,
+              "charmGuides": 5,
+              "charmSecrets": 0
+            }
+          },
+          "2": {
+            "charm_name": "Infantry",
+            "category": "left",
+            "icon": "assets/images/charms/Infantry_2.png",
+            "materials": {
+              "charmDesigns": 15,
+              "charmGuides": 40,
+              "charmSecrets": 0
+            }
+          },
+          "3": {
+            "charm_name": "Infantry",
+            "category": "left",
+            "icon": "assets/images/charms/Infantry_3.png",
+            "materials": {
+              "charmDesigns": 40,
+              "charmGuides": 60,
+              "charmSecrets": 0
+            }
+          },
+          "4": {
+            "charm_name": "Infantry",
+            "category": "left",
+            "icon": "assets/images/charms/Infantry_4.png",
+            "materials": {
+              "charmDesigns": 100,
+              "charmGuides": 80,
+              "charmSecrets": 0
+            }
+          },
+          "5": {
+            "charm_name": "Infantry",
+            "category": "left",
+            "icon": "assets/images/charms/Infantry_5.png",
+            "materials": {
+              "charmDesigns": 200,
+              "charmGuides": 100,
+              "charmSecrets": 0
+            }
+          },
+          "6": {
+            "charm_name": "Infantry",
+            "category": "left",
+            "icon": "assets/images/charms/Infantry_6.png",
+            "materials": {
+              "charmDesigns": 300,
+              "charmGuides": 120,
+              "charmSecrets": 0
+            }
+          },
+          "7": {
+            "charm_name": "Infantry",
+            "category": "left",
+            "icon": "assets/images/charms/Infantry_7.png",
+            "materials": {
+              "charmDesigns": 400,
+              "charmGuides": 140,
+              "charmSecrets": 0
+            }
+          },
+          "8": {
+            "charm_name": "Infantry",
+            "category": "left",
+            "icon": "assets/images/charms/Infantry_8.png",
+            "materials": {
+              "charmDesigns": 400,
+              "charmGuides": 200,
+              "charmSecrets": 0
+            }
+          },
+          "9": {
+            "charm_name": "Infantry",
+            "category": "left",
+            "icon": "assets/images/charms/Infantry_9.png",
+            "materials": {
+              "charmDesigns": 400,
+              "charmGuides": 300,
+              "charmSecrets": 0
+            }
+          },
+          "10": {
+            "charm_name": "Infantry",
+            "category": "left",
+            "icon": "assets/images/charms/Infantry_10.png",
+            "materials": {
+              "charmDesigns": 420,
+              "charmGuides": 420,
+              "charmSecrets": 0
+            }
+          },
+          "11": {
+            "charm_name": "Infantry",
+            "category": "left",
+            "icon": "assets/images/charms/Infantry_11.png",
+            "materials": {
+              "charmDesigns": 420,
+              "charmGuides": 560,
+              "charmSecrets": 0
+            }
+          },
+          "12": {
+            "charm_name": "Infantry",
+            "category": "left",
+            "icon": "assets/images/charms/Infantry_12.png",
+            "materials": {
+              "charmDesigns": 450,
+              "charmGuides": 580,
+              "charmSecrets": 15
+            }
+          },
+          "13": {
+            "charm_name": "Infantry",
+            "category": "left",
+            "icon": "assets/images/charms/Infantry_13.png",
+            "materials": {
+              "charmDesigns": 450,
+              "charmGuides": 580,
+              "charmSecrets": 30
+            }
+          },
+          "14": {
+            "charm_name": "Infantry",
+            "category": "left",
+            "icon": "assets/images/charms/Infantry_14.png",
+            "materials": {
+              "charmDesigns": 500,
+              "charmGuides": 600,
+              "charmSecrets": 45
+            }
+          },
+          "15": {
+            "charm_name": "Infantry",
+            "category": "left",
+            "icon": "assets/images/charms/Infantry_15.png",
+            "materials": {
+              "charmDesigns": 500,
+              "charmGuides": 600,
+              "charmSecrets": 70
+            }
+          },
+          "16": {
+            "charm_name": "Infantry",
+            "category": "left",
+            "icon": "assets/images/charms/Infantry_16.png",
+            "materials": {
+              "charmDesigns": 550,
+              "charmGuides": 650,
+              "charmSecrets": 100
+            }
+          }
+        }
+      },
+      "2": {
+        "levels": {
+          "0": {
+            "charm_name": "Infantry",
+            "category": "left",
+            "icon": "assets/images/charms/empty.png",
+            "materials": {
+              "charmDesigns": 5,
+              "charmGuides": 5,
+              "charmSecrets": 0
+            }
+          },
+          "1": {
+            "charm_name": "Infantry",
+            "category": "left",
+            "icon": "assets/images/charms/Infantry_1.png",
+            "materials": {
+              "charmDesigns": 5,
+              "charmGuides": 5,
+              "charmSecrets": 0
+            }
+          },
+          "2": {
+            "charm_name": "Infantry",
+            "category": "left",
+            "icon": "assets/images/charms/Infantry_2.png",
+            "materials": {
+              "charmDesigns": 15,
+              "charmGuides": 40,
+              "charmSecrets": 0
+            }
+          },
+          "3": {
+            "charm_name": "Infantry",
+            "category": "left",
+            "icon": "assets/images/charms/Infantry_3.png",
+            "materials": {
+              "charmDesigns": 40,
+              "charmGuides": 60,
+              "charmSecrets": 0
+            }
+          },
+          "4": {
+            "charm_name": "Infantry",
+            "category": "left",
+            "icon": "assets/images/charms/Infantry_4.png",
+            "materials": {
+              "charmDesigns": 100,
+              "charmGuides": 80,
+              "charmSecrets": 0
+            }
+          },
+          "5": {
+            "charm_name": "Infantry",
+            "category": "left",
+            "icon": "assets/images/charms/Infantry_5.png",
+            "materials": {
+              "charmDesigns": 200,
+              "charmGuides": 100,
+              "charmSecrets": 0
+            }
+          },
+          "6": {
+            "charm_name": "Infantry",
+            "category": "left",
+            "icon": "assets/images/charms/Infantry_6.png",
+            "materials": {
+              "charmDesigns": 300,
+              "charmGuides": 120,
+              "charmSecrets": 0
+            }
+          },
+          "7": {
+            "charm_name": "Infantry",
+            "category": "left",
+            "icon": "assets/images/charms/Infantry_7.png",
+            "materials": {
+              "charmDesigns": 400,
+              "charmGuides": 140,
+              "charmSecrets": 0
+            }
+          },
+          "8": {
+            "charm_name": "Infantry",
+            "category": "left",
+            "icon": "assets/images/charms/Infantry_8.png",
+            "materials": {
+              "charmDesigns": 400,
+              "charmGuides": 200,
+              "charmSecrets": 0
+            }
+          },
+          "9": {
+            "charm_name": "Infantry",
+            "category": "left",
+            "icon": "assets/images/charms/Infantry_9.png",
+            "materials": {
+              "charmDesigns": 400,
+              "charmGuides": 300,
+              "charmSecrets": 0
+            }
+          },
+          "10": {
+            "charm_name": "Infantry",
+            "category": "left",
+            "icon": "assets/images/charms/Infantry_10.png",
+            "materials": {
+              "charmDesigns": 420,
+              "charmGuides": 420,
+              "charmSecrets": 0
+            }
+          },
+          "11": {
+            "charm_name": "Infantry",
+            "category": "left",
+            "icon": "assets/images/charms/Infantry_11.png",
+            "materials": {
+              "charmDesigns": 420,
+              "charmGuides": 560,
+              "charmSecrets": 0
+            }
+          },
+          "12": {
+            "charm_name": "Infantry",
+            "category": "left",
+            "icon": "assets/images/charms/Infantry_12.png",
+            "materials": {
+              "charmDesigns": 450,
+              "charmGuides": 580,
+              "charmSecrets": 15
+            }
+          },
+          "13": {
+            "charm_name": "Infantry",
+            "category": "left",
+            "icon": "assets/images/charms/Infantry_13.png",
+            "materials": {
+              "charmDesigns": 450,
+              "charmGuides": 580,
+              "charmSecrets": 30
+            }
+          },
+          "14": {
+            "charm_name": "Infantry",
+            "category": "left",
+            "icon": "assets/images/charms/Infantry_14.png",
+            "materials": {
+              "charmDesigns": 500,
+              "charmGuides": 600,
+              "charmSecrets": 45
+            }
+          },
+          "15": {
+            "charm_name": "Infantry",
+            "category": "left",
+            "icon": "assets/images/charms/Infantry_15.png",
+            "materials": {
+              "charmDesigns": 500,
+              "charmGuides": 600,
+              "charmSecrets": 70
+            }
+          },
+          "16": {
+            "charm_name": "Infantry",
+            "category": "left",
+            "icon": "assets/images/charms/Infantry_16.png",
+            "materials": {
+              "charmDesigns": 550,
+              "charmGuides": 650,
+              "charmSecrets": 100
+            }
+          }
+        }
+      },
+      "3": {
+        "levels": {
+          "0": {
+            "charm_name": "Infantry",
+            "category": "left",
+            "icon": "assets/images/charms/empty.png",
+            "materials": {
+              "charmDesigns": 5,
+              "charmGuides": 5,
+              "charmSecrets": 0
+            }
+          },
+          "1": {
+            "charm_name": "Infantry",
+            "category": "left",
+            "icon": "assets/images/charms/Infantry_1.png",
+            "materials": {
+              "charmDesigns": 5,
+              "charmGuides": 5,
+              "charmSecrets": 0
+            }
+          },
+          "2": {
+            "charm_name": "Infantry",
+            "category": "left",
+            "icon": "assets/images/charms/Infantry_2.png",
+            "materials": {
+              "charmDesigns": 15,
+              "charmGuides": 40,
+              "charmSecrets": 0
+            }
+          },
+          "3": {
+            "charm_name": "Infantry",
+            "category": "left",
+            "icon": "assets/images/charms/Infantry_3.png",
+            "materials": {
+              "charmDesigns": 40,
+              "charmGuides": 60,
+              "charmSecrets": 0
+            }
+          },
+          "4": {
+            "charm_name": "Infantry",
+            "category": "left",
+            "icon": "assets/images/charms/Infantry_4.png",
+            "materials": {
+              "charmDesigns": 100,
+              "charmGuides": 80,
+              "charmSecrets": 0
+            }
+          },
+          "5": {
+            "charm_name": "Infantry",
+            "category": "left",
+            "icon": "assets/images/charms/Infantry_5.png",
+            "materials": {
+              "charmDesigns": 200,
+              "charmGuides": 100,
+              "charmSecrets": 0
+            }
+          },
+          "6": {
+            "charm_name": "Infantry",
+            "category": "left",
+            "icon": "assets/images/charms/Infantry_6.png",
+            "materials": {
+              "charmDesigns": 300,
+              "charmGuides": 120,
+              "charmSecrets": 0
+            }
+          },
+          "7": {
+            "charm_name": "Infantry",
+            "category": "left",
+            "icon": "assets/images/charms/Infantry_7.png",
+            "materials": {
+              "charmDesigns": 400,
+              "charmGuides": 140,
+              "charmSecrets": 0
+            }
+          },
+          "8": {
+            "charm_name": "Infantry",
+            "category": "left",
+            "icon": "assets/images/charms/Infantry_8.png",
+            "materials": {
+              "charmDesigns": 400,
+              "charmGuides": 200,
+              "charmSecrets": 0
+            }
+          },
+          "9": {
+            "charm_name": "Infantry",
+            "category": "left",
+            "icon": "assets/images/charms/Infantry_9.png",
+            "materials": {
+              "charmDesigns": 400,
+              "charmGuides": 300,
+              "charmSecrets": 0
+            }
+          },
+          "10": {
+            "charm_name": "Infantry",
+            "category": "left",
+            "icon": "assets/images/charms/Infantry_10.png",
+            "materials": {
+              "charmDesigns": 420,
+              "charmGuides": 420,
+              "charmSecrets": 0
+            }
+          },
+          "11": {
+            "charm_name": "Infantry",
+            "category": "left",
+            "icon": "assets/images/charms/Infantry_11.png",
+            "materials": {
+              "charmDesigns": 420,
+              "charmGuides": 560,
+              "charmSecrets": 0
+            }
+          },
+          "12": {
+            "charm_name": "Infantry",
+            "category": "left",
+            "icon": "assets/images/charms/Infantry_12.png",
+            "materials": {
+              "charmDesigns": 450,
+              "charmGuides": 580,
+              "charmSecrets": 15
+            }
+          },
+          "13": {
+            "charm_name": "Infantry",
+            "category": "left",
+            "icon": "assets/images/charms/Infantry_13.png",
+            "materials": {
+              "charmDesigns": 450,
+              "charmGuides": 580,
+              "charmSecrets": 30
+            }
+          },
+          "14": {
+            "charm_name": "Infantry",
+            "category": "left",
+            "icon": "assets/images/charms/Infantry_14.png",
+            "materials": {
+              "charmDesigns": 500,
+              "charmGuides": 600,
+              "charmSecrets": 45
+            }
+          },
+          "15": {
+            "charm_name": "Infantry",
+            "category": "left",
+            "icon": "assets/images/charms/Infantry_15.png",
+            "materials": {
+              "charmDesigns": 500,
+              "charmGuides": 600,
+              "charmSecrets": 70
+            }
+          },
+          "16": {
+            "charm_name": "Infantry",
+            "category": "left",
+            "icon": "assets/images/charms/Infantry_16.png",
+            "materials": {
+              "charmDesigns": 550,
+              "charmGuides": 650,
+              "charmSecrets": 100
+            }
+          }
+        }
+      }
+    }
+  },
+  "3": {
+    "paths": {
+      "1": {
+        "levels": {
+          "0": {
+            "charm_name": "Marksman",
+            "category": "left",
+            "icon": "assets/images/charms/empty.png",
+            "materials": {
+              "charmDesigns": 5,
+              "charmGuides": 5,
+              "charmSecrets": 0
+            }
+          },
+          "1": {
+            "charm_name": "Marksman",
+            "category": "left",
+            "icon": "assets/images/charms/Marksman_1.png",
+            "materials": {
+              "charmDesigns": 5,
+              "charmGuides": 5,
+              "charmSecrets": 0
+            }
+          },
+          "2": {
+            "charm_name": "Marksman",
+            "category": "left",
+            "icon": "assets/images/charms/Marksman_2.png",
+            "materials": {
+              "charmDesigns": 15,
+              "charmGuides": 40,
+              "charmSecrets": 0
+            }
+          },
+          "3": {
+            "charm_name": "Marksman",
+            "category": "left",
+            "icon": "assets/images/charms/Marksman_3.png",
+            "materials": {
+              "charmDesigns": 40,
+              "charmGuides": 60,
+              "charmSecrets": 0
+            }
+          },
+          "4": {
+            "charm_name": "Marksman",
+            "category": "left",
+            "icon": "assets/images/charms/Marksman_4.png",
+            "materials": {
+              "charmDesigns": 100,
+              "charmGuides": 80,
+              "charmSecrets": 0
+            }
+          },
+          "5": {
+            "charm_name": "Marksman",
+            "category": "left",
+            "icon": "assets/images/charms/Marksman_5.png",
+            "materials": {
+              "charmDesigns": 200,
+              "charmGuides": 100,
+              "charmSecrets": 0
+            }
+          },
+          "6": {
+            "charm_name": "Marksman",
+            "category": "left",
+            "icon": "assets/images/charms/Marksman_6.png",
+            "materials": {
+              "charmDesigns": 300,
+              "charmGuides": 120,
+              "charmSecrets": 0
+            }
+          },
+          "7": {
+            "charm_name": "Marksman",
+            "category": "left",
+            "icon": "assets/images/charms/Marksman_7.png",
+            "materials": {
+              "charmDesigns": 400,
+              "charmGuides": 140,
+              "charmSecrets": 0
+            }
+          },
+          "8": {
+            "charm_name": "Marksman",
+            "category": "left",
+            "icon": "assets/images/charms/Marksman_8.png",
+            "materials": {
+              "charmDesigns": 400,
+              "charmGuides": 200,
+              "charmSecrets": 0
+            }
+          },
+          "9": {
+            "charm_name": "Marksman",
+            "category": "left",
+            "icon": "assets/images/charms/Marksman_9.png",
+            "materials": {
+              "charmDesigns": 400,
+              "charmGuides": 300,
+              "charmSecrets": 0
+            }
+          },
+          "10": {
+            "charm_name": "Marksman",
+            "category": "left",
+            "icon": "assets/images/charms/Marksman_10.png",
+            "materials": {
+              "charmDesigns": 420,
+              "charmGuides": 420,
+              "charmSecrets": 0
+            }
+          },
+          "11": {
+            "charm_name": "Marksman",
+            "category": "left",
+            "icon": "assets/images/charms/Marksman_11.png",
+            "materials": {
+              "charmDesigns": 420,
+              "charmGuides": 560,
+              "charmSecrets": 0
+            }
+          },
+          "12": {
+            "charm_name": "Marksman",
+            "category": "left",
+            "icon": "assets/images/charms/Marksman_12.png",
+            "materials": {
+              "charmDesigns": 450,
+              "charmGuides": 580,
+              "charmSecrets": 15
+            }
+          },
+          "13": {
+            "charm_name": "Marksman",
+            "category": "left",
+            "icon": "assets/images/charms/Marksman_13.png",
+            "materials": {
+              "charmDesigns": 450,
+              "charmGuides": 580,
+              "charmSecrets": 30
+            }
+          },
+          "14": {
+            "charm_name": "Marksman",
+            "category": "left",
+            "icon": "assets/images/charms/Marksman_14.png",
+            "materials": {
+              "charmDesigns": 500,
+              "charmGuides": 600,
+              "charmSecrets": 45
+            }
+          },
+          "15": {
+            "charm_name": "Marksman",
+            "category": "left",
+            "icon": "assets/images/charms/Marksman_15.png",
+            "materials": {
+              "charmDesigns": 500,
+              "charmGuides": 600,
+              "charmSecrets": 70
+            }
+          },
+          "16": {
+            "charm_name": "Marksman",
+            "category": "left",
+            "icon": "assets/images/charms/Marksman_16.png",
+            "materials": {
+              "charmDesigns": 550,
+              "charmGuides": 650,
+              "charmSecrets": 100
+            }
+          }
+        }
+      },
+      "2": {
+        "levels": {
+          "0": {
+            "charm_name": "Marksman",
+            "category": "left",
+            "icon": "assets/images/charms/empty.png",
+            "materials": {
+              "charmDesigns": 5,
+              "charmGuides": 5,
+              "charmSecrets": 0
+            }
+          },
+          "1": {
+            "charm_name": "Marksman",
+            "category": "left",
+            "icon": "assets/images/charms/Marksman_1.png",
+            "materials": {
+              "charmDesigns": 5,
+              "charmGuides": 5,
+              "charmSecrets": 0
+            }
+          },
+          "2": {
+            "charm_name": "Marksman",
+            "category": "left",
+            "icon": "assets/images/charms/Marksman_2.png",
+            "materials": {
+              "charmDesigns": 15,
+              "charmGuides": 40,
+              "charmSecrets": 0
+            }
+          },
+          "3": {
+            "charm_name": "Marksman",
+            "category": "left",
+            "icon": "assets/images/charms/Marksman_3.png",
+            "materials": {
+              "charmDesigns": 40,
+              "charmGuides": 60,
+              "charmSecrets": 0
+            }
+          },
+          "4": {
+            "charm_name": "Marksman",
+            "category": "left",
+            "icon": "assets/images/charms/Marksman_4.png",
+            "materials": {
+              "charmDesigns": 100,
+              "charmGuides": 80,
+              "charmSecrets": 0
+            }
+          },
+          "5": {
+            "charm_name": "Marksman",
+            "category": "left",
+            "icon": "assets/images/charms/Marksman_5.png",
+            "materials": {
+              "charmDesigns": 200,
+              "charmGuides": 100,
+              "charmSecrets": 0
+            }
+          },
+          "6": {
+            "charm_name": "Marksman",
+            "category": "left",
+            "icon": "assets/images/charms/Marksman_6.png",
+            "materials": {
+              "charmDesigns": 300,
+              "charmGuides": 120,
+              "charmSecrets": 0
+            }
+          },
+          "7": {
+            "charm_name": "Marksman",
+            "category": "left",
+            "icon": "assets/images/charms/Marksman_7.png",
+            "materials": {
+              "charmDesigns": 400,
+              "charmGuides": 140,
+              "charmSecrets": 0
+            }
+          },
+          "8": {
+            "charm_name": "Marksman",
+            "category": "left",
+            "icon": "assets/images/charms/Marksman_8.png",
+            "materials": {
+              "charmDesigns": 400,
+              "charmGuides": 200,
+              "charmSecrets": 0
+            }
+          },
+          "9": {
+            "charm_name": "Marksman",
+            "category": "left",
+            "icon": "assets/images/charms/Marksman_9.png",
+            "materials": {
+              "charmDesigns": 400,
+              "charmGuides": 300,
+              "charmSecrets": 0
+            }
+          },
+          "10": {
+            "charm_name": "Marksman",
+            "category": "left",
+            "icon": "assets/images/charms/Marksman_10.png",
+            "materials": {
+              "charmDesigns": 420,
+              "charmGuides": 420,
+              "charmSecrets": 0
+            }
+          },
+          "11": {
+            "charm_name": "Marksman",
+            "category": "left",
+            "icon": "assets/images/charms/Marksman_11.png",
+            "materials": {
+              "charmDesigns": 420,
+              "charmGuides": 560,
+              "charmSecrets": 0
+            }
+          },
+          "12": {
+            "charm_name": "Marksman",
+            "category": "left",
+            "icon": "assets/images/charms/Marksman_12.png",
+            "materials": {
+              "charmDesigns": 450,
+              "charmGuides": 580,
+              "charmSecrets": 15
+            }
+          },
+          "13": {
+            "charm_name": "Marksman",
+            "category": "left",
+            "icon": "assets/images/charms/Marksman_13.png",
+            "materials": {
+              "charmDesigns": 450,
+              "charmGuides": 580,
+              "charmSecrets": 30
+            }
+          },
+          "14": {
+            "charm_name": "Marksman",
+            "category": "left",
+            "icon": "assets/images/charms/Marksman_14.png",
+            "materials": {
+              "charmDesigns": 500,
+              "charmGuides": 600,
+              "charmSecrets": 45
+            }
+          },
+          "15": {
+            "charm_name": "Marksman",
+            "category": "left",
+            "icon": "assets/images/charms/Marksman_15.png",
+            "materials": {
+              "charmDesigns": 500,
+              "charmGuides": 600,
+              "charmSecrets": 70
+            }
+          },
+          "16": {
+            "charm_name": "Marksman",
+            "category": "left",
+            "icon": "assets/images/charms/Marksman_16.png",
+            "materials": {
+              "charmDesigns": 550,
+              "charmGuides": 650,
+              "charmSecrets": 100
+            }
+          }
+        }
+      },
+      "3": {
+        "levels": {
+          "0": {
+            "charm_name": "Marksman",
+            "category": "left",
+            "icon": "assets/images/charms/empty.png",
+            "materials": {
+              "charmDesigns": 5,
+              "charmGuides": 5,
+              "charmSecrets": 0
+            }
+          },
+          "1": {
+            "charm_name": "Marksman",
+            "category": "left",
+            "icon": "assets/images/charms/Marksman_1.png",
+            "materials": {
+              "charmDesigns": 5,
+              "charmGuides": 5,
+              "charmSecrets": 0
+            }
+          },
+          "2": {
+            "charm_name": "Marksman",
+            "category": "left",
+            "icon": "assets/images/charms/Marksman_2.png",
+            "materials": {
+              "charmDesigns": 15,
+              "charmGuides": 40,
+              "charmSecrets": 0
+            }
+          },
+          "3": {
+            "charm_name": "Marksman",
+            "category": "left",
+            "icon": "assets/images/charms/Marksman_3.png",
+            "materials": {
+              "charmDesigns": 40,
+              "charmGuides": 60,
+              "charmSecrets": 0
+            }
+          },
+          "4": {
+            "charm_name": "Marksman",
+            "category": "left",
+            "icon": "assets/images/charms/Marksman_4.png",
+            "materials": {
+              "charmDesigns": 100,
+              "charmGuides": 80,
+              "charmSecrets": 0
+            }
+          },
+          "5": {
+            "charm_name": "Marksman",
+            "category": "left",
+            "icon": "assets/images/charms/Marksman_5.png",
+            "materials": {
+              "charmDesigns": 200,
+              "charmGuides": 100,
+              "charmSecrets": 0
+            }
+          },
+          "6": {
+            "charm_name": "Marksman",
+            "category": "left",
+            "icon": "assets/images/charms/Marksman_6.png",
+            "materials": {
+              "charmDesigns": 300,
+              "charmGuides": 120,
+              "charmSecrets": 0
+            }
+          },
+          "7": {
+            "charm_name": "Marksman",
+            "category": "left",
+            "icon": "assets/images/charms/Marksman_7.png",
+            "materials": {
+              "charmDesigns": 400,
+              "charmGuides": 140,
+              "charmSecrets": 0
+            }
+          },
+          "8": {
+            "charm_name": "Marksman",
+            "category": "left",
+            "icon": "assets/images/charms/Marksman_8.png",
+            "materials": {
+              "charmDesigns": 400,
+              "charmGuides": 200,
+              "charmSecrets": 0
+            }
+          },
+          "9": {
+            "charm_name": "Marksman",
+            "category": "left",
+            "icon": "assets/images/charms/Marksman_9.png",
+            "materials": {
+              "charmDesigns": 400,
+              "charmGuides": 300,
+              "charmSecrets": 0
+            }
+          },
+          "10": {
+            "charm_name": "Marksman",
+            "category": "left",
+            "icon": "assets/images/charms/Marksman_10.png",
+            "materials": {
+              "charmDesigns": 420,
+              "charmGuides": 420,
+              "charmSecrets": 0
+            }
+          },
+          "11": {
+            "charm_name": "Marksman",
+            "category": "left",
+            "icon": "assets/images/charms/Marksman_11.png",
+            "materials": {
+              "charmDesigns": 420,
+              "charmGuides": 560,
+              "charmSecrets": 0
+            }
+          },
+          "12": {
+            "charm_name": "Marksman",
+            "category": "left",
+            "icon": "assets/images/charms/Marksman_12.png",
+            "materials": {
+              "charmDesigns": 450,
+              "charmGuides": 580,
+              "charmSecrets": 15
+            }
+          },
+          "13": {
+            "charm_name": "Marksman",
+            "category": "left",
+            "icon": "assets/images/charms/Marksman_13.png",
+            "materials": {
+              "charmDesigns": 450,
+              "charmGuides": 580,
+              "charmSecrets": 30
+            }
+          },
+          "14": {
+            "charm_name": "Marksman",
+            "category": "left",
+            "icon": "assets/images/charms/Marksman_14.png",
+            "materials": {
+              "charmDesigns": 500,
+              "charmGuides": 600,
+              "charmSecrets": 45
+            }
+          },
+          "15": {
+            "charm_name": "Marksman",
+            "category": "left",
+            "icon": "assets/images/charms/Marksman_15.png",
+            "materials": {
+              "charmDesigns": 500,
+              "charmGuides": 600,
+              "charmSecrets": 70
+            }
+          },
+          "16": {
+            "charm_name": "Marksman",
+            "category": "left",
+            "icon": "assets/images/charms/Marksman_16.png",
+            "materials": {
+              "charmDesigns": 550,
+              "charmGuides": 650,
+              "charmSecrets": 100
+            }
+          }
+        }
+      }
+    }
+  },
+  "4": {
+    "paths": {
+      "1": {
+        "levels": {
+          "0": {
+            "charm_name": "Lancer",
+            "category": "right",
+            "icon": "assets/images/charms/empty.png",
+            "materials": {
+              "charmDesigns": 5,
+              "charmGuides": 5,
+              "charmSecrets": 0
+            }
+          },
+          "1": {
+            "charm_name": "Lancer",
+            "category": "right",
+            "icon": "assets/images/charms/Lancer_1.png",
+            "materials": {
+              "charmDesigns": 5,
+              "charmGuides": 5,
+              "charmSecrets": 0
+            }
+          },
+          "2": {
+            "charm_name": "Lancer",
+            "category": "right",
+            "icon": "assets/images/charms/Lancer_2.png",
+            "materials": {
+              "charmDesigns": 15,
+              "charmGuides": 40,
+              "charmSecrets": 0
+            }
+          },
+          "3": {
+            "charm_name": "Lancer",
+            "category": "right",
+            "icon": "assets/images/charms/Lancer_3.png",
+            "materials": {
+              "charmDesigns": 40,
+              "charmGuides": 60,
+              "charmSecrets": 0
+            }
+          },
+          "4": {
+            "charm_name": "Lancer",
+            "category": "right",
+            "icon": "assets/images/charms/Lancer_4.png",
+            "materials": {
+              "charmDesigns": 100,
+              "charmGuides": 80,
+              "charmSecrets": 0
+            }
+          },
+          "5": {
+            "charm_name": "Lancer",
+            "category": "right",
+            "icon": "assets/images/charms/Lancer_5.png",
+            "materials": {
+              "charmDesigns": 200,
+              "charmGuides": 100,
+              "charmSecrets": 0
+            }
+          },
+          "6": {
+            "charm_name": "Lancer",
+            "category": "right",
+            "icon": "assets/images/charms/Lancer_6.png",
+            "materials": {
+              "charmDesigns": 300,
+              "charmGuides": 120,
+              "charmSecrets": 0
+            }
+          },
+          "7": {
+            "charm_name": "Lancer",
+            "category": "right",
+            "icon": "assets/images/charms/Lancer_7.png",
+            "materials": {
+              "charmDesigns": 400,
+              "charmGuides": 140,
+              "charmSecrets": 0
+            }
+          },
+          "8": {
+            "charm_name": "Lancer",
+            "category": "right",
+            "icon": "assets/images/charms/Lancer_8.png",
+            "materials": {
+              "charmDesigns": 400,
+              "charmGuides": 200,
+              "charmSecrets": 0
+            }
+          },
+          "9": {
+            "charm_name": "Lancer",
+            "category": "right",
+            "icon": "assets/images/charms/Lancer_9.png",
+            "materials": {
+              "charmDesigns": 400,
+              "charmGuides": 300,
+              "charmSecrets": 0
+            }
+          },
+          "10": {
+            "charm_name": "Lancer",
+            "category": "right",
+            "icon": "assets/images/charms/Lancer_10.png",
+            "materials": {
+              "charmDesigns": 420,
+              "charmGuides": 420,
+              "charmSecrets": 0
+            }
+          },
+          "11": {
+            "charm_name": "Lancer",
+            "category": "right",
+            "icon": "assets/images/charms/Lancer_11.png",
+            "materials": {
+              "charmDesigns": 420,
+              "charmGuides": 560,
+              "charmSecrets": 0
+            }
+          },
+          "12": {
+            "charm_name": "Lancer",
+            "category": "right",
+            "icon": "assets/images/charms/Lancer_12.png",
+            "materials": {
+              "charmDesigns": 450,
+              "charmGuides": 580,
+              "charmSecrets": 15
+            }
+          },
+          "13": {
+            "charm_name": "Lancer",
+            "category": "right",
+            "icon": "assets/images/charms/Lancer_13.png",
+            "materials": {
+              "charmDesigns": 450,
+              "charmGuides": 580,
+              "charmSecrets": 30
+            }
+          },
+          "14": {
+            "charm_name": "Lancer",
+            "category": "right",
+            "icon": "assets/images/charms/Lancer_14.png",
+            "materials": {
+              "charmDesigns": 500,
+              "charmGuides": 600,
+              "charmSecrets": 45
+            }
+          },
+          "15": {
+            "charm_name": "Lancer",
+            "category": "right",
+            "icon": "assets/images/charms/Lancer_15.png",
+            "materials": {
+              "charmDesigns": 500,
+              "charmGuides": 600,
+              "charmSecrets": 70
+            }
+          },
+          "16": {
+            "charm_name": "Lancer",
+            "category": "right",
+            "icon": "assets/images/charms/Lancer_16.png",
+            "materials": {
+              "charmDesigns": 550,
+              "charmGuides": 650,
+              "charmSecrets": 100
+            }
+          }
+        }
+      },
+      "2": {
+        "levels": {
+          "0": {
+            "charm_name": "Lancer",
+            "category": "right",
+            "icon": "assets/images/charms/empty.png",
+            "materials": {
+              "charmDesigns": 5,
+              "charmGuides": 5,
+              "charmSecrets": 0
+            }
+          },
+          "1": {
+            "charm_name": "Lancer",
+            "category": "right",
+            "icon": "assets/images/charms/Lancer_1.png",
+            "materials": {
+              "charmDesigns": 5,
+              "charmGuides": 5,
+              "charmSecrets": 0
+            }
+          },
+          "2": {
+            "charm_name": "Lancer",
+            "category": "right",
+            "icon": "assets/images/charms/Lancer_2.png",
+            "materials": {
+              "charmDesigns": 15,
+              "charmGuides": 40,
+              "charmSecrets": 0
+            }
+          },
+          "3": {
+            "charm_name": "Lancer",
+            "category": "right",
+            "icon": "assets/images/charms/Lancer_3.png",
+            "materials": {
+              "charmDesigns": 40,
+              "charmGuides": 60,
+              "charmSecrets": 0
+            }
+          },
+          "4": {
+            "charm_name": "Lancer",
+            "category": "right",
+            "icon": "assets/images/charms/Lancer_4.png",
+            "materials": {
+              "charmDesigns": 100,
+              "charmGuides": 80,
+              "charmSecrets": 0
+            }
+          },
+          "5": {
+            "charm_name": "Lancer",
+            "category": "right",
+            "icon": "assets/images/charms/Lancer_5.png",
+            "materials": {
+              "charmDesigns": 200,
+              "charmGuides": 100,
+              "charmSecrets": 0
+            }
+          },
+          "6": {
+            "charm_name": "Lancer",
+            "category": "right",
+            "icon": "assets/images/charms/Lancer_6.png",
+            "materials": {
+              "charmDesigns": 300,
+              "charmGuides": 120,
+              "charmSecrets": 0
+            }
+          },
+          "7": {
+            "charm_name": "Lancer",
+            "category": "right",
+            "icon": "assets/images/charms/Lancer_7.png",
+            "materials": {
+              "charmDesigns": 400,
+              "charmGuides": 140,
+              "charmSecrets": 0
+            }
+          },
+          "8": {
+            "charm_name": "Lancer",
+            "category": "right",
+            "icon": "assets/images/charms/Lancer_8.png",
+            "materials": {
+              "charmDesigns": 400,
+              "charmGuides": 200,
+              "charmSecrets": 0
+            }
+          },
+          "9": {
+            "charm_name": "Lancer",
+            "category": "right",
+            "icon": "assets/images/charms/Lancer_9.png",
+            "materials": {
+              "charmDesigns": 400,
+              "charmGuides": 300,
+              "charmSecrets": 0
+            }
+          },
+          "10": {
+            "charm_name": "Lancer",
+            "category": "right",
+            "icon": "assets/images/charms/Lancer_10.png",
+            "materials": {
+              "charmDesigns": 420,
+              "charmGuides": 420,
+              "charmSecrets": 0
+            }
+          },
+          "11": {
+            "charm_name": "Lancer",
+            "category": "right",
+            "icon": "assets/images/charms/Lancer_11.png",
+            "materials": {
+              "charmDesigns": 420,
+              "charmGuides": 560,
+              "charmSecrets": 0
+            }
+          },
+          "12": {
+            "charm_name": "Lancer",
+            "category": "right",
+            "icon": "assets/images/charms/Lancer_12.png",
+            "materials": {
+              "charmDesigns": 450,
+              "charmGuides": 580,
+              "charmSecrets": 15
+            }
+          },
+          "13": {
+            "charm_name": "Lancer",
+            "category": "right",
+            "icon": "assets/images/charms/Lancer_13.png",
+            "materials": {
+              "charmDesigns": 450,
+              "charmGuides": 580,
+              "charmSecrets": 30
+            }
+          },
+          "14": {
+            "charm_name": "Lancer",
+            "category": "right",
+            "icon": "assets/images/charms/Lancer_14.png",
+            "materials": {
+              "charmDesigns": 500,
+              "charmGuides": 600,
+              "charmSecrets": 45
+            }
+          },
+          "15": {
+            "charm_name": "Lancer",
+            "category": "right",
+            "icon": "assets/images/charms/Lancer_15.png",
+            "materials": {
+              "charmDesigns": 500,
+              "charmGuides": 600,
+              "charmSecrets": 70
+            }
+          },
+          "16": {
+            "charm_name": "Lancer",
+            "category": "right",
+            "icon": "assets/images/charms/Lancer_16.png",
+            "materials": {
+              "charmDesigns": 550,
+              "charmGuides": 650,
+              "charmSecrets": 100
+            }
+          }
+        }
+      },
+      "3": {
+        "levels": {
+          "0": {
+            "charm_name": "Lancer",
+            "category": "right",
+            "icon": "assets/images/charms/empty.png",
+            "materials": {
+              "charmDesigns": 5,
+              "charmGuides": 5,
+              "charmSecrets": 0
+            }
+          },
+          "1": {
+            "charm_name": "Lancer",
+            "category": "right",
+            "icon": "assets/images/charms/Lancer_1.png",
+            "materials": {
+              "charmDesigns": 5,
+              "charmGuides": 5,
+              "charmSecrets": 0
+            }
+          },
+          "2": {
+            "charm_name": "Lancer",
+            "category": "right",
+            "icon": "assets/images/charms/Lancer_2.png",
+            "materials": {
+              "charmDesigns": 15,
+              "charmGuides": 40,
+              "charmSecrets": 0
+            }
+          },
+          "3": {
+            "charm_name": "Lancer",
+            "category": "right",
+            "icon": "assets/images/charms/Lancer_3.png",
+            "materials": {
+              "charmDesigns": 40,
+              "charmGuides": 60,
+              "charmSecrets": 0
+            }
+          },
+          "4": {
+            "charm_name": "Lancer",
+            "category": "right",
+            "icon": "assets/images/charms/Lancer_4.png",
+            "materials": {
+              "charmDesigns": 100,
+              "charmGuides": 80,
+              "charmSecrets": 0
+            }
+          },
+          "5": {
+            "charm_name": "Lancer",
+            "category": "right",
+            "icon": "assets/images/charms/Lancer_5.png",
+            "materials": {
+              "charmDesigns": 200,
+              "charmGuides": 100,
+              "charmSecrets": 0
+            }
+          },
+          "6": {
+            "charm_name": "Lancer",
+            "category": "right",
+            "icon": "assets/images/charms/Lancer_6.png",
+            "materials": {
+              "charmDesigns": 300,
+              "charmGuides": 120,
+              "charmSecrets": 0
+            }
+          },
+          "7": {
+            "charm_name": "Lancer",
+            "category": "right",
+            "icon": "assets/images/charms/Lancer_7.png",
+            "materials": {
+              "charmDesigns": 400,
+              "charmGuides": 140,
+              "charmSecrets": 0
+            }
+          },
+          "8": {
+            "charm_name": "Lancer",
+            "category": "right",
+            "icon": "assets/images/charms/Lancer_8.png",
+            "materials": {
+              "charmDesigns": 400,
+              "charmGuides": 200,
+              "charmSecrets": 0
+            }
+          },
+          "9": {
+            "charm_name": "Lancer",
+            "category": "right",
+            "icon": "assets/images/charms/Lancer_9.png",
+            "materials": {
+              "charmDesigns": 400,
+              "charmGuides": 300,
+              "charmSecrets": 0
+            }
+          },
+          "10": {
+            "charm_name": "Lancer",
+            "category": "right",
+            "icon": "assets/images/charms/Lancer_10.png",
+            "materials": {
+              "charmDesigns": 420,
+              "charmGuides": 420,
+              "charmSecrets": 0
+            }
+          },
+          "11": {
+            "charm_name": "Lancer",
+            "category": "right",
+            "icon": "assets/images/charms/Lancer_11.png",
+            "materials": {
+              "charmDesigns": 420,
+              "charmGuides": 560,
+              "charmSecrets": 0
+            }
+          },
+          "12": {
+            "charm_name": "Lancer",
+            "category": "right",
+            "icon": "assets/images/charms/Lancer_12.png",
+            "materials": {
+              "charmDesigns": 450,
+              "charmGuides": 580,
+              "charmSecrets": 15
+            }
+          },
+          "13": {
+            "charm_name": "Lancer",
+            "category": "right",
+            "icon": "assets/images/charms/Lancer_13.png",
+            "materials": {
+              "charmDesigns": 450,
+              "charmGuides": 580,
+              "charmSecrets": 30
+            }
+          },
+          "14": {
+            "charm_name": "Lancer",
+            "category": "right",
+            "icon": "assets/images/charms/Lancer_14.png",
+            "materials": {
+              "charmDesigns": 500,
+              "charmGuides": 600,
+              "charmSecrets": 45
+            }
+          },
+          "15": {
+            "charm_name": "Lancer",
+            "category": "right",
+            "icon": "assets/images/charms/Lancer_15.png",
+            "materials": {
+              "charmDesigns": 500,
+              "charmGuides": 600,
+              "charmSecrets": 70
+            }
+          },
+          "16": {
+            "charm_name": "Lancer",
+            "category": "right",
+            "icon": "assets/images/charms/Lancer_16.png",
+            "materials": {
+              "charmDesigns": 550,
+              "charmGuides": 650,
+              "charmSecrets": 100
+            }
+          }
+        }
+      }
+    }
+  },
+  "5": {
+    "paths": {
+      "1": {
+        "levels": {
+          "0": {
+            "charm_name": "Infantry",
+            "category": "right",
+            "icon": "assets/images/charms/empty.png",
+            "materials": {
+              "charmDesigns": 5,
+              "charmGuides": 5,
+              "charmSecrets": 0
+            }
+          },
+          "1": {
+            "charm_name": "Infantry",
+            "category": "right",
+            "icon": "assets/images/charms/Infantry_1.png",
+            "materials": {
+              "charmDesigns": 5,
+              "charmGuides": 5,
+              "charmSecrets": 0
+            }
+          },
+          "2": {
+            "charm_name": "Infantry",
+            "category": "right",
+            "icon": "assets/images/charms/Infantry_2.png",
+            "materials": {
+              "charmDesigns": 15,
+              "charmGuides": 40,
+              "charmSecrets": 0
+            }
+          },
+          "3": {
+            "charm_name": "Infantry",
+            "category": "right",
+            "icon": "assets/images/charms/Infantry_3.png",
+            "materials": {
+              "charmDesigns": 40,
+              "charmGuides": 60,
+              "charmSecrets": 0
+            }
+          },
+          "4": {
+            "charm_name": "Infantry",
+            "category": "right",
+            "icon": "assets/images/charms/Infantry_4.png",
+            "materials": {
+              "charmDesigns": 100,
+              "charmGuides": 80,
+              "charmSecrets": 0
+            }
+          },
+          "5": {
+            "charm_name": "Infantry",
+            "category": "right",
+            "icon": "assets/images/charms/Infantry_5.png",
+            "materials": {
+              "charmDesigns": 200,
+              "charmGuides": 100,
+              "charmSecrets": 0
+            }
+          },
+          "6": {
+            "charm_name": "Infantry",
+            "category": "right",
+            "icon": "assets/images/charms/Infantry_6.png",
+            "materials": {
+              "charmDesigns": 300,
+              "charmGuides": 120,
+              "charmSecrets": 0
+            }
+          },
+          "7": {
+            "charm_name": "Infantry",
+            "category": "right",
+            "icon": "assets/images/charms/Infantry_7.png",
+            "materials": {
+              "charmDesigns": 400,
+              "charmGuides": 140,
+              "charmSecrets": 0
+            }
+          },
+          "8": {
+            "charm_name": "Infantry",
+            "category": "right",
+            "icon": "assets/images/charms/Infantry_8.png",
+            "materials": {
+              "charmDesigns": 400,
+              "charmGuides": 200,
+              "charmSecrets": 0
+            }
+          },
+          "9": {
+            "charm_name": "Infantry",
+            "category": "right",
+            "icon": "assets/images/charms/Infantry_9.png",
+            "materials": {
+              "charmDesigns": 400,
+              "charmGuides": 300,
+              "charmSecrets": 0
+            }
+          },
+          "10": {
+            "charm_name": "Infantry",
+            "category": "right",
+            "icon": "assets/images/charms/Infantry_10.png",
+            "materials": {
+              "charmDesigns": 420,
+              "charmGuides": 420,
+              "charmSecrets": 0
+            }
+          },
+          "11": {
+            "charm_name": "Infantry",
+            "category": "right",
+            "icon": "assets/images/charms/Infantry_11.png",
+            "materials": {
+              "charmDesigns": 420,
+              "charmGuides": 560,
+              "charmSecrets": 0
+            }
+          },
+          "12": {
+            "charm_name": "Infantry",
+            "category": "right",
+            "icon": "assets/images/charms/Infantry_12.png",
+            "materials": {
+              "charmDesigns": 450,
+              "charmGuides": 580,
+              "charmSecrets": 15
+            }
+          },
+          "13": {
+            "charm_name": "Infantry",
+            "category": "right",
+            "icon": "assets/images/charms/Infantry_13.png",
+            "materials": {
+              "charmDesigns": 450,
+              "charmGuides": 580,
+              "charmSecrets": 30
+            }
+          },
+          "14": {
+            "charm_name": "Infantry",
+            "category": "right",
+            "icon": "assets/images/charms/Infantry_14.png",
+            "materials": {
+              "charmDesigns": 500,
+              "charmGuides": 600,
+              "charmSecrets": 45
+            }
+          },
+          "15": {
+            "charm_name": "Infantry",
+            "category": "right",
+            "icon": "assets/images/charms/Infantry_15.png",
+            "materials": {
+              "charmDesigns": 500,
+              "charmGuides": 600,
+              "charmSecrets": 70
+            }
+          },
+          "16": {
+            "charm_name": "Infantry",
+            "category": "right",
+            "icon": "assets/images/charms/Infantry_16.png",
+            "materials": {
+              "charmDesigns": 550,
+              "charmGuides": 650,
+              "charmSecrets": 100
+            }
+          }
+        }
+      },
+      "2": {
+        "levels": {
+          "0": {
+            "charm_name": "Infantry",
+            "category": "right",
+            "icon": "assets/images/charms/empty.png",
+            "materials": {
+              "charmDesigns": 5,
+              "charmGuides": 5,
+              "charmSecrets": 0
+            }
+          },
+          "1": {
+            "charm_name": "Infantry",
+            "category": "right",
+            "icon": "assets/images/charms/Infantry_1.png",
+            "materials": {
+              "charmDesigns": 5,
+              "charmGuides": 5,
+              "charmSecrets": 0
+            }
+          },
+          "2": {
+            "charm_name": "Infantry",
+            "category": "right",
+            "icon": "assets/images/charms/Infantry_2.png",
+            "materials": {
+              "charmDesigns": 15,
+              "charmGuides": 40,
+              "charmSecrets": 0
+            }
+          },
+          "3": {
+            "charm_name": "Infantry",
+            "category": "right",
+            "icon": "assets/images/charms/Infantry_3.png",
+            "materials": {
+              "charmDesigns": 40,
+              "charmGuides": 60,
+              "charmSecrets": 0
+            }
+          },
+          "4": {
+            "charm_name": "Infantry",
+            "category": "right",
+            "icon": "assets/images/charms/Infantry_4.png",
+            "materials": {
+              "charmDesigns": 100,
+              "charmGuides": 80,
+              "charmSecrets": 0
+            }
+          },
+          "5": {
+            "charm_name": "Infantry",
+            "category": "right",
+            "icon": "assets/images/charms/Infantry_5.png",
+            "materials": {
+              "charmDesigns": 200,
+              "charmGuides": 100,
+              "charmSecrets": 0
+            }
+          },
+          "6": {
+            "charm_name": "Infantry",
+            "category": "right",
+            "icon": "assets/images/charms/Infantry_6.png",
+            "materials": {
+              "charmDesigns": 300,
+              "charmGuides": 120,
+              "charmSecrets": 0
+            }
+          },
+          "7": {
+            "charm_name": "Infantry",
+            "category": "right",
+            "icon": "assets/images/charms/Infantry_7.png",
+            "materials": {
+              "charmDesigns": 400,
+              "charmGuides": 140,
+              "charmSecrets": 0
+            }
+          },
+          "8": {
+            "charm_name": "Infantry",
+            "category": "right",
+            "icon": "assets/images/charms/Infantry_8.png",
+            "materials": {
+              "charmDesigns": 400,
+              "charmGuides": 200,
+              "charmSecrets": 0
+            }
+          },
+          "9": {
+            "charm_name": "Infantry",
+            "category": "right",
+            "icon": "assets/images/charms/Infantry_9.png",
+            "materials": {
+              "charmDesigns": 400,
+              "charmGuides": 300,
+              "charmSecrets": 0
+            }
+          },
+          "10": {
+            "charm_name": "Infantry",
+            "category": "right",
+            "icon": "assets/images/charms/Infantry_10.png",
+            "materials": {
+              "charmDesigns": 420,
+              "charmGuides": 420,
+              "charmSecrets": 0
+            }
+          },
+          "11": {
+            "charm_name": "Infantry",
+            "category": "right",
+            "icon": "assets/images/charms/Infantry_11.png",
+            "materials": {
+              "charmDesigns": 420,
+              "charmGuides": 560,
+              "charmSecrets": 0
+            }
+          },
+          "12": {
+            "charm_name": "Infantry",
+            "category": "right",
+            "icon": "assets/images/charms/Infantry_12.png",
+            "materials": {
+              "charmDesigns": 450,
+              "charmGuides": 580,
+              "charmSecrets": 15
+            }
+          },
+          "13": {
+            "charm_name": "Infantry",
+            "category": "right",
+            "icon": "assets/images/charms/Infantry_13.png",
+            "materials": {
+              "charmDesigns": 450,
+              "charmGuides": 580,
+              "charmSecrets": 30
+            }
+          },
+          "14": {
+            "charm_name": "Infantry",
+            "category": "right",
+            "icon": "assets/images/charms/Infantry_14.png",
+            "materials": {
+              "charmDesigns": 500,
+              "charmGuides": 600,
+              "charmSecrets": 45
+            }
+          },
+          "15": {
+            "charm_name": "Infantry",
+            "category": "right",
+            "icon": "assets/images/charms/Infantry_15.png",
+            "materials": {
+              "charmDesigns": 500,
+              "charmGuides": 600,
+              "charmSecrets": 70
+            }
+          },
+          "16": {
+            "charm_name": "Infantry",
+            "category": "right",
+            "icon": "assets/images/charms/Infantry_16.png",
+            "materials": {
+              "charmDesigns": 550,
+              "charmGuides": 650,
+              "charmSecrets": 100
+            }
+          }
+        }
+      },
+      "3": {
+        "levels": {
+          "0": {
+            "charm_name": "Infantry",
+            "category": "right",
+            "icon": "assets/images/charms/empty.png",
+            "materials": {
+              "charmDesigns": 5,
+              "charmGuides": 5,
+              "charmSecrets": 0
+            }
+          },
+          "1": {
+            "charm_name": "Infantry",
+            "category": "right",
+            "icon": "assets/images/charms/Infantry_1.png",
+            "materials": {
+              "charmDesigns": 5,
+              "charmGuides": 5,
+              "charmSecrets": 0
+            }
+          },
+          "2": {
+            "charm_name": "Infantry",
+            "category": "right",
+            "icon": "assets/images/charms/Infantry_2.png",
+            "materials": {
+              "charmDesigns": 15,
+              "charmGuides": 40,
+              "charmSecrets": 0
+            }
+          },
+          "3": {
+            "charm_name": "Infantry",
+            "category": "right",
+            "icon": "assets/images/charms/Infantry_3.png",
+            "materials": {
+              "charmDesigns": 40,
+              "charmGuides": 60,
+              "charmSecrets": 0
+            }
+          },
+          "4": {
+            "charm_name": "Infantry",
+            "category": "right",
+            "icon": "assets/images/charms/Infantry_4.png",
+            "materials": {
+              "charmDesigns": 100,
+              "charmGuides": 80,
+              "charmSecrets": 0
+            }
+          },
+          "5": {
+            "charm_name": "Infantry",
+            "category": "right",
+            "icon": "assets/images/charms/Infantry_5.png",
+            "materials": {
+              "charmDesigns": 200,
+              "charmGuides": 100,
+              "charmSecrets": 0
+            }
+          },
+          "6": {
+            "charm_name": "Infantry",
+            "category": "right",
+            "icon": "assets/images/charms/Infantry_6.png",
+            "materials": {
+              "charmDesigns": 300,
+              "charmGuides": 120,
+              "charmSecrets": 0
+            }
+          },
+          "7": {
+            "charm_name": "Infantry",
+            "category": "right",
+            "icon": "assets/images/charms/Infantry_7.png",
+            "materials": {
+              "charmDesigns": 400,
+              "charmGuides": 140,
+              "charmSecrets": 0
+            }
+          },
+          "8": {
+            "charm_name": "Infantry",
+            "category": "right",
+            "icon": "assets/images/charms/Infantry_8.png",
+            "materials": {
+              "charmDesigns": 400,
+              "charmGuides": 200,
+              "charmSecrets": 0
+            }
+          },
+          "9": {
+            "charm_name": "Infantry",
+            "category": "right",
+            "icon": "assets/images/charms/Infantry_9.png",
+            "materials": {
+              "charmDesigns": 400,
+              "charmGuides": 300,
+              "charmSecrets": 0
+            }
+          },
+          "10": {
+            "charm_name": "Infantry",
+            "category": "right",
+            "icon": "assets/images/charms/Infantry_10.png",
+            "materials": {
+              "charmDesigns": 420,
+              "charmGuides": 420,
+              "charmSecrets": 0
+            }
+          },
+          "11": {
+            "charm_name": "Infantry",
+            "category": "right",
+            "icon": "assets/images/charms/Infantry_11.png",
+            "materials": {
+              "charmDesigns": 420,
+              "charmGuides": 560,
+              "charmSecrets": 0
+            }
+          },
+          "12": {
+            "charm_name": "Infantry",
+            "category": "right",
+            "icon": "assets/images/charms/Infantry_12.png",
+            "materials": {
+              "charmDesigns": 450,
+              "charmGuides": 580,
+              "charmSecrets": 15
+            }
+          },
+          "13": {
+            "charm_name": "Infantry",
+            "category": "right",
+            "icon": "assets/images/charms/Infantry_13.png",
+            "materials": {
+              "charmDesigns": 450,
+              "charmGuides": 580,
+              "charmSecrets": 30
+            }
+          },
+          "14": {
+            "charm_name": "Infantry",
+            "category": "right",
+            "icon": "assets/images/charms/Infantry_14.png",
+            "materials": {
+              "charmDesigns": 500,
+              "charmGuides": 600,
+              "charmSecrets": 45
+            }
+          },
+          "15": {
+            "charm_name": "Infantry",
+            "category": "right",
+            "icon": "assets/images/charms/Infantry_15.png",
+            "materials": {
+              "charmDesigns": 500,
+              "charmGuides": 600,
+              "charmSecrets": 70
+            }
+          },
+          "16": {
+            "charm_name": "Infantry",
+            "category": "right",
+            "icon": "assets/images/charms/Infantry_16.png",
+            "materials": {
+              "charmDesigns": 550,
+              "charmGuides": 650,
+              "charmSecrets": 100
+            }
+          }
+        }
+      }
+    }
+  },
+  "6": {
+    "paths": {
+      "1": {
+        "levels": {
+          "0": {
+            "charm_name": "Marksman",
+            "category": "right",
+            "icon": "assets/images/charms/empty.png",
+            "materials": {
+              "charmDesigns": 5,
+              "charmGuides": 5,
+              "charmSecrets": 0
+            }
+          },
+          "1": {
+            "charm_name": "Marksman",
+            "category": "right",
+            "icon": "assets/images/charms/Marksman_1.png",
+            "materials": {
+              "charmDesigns": 5,
+              "charmGuides": 5,
+              "charmSecrets": 0
+            }
+          },
+          "2": {
+            "charm_name": "Marksman",
+            "category": "right",
+            "icon": "assets/images/charms/Marksman_2.png",
+            "materials": {
+              "charmDesigns": 15,
+              "charmGuides": 40,
+              "charmSecrets": 0
+            }
+          },
+          "3": {
+            "charm_name": "Marksman",
+            "category": "right",
+            "icon": "assets/images/charms/Marksman_3.png",
+            "materials": {
+              "charmDesigns": 40,
+              "charmGuides": 60,
+              "charmSecrets": 0
+            }
+          },
+          "4": {
+            "charm_name": "Marksman",
+            "category": "right",
+            "icon": "assets/images/charms/Marksman_4.png",
+            "materials": {
+              "charmDesigns": 100,
+              "charmGuides": 80,
+              "charmSecrets": 0
+            }
+          },
+          "5": {
+            "charm_name": "Marksman",
+            "category": "right",
+            "icon": "assets/images/charms/Marksman_5.png",
+            "materials": {
+              "charmDesigns": 200,
+              "charmGuides": 100,
+              "charmSecrets": 0
+            }
+          },
+          "6": {
+            "charm_name": "Marksman",
+            "category": "right",
+            "icon": "assets/images/charms/Marksman_6.png",
+            "materials": {
+              "charmDesigns": 300,
+              "charmGuides": 120,
+              "charmSecrets": 0
+            }
+          },
+          "7": {
+            "charm_name": "Marksman",
+            "category": "right",
+            "icon": "assets/images/charms/Marksman_7.png",
+            "materials": {
+              "charmDesigns": 400,
+              "charmGuides": 140,
+              "charmSecrets": 0
+            }
+          },
+          "8": {
+            "charm_name": "Marksman",
+            "category": "right",
+            "icon": "assets/images/charms/Marksman_8.png",
+            "materials": {
+              "charmDesigns": 400,
+              "charmGuides": 200,
+              "charmSecrets": 0
+            }
+          },
+          "9": {
+            "charm_name": "Marksman",
+            "category": "right",
+            "icon": "assets/images/charms/Marksman_9.png",
+            "materials": {
+              "charmDesigns": 400,
+              "charmGuides": 300,
+              "charmSecrets": 0
+            }
+          },
+          "10": {
+            "charm_name": "Marksman",
+            "category": "right",
+            "icon": "assets/images/charms/Marksman_10.png",
+            "materials": {
+              "charmDesigns": 420,
+              "charmGuides": 420,
+              "charmSecrets": 0
+            }
+          },
+          "11": {
+            "charm_name": "Marksman",
+            "category": "right",
+            "icon": "assets/images/charms/Marksman_11.png",
+            "materials": {
+              "charmDesigns": 420,
+              "charmGuides": 560,
+              "charmSecrets": 0
+            }
+          },
+          "12": {
+            "charm_name": "Marksman",
+            "category": "right",
+            "icon": "assets/images/charms/Marksman_12.png",
+            "materials": {
+              "charmDesigns": 450,
+              "charmGuides": 580,
+              "charmSecrets": 15
+            }
+          },
+          "13": {
+            "charm_name": "Marksman",
+            "category": "right",
+            "icon": "assets/images/charms/Marksman_13.png",
+            "materials": {
+              "charmDesigns": 450,
+              "charmGuides": 580,
+              "charmSecrets": 30
+            }
+          },
+          "14": {
+            "charm_name": "Marksman",
+            "category": "right",
+            "icon": "assets/images/charms/Marksman_14.png",
+            "materials": {
+              "charmDesigns": 500,
+              "charmGuides": 600,
+              "charmSecrets": 45
+            }
+          },
+          "15": {
+            "charm_name": "Marksman",
+            "category": "right",
+            "icon": "assets/images/charms/Marksman_15.png",
+            "materials": {
+              "charmDesigns": 500,
+              "charmGuides": 600,
+              "charmSecrets": 70
+            }
+          },
+          "16": {
+            "charm_name": "Marksman",
+            "category": "right",
+            "icon": "assets/images/charms/Marksman_16.png",
+            "materials": {
+              "charmDesigns": 550,
+              "charmGuides": 650,
+              "charmSecrets": 100
+            }
+          }
+        }
+      },
+      "2": {
+        "levels": {
+          "0": {
+            "charm_name": "Marksman",
+            "category": "right",
+            "icon": "assets/images/charms/empty.png",
+            "materials": {
+              "charmDesigns": 5,
+              "charmGuides": 5,
+              "charmSecrets": 0
+            }
+          },
+          "1": {
+            "charm_name": "Marksman",
+            "category": "right",
+            "icon": "assets/images/charms/Marksman_1.png",
+            "materials": {
+              "charmDesigns": 5,
+              "charmGuides": 5,
+              "charmSecrets": 0
+            }
+          },
+          "2": {
+            "charm_name": "Marksman",
+            "category": "right",
+            "icon": "assets/images/charms/Marksman_2.png",
+            "materials": {
+              "charmDesigns": 15,
+              "charmGuides": 40,
+              "charmSecrets": 0
+            }
+          },
+          "3": {
+            "charm_name": "Marksman",
+            "category": "right",
+            "icon": "assets/images/charms/Marksman_3.png",
+            "materials": {
+              "charmDesigns": 40,
+              "charmGuides": 60,
+              "charmSecrets": 0
+            }
+          },
+          "4": {
+            "charm_name": "Marksman",
+            "category": "right",
+            "icon": "assets/images/charms/Marksman_4.png",
+            "materials": {
+              "charmDesigns": 100,
+              "charmGuides": 80,
+              "charmSecrets": 0
+            }
+          },
+          "5": {
+            "charm_name": "Marksman",
+            "category": "right",
+            "icon": "assets/images/charms/Marksman_5.png",
+            "materials": {
+              "charmDesigns": 200,
+              "charmGuides": 100,
+              "charmSecrets": 0
+            }
+          },
+          "6": {
+            "charm_name": "Marksman",
+            "category": "right",
+            "icon": "assets/images/charms/Marksman_6.png",
+            "materials": {
+              "charmDesigns": 300,
+              "charmGuides": 120,
+              "charmSecrets": 0
+            }
+          },
+          "7": {
+            "charm_name": "Marksman",
+            "category": "right",
+            "icon": "assets/images/charms/Marksman_7.png",
+            "materials": {
+              "charmDesigns": 400,
+              "charmGuides": 140,
+              "charmSecrets": 0
+            }
+          },
+          "8": {
+            "charm_name": "Marksman",
+            "category": "right",
+            "icon": "assets/images/charms/Marksman_8.png",
+            "materials": {
+              "charmDesigns": 400,
+              "charmGuides": 200,
+              "charmSecrets": 0
+            }
+          },
+          "9": {
+            "charm_name": "Marksman",
+            "category": "right",
+            "icon": "assets/images/charms/Marksman_9.png",
+            "materials": {
+              "charmDesigns": 400,
+              "charmGuides": 300,
+              "charmSecrets": 0
+            }
+          },
+          "10": {
+            "charm_name": "Marksman",
+            "category": "right",
+            "icon": "assets/images/charms/Marksman_10.png",
+            "materials": {
+              "charmDesigns": 420,
+              "charmGuides": 420,
+              "charmSecrets": 0
+            }
+          },
+          "11": {
+            "charm_name": "Marksman",
+            "category": "right",
+            "icon": "assets/images/charms/Marksman_11.png",
+            "materials": {
+              "charmDesigns": 420,
+              "charmGuides": 560,
+              "charmSecrets": 0
+            }
+          },
+          "12": {
+            "charm_name": "Marksman",
+            "category": "right",
+            "icon": "assets/images/charms/Marksman_12.png",
+            "materials": {
+              "charmDesigns": 450,
+              "charmGuides": 580,
+              "charmSecrets": 15
+            }
+          },
+          "13": {
+            "charm_name": "Marksman",
+            "category": "right",
+            "icon": "assets/images/charms/Marksman_13.png",
+            "materials": {
+              "charmDesigns": 450,
+              "charmGuides": 580,
+              "charmSecrets": 30
+            }
+          },
+          "14": {
+            "charm_name": "Marksman",
+            "category": "right",
+            "icon": "assets/images/charms/Marksman_14.png",
+            "materials": {
+              "charmDesigns": 500,
+              "charmGuides": 600,
+              "charmSecrets": 45
+            }
+          },
+          "15": {
+            "charm_name": "Marksman",
+            "category": "right",
+            "icon": "assets/images/charms/Marksman_15.png",
+            "materials": {
+              "charmDesigns": 500,
+              "charmGuides": 600,
+              "charmSecrets": 70
+            }
+          },
+          "16": {
+            "charm_name": "Marksman",
+            "category": "right",
+            "icon": "assets/images/charms/Marksman_16.png",
+            "materials": {
+              "charmDesigns": 550,
+              "charmGuides": 650,
+              "charmSecrets": 100
+            }
+          }
+        }
+      },
+      "3": {
+        "levels": {
+          "0": {
+            "charm_name": "Marksman",
+            "category": "right",
+            "icon": "assets/images/charms/empty.png",
+            "materials": {
+              "charmDesigns": 5,
+              "charmGuides": 5,
+              "charmSecrets": 0
+            }
+          },
+          "1": {
+            "charm_name": "Marksman",
+            "category": "right",
+            "icon": "assets/images/charms/Marksman_1.png",
+            "materials": {
+              "charmDesigns": 5,
+              "charmGuides": 5,
+              "charmSecrets": 0
+            }
+          },
+          "2": {
+            "charm_name": "Marksman",
+            "category": "right",
+            "icon": "assets/images/charms/Marksman_2.png",
+            "materials": {
+              "charmDesigns": 15,
+              "charmGuides": 40,
+              "charmSecrets": 0
+            }
+          },
+          "3": {
+            "charm_name": "Marksman",
+            "category": "right",
+            "icon": "assets/images/charms/Marksman_3.png",
+            "materials": {
+              "charmDesigns": 40,
+              "charmGuides": 60,
+              "charmSecrets": 0
+            }
+          },
+          "4": {
+            "charm_name": "Marksman",
+            "category": "right",
+            "icon": "assets/images/charms/Marksman_4.png",
+            "materials": {
+              "charmDesigns": 100,
+              "charmGuides": 80,
+              "charmSecrets": 0
+            }
+          },
+          "5": {
+            "charm_name": "Marksman",
+            "category": "right",
+            "icon": "assets/images/charms/Marksman_5.png",
+            "materials": {
+              "charmDesigns": 200,
+              "charmGuides": 100,
+              "charmSecrets": 0
+            }
+          },
+          "6": {
+            "charm_name": "Marksman",
+            "category": "right",
+            "icon": "assets/images/charms/Marksman_6.png",
+            "materials": {
+              "charmDesigns": 300,
+              "charmGuides": 120,
+              "charmSecrets": 0
+            }
+          },
+          "7": {
+            "charm_name": "Marksman",
+            "category": "right",
+            "icon": "assets/images/charms/Marksman_7.png",
+            "materials": {
+              "charmDesigns": 400,
+              "charmGuides": 140,
+              "charmSecrets": 0
+            }
+          },
+          "8": {
+            "charm_name": "Marksman",
+            "category": "right",
+            "icon": "assets/images/charms/Marksman_8.png",
+            "materials": {
+              "charmDesigns": 400,
+              "charmGuides": 200,
+              "charmSecrets": 0
+            }
+          },
+          "9": {
+            "charm_name": "Marksman",
+            "category": "right",
+            "icon": "assets/images/charms/Marksman_9.png",
+            "materials": {
+              "charmDesigns": 400,
+              "charmGuides": 300,
+              "charmSecrets": 0
+            }
+          },
+          "10": {
+            "charm_name": "Marksman",
+            "category": "right",
+            "icon": "assets/images/charms/Marksman_10.png",
+            "materials": {
+              "charmDesigns": 420,
+              "charmGuides": 420,
+              "charmSecrets": 0
+            }
+          },
+          "11": {
+            "charm_name": "Marksman",
+            "category": "right",
+            "icon": "assets/images/charms/Marksman_11.png",
+            "materials": {
+              "charmDesigns": 420,
+              "charmGuides": 560,
+              "charmSecrets": 0
+            }
+          },
+          "12": {
+            "charm_name": "Marksman",
+            "category": "right",
+            "icon": "assets/images/charms/Marksman_12.png",
+            "materials": {
+              "charmDesigns": 450,
+              "charmGuides": 580,
+              "charmSecrets": 15
+            }
+          },
+          "13": {
+            "charm_name": "Marksman",
+            "category": "right",
+            "icon": "assets/images/charms/Marksman_13.png",
+            "materials": {
+              "charmDesigns": 450,
+              "charmGuides": 580,
+              "charmSecrets": 30
+            }
+          },
+          "14": {
+            "charm_name": "Marksman",
+            "category": "right",
+            "icon": "assets/images/charms/Marksman_14.png",
+            "materials": {
+              "charmDesigns": 500,
+              "charmGuides": 600,
+              "charmSecrets": 45
+            }
+          },
+          "15": {
+            "charm_name": "Marksman",
+            "category": "right",
+            "icon": "assets/images/charms/Marksman_15.png",
+            "materials": {
+              "charmDesigns": 500,
+              "charmGuides": 600,
+              "charmSecrets": 70
+            }
+          },
+          "16": {
+            "charm_name": "Marksman",
+            "category": "right",
+            "icon": "assets/images/charms/Marksman_16.png",
+            "materials": {
+              "charmDesigns": 550,
+              "charmGuides": 650,
+              "charmSecrets": 100
+            }
+          }
+        }
+      }
+    }
+  }
+}
