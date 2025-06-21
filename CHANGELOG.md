@@ -1,3 +1,44 @@
+# Changelog: Charm Simulator, Visual Overhaul & Multilingual Update v1.3
+
+**Release Date:** June 21, 2025
+
+Version 1.3 is a major update introducing the all-new **Charm Simulator**, a complete **visual overhaul**, **multilingual support**, and numerous bug fixes and UX improvements.
+
+---
+
+### ✨ Major Features
+
+- **Charm Simulator**
+
+  - New simulation tool for planning upgrades across 18 Charm Paths (6 Gear Types × 3 Paths each).
+  - Dynamic material cost calculation per level from `charms.json`.
+  - Independent system for adding, tracking, and resetting Charm-specific materials.
+  - "Set Level" feature via modal to configure levels of all 18 paths individually.
+  - Added real-time level display (`Lv. X`) under each Charm slot.
+
+- **Multilingual Support**
+
+  - Real-time language switching: English (`en`), Indonesian (`id`), Japanese (`ja`).
+  - Built-in global translation engine (`i18n.js`) for all scripts.
+  - Language preference is saved in `localStorage` for returning users.
+
+- **UI Overhaul & Landing Page**
+  - Rebuilt homepage as a landing page with Features and Profile Card sections.
+  - Clear call-to-action buttons leading directly to the simulator.
+
+---
+
+### 🛠️ Improvements & Bug Fixes
+
+- **UI/UX Enhancements**
+
+  - Improved text color logic for materials (Green = sufficient, Red = lacking, Gray = inactive).
+
+- **Mobile Responsiveness**
+  - Fixed oversized gear preview images on small devices.
+
+---
+
 # Changelog: Chief Gear Simulator v1.2
 
 **Release Date:** June 7, 2025

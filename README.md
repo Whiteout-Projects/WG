@@ -1,6 +1,6 @@
 # Chief Gear Simulator
 
-Welcome to **Chief Gear Simulator**, a simple yet powerful web-based tool to help you simulate gear upgrades, calculate total material usage, and plan efficiently based on your in-game progress in **Whiteout Survival**.
+Welcome to **Chief Gear Simulator**, a simple yet powerful web-based tool created by [Oriana](https://github.com/orianadev) to help you simulate gear upgrades, calculate total material usage, and plan efficiently based on your in-game progress in **Whiteout Survival**.
 
 🎯 **Purpose**  
 This simulator is designed purely for planning and calculation. It helps you understand how many materials you’ll need to upgrade your gear to the maximum level — **not for cheating or illegal activity**.
@@ -22,13 +22,13 @@ This simulator is designed purely for planning and calculation. It helps you und
 ## 🚀 Getting Started
 
 No installation needed — just open the project in a browser:
-[https://bit.ly/Wos-Sim](https://bit.ly/Wos-Sim)
+https://bit.ly/chief-gear-simulator
 
 Or clone this repo and run it locally:
 
 ```bash
-git clone https://github.com/your-username/WG.git
-cd WG
+git clone https://github.com/your-username/chief-gear-simulator.git
+cd chief-gear-simulator
 # Open index.html in your browser
 
 🤝 Support the Developer
@@ -36,13 +36,13 @@ If you find this tool helpful and would like to support my work, feel free to do
 This is not mandatory — it's simply a way to show your appreciation and support future updates ❤️
 
 🌍 International Donation (USD):
-👉 https://ko-fi.com/eliasleo (No login required)
+👉 https://ko-fi.com/orianadev (No login required)
 
 📜 License
 This project is open-source
 
 👋 About Me
-Hi! I'm Leo, a solo developer passionate about tools that enhance gaming experience and productivity.
+Hi! I'm Oriana, a solo developer passionate about tools that enhance gaming experience and productivity.
 Feel free to explore, fork, and contribute! ✨
 
 I'm planning more tools and simulators in the future — follow me on GitHub and stay updated 🚀
