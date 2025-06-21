@@ -1,0 +1,955 @@
+/* ===================================================
+   CHARMS.CSS - HASIL REFACTORING FINAL
+   Tanggal: 24 Mei 2024
+   Tujuan: Meningkatkan keterbacaan, konsistensi, dan menghapus redundansi
+   tanpa mengubah gaya visual atau fungsionalitas yang sudah final.
+   =================================================== */
+
+/* --- 1. Variabel & Gaya Global --- */
+:root {
+    --background-dark: #111827;
+    --background-card: #1F2937;
+    --background-feature: #374151;
+    --text-primary: #F9FAFB;
+    --text-secondary: #9CA3AF;
+    --accent-primary: #8A5CFE;
+    --accent-secondary: #6366F1;
+    --accent-gradient: linear-gradient(90deg, var(--accent-primary), var(--accent-secondary));
+    --shadow-color: rgba(0, 0, 0, 0.4);
+    --glow-color: rgba(138, 92, 254, 0.4);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', 'Segoe UI', sans-serif;
+    background-color: var(--background-dark);
+    color: var(--text-primary);
+}
+
+
+/* --- 2. Struktur Utama & Layout --- */
+header {
+    padding: 2rem 0;
+    text-align: center;
+}
+
+.logo img {
+    height: 60px;
+    object-fit: contain;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    padding: 0 2rem 2rem 2rem;
+    width: 100%;
+}
+
+.card {
+    background-color: var(--background-card);
+    padding: 2.5rem;
+    border-radius: 16px;
+    border: 1px solid var(--background-feature);
+    box-shadow: 0 8px 24px var(--shadow-color);
+    width: 100%;
+    max-width: 900px;
+}
+
+.card h2 {
+    background: var(--accent-gradient);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent; /* fallback */
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+/* --- 3. Elemen Umum (Tombol & Tautan) --- */
+.btn {
+    display: inline-block;
+    padding: 8px 16px;
+    border-radius: 8px;
+    border: none;
+    font-weight: 600;
+    cursor: pointer;
+    text-decoration: none;
+    background: var(--accent-gradient);
+    color: #fff;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    font-size: 1rem;
+    text-align: center;
+}
+
+.btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 15px var(--glow-color);
+}
+
+.btn-secondary {
+    background: var(--background-feature);
+    color: var(--text-secondary);
+}
+
+.btn-secondary:hover {
+    color: var(--text-primary);
+    background: var(--accent-primary);
+    transform: none;
+    box-shadow: none;
+}
+
+#upgrade {
+    width: 100%;
+    max-width: 300px;
+    padding: 12px;
+    font-size: 1.1rem;
+    margin-top: 1rem;
+}
+
+.back-link {
+    display: inline-block;
+    color: var(--text-secondary);
+    text-decoration: none;
+    margin-bottom: 2rem;
+    transition: color 0.3s ease;
+    font-size: 0.9rem;
+}
+
+.back-link:hover {
+    color: var(--accent-primary);
+}
+
+.back-link i {
+    margin-right: 8px;
+}
+
+.top-actions {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: -10px;
+    margin-bottom: 1rem;
+}
+
+/* --- 4. Komponen: Tata Letak Charm --- */
+.charm-layout {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    max-width: 400px;
+    margin: 1.5rem auto 2rem auto;
+    position: relative;
+}
+
+.box-left, .box-right {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.charm-item-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+    /* Memberi state transform awal agar transisi `scale` dan `glow` konsisten di semua item */
+    transform: none; 
+    transition: transform 0.2s ease;
+}
+
+.charm-item-container:hover {
+    transform: scale(1.1); /* Efek hover dasar untuk semua item */
+}
+
+/* Aturan offset spesifik untuk charm tengah */
+.box-left .charm-item-container:nth-child(2) {
+    transform: translateX(-20px);
+}
+.box-left .charm-item-container:nth-child(2):hover {
+    transform: translateX(-20px) scale(1.1);
+}
+.box-right .charm-item-container:nth-child(2) {
+    transform: translateX(20px);
+}
+.box-right .charm-item-container:nth-child(2):hover {
+    transform: translateX(20px) scale(1.1);
+}
+
+.charm-box {
+    position: relative;
+    width: 60px;
+    height: 60px;
+    background-color: var(--background-feature);
+    border-radius: 10px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, .3);
+    cursor: pointer;
+    transition: transform .2s ease, box-shadow .2s ease;
+}
+
+.charm-box img.charm-img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.charm-tier {
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    color: #ffcc24;
+    font-weight: 700;
+    font-size: 8px;
+    padding: 2px;
+    z-index: 3;
+    pointer-events: none;
+    text-shadow: 1px 1px 2px #000;
+}
+
+.charm-stars {
+    position: absolute;
+    bottom: 4px;
+    left: 2px;
+    display: flex;
+    flex-direction: column;
+    font-size: 8px;
+    pointer-events: none;
+    z-index: 2;
+    line-height: 1;
+    gap: 3px;
+}
+
+.star {
+    text-shadow: 1px 1px 2px #000;
+}
+
+.small-boxes-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1px;
+    margin-top: 5px;
+}
+
+.charm-perk-icon {
+    width: 18px;
+    height: 18px;
+    object-fit: contain;
+}
+
+
+/* --- 5. Komponen: Area Upgrade Charm Tengah --- */
+.box-middle {
+    /* flex-grow memberi ruang fleksibel di tengah untuk stabilitas layout */
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 220px;
+    position: relative;
+    top: 20px;
+
+    /* Sembunyikan secara default dengan transisi */
+    opacity: 0;
+    visibility: hidden;
+    transform: scale(0.9);
+    transition: opacity 0.3s ease, visibility 0.3s ease, transform 0.3s ease;
+}
+
+.box-middle.visible {
+    opacity: 1;
+    visibility: visible;
+    transform: scale(1);
+}
+
+/* Glow effect untuk charm yang dipilih */
+.charm-item-container.selected .charm-box {
+    animation: accent-glow-animation 1.5s infinite ease-in-out;
+}
+
+#charm-upgrade-area {
+    position: relative;
+    width: 180px;
+    height: 165px;
+    filter: drop-shadow(0 0 12px rgba(122, 184, 219, 0.4));
+}
+
+.charm-path-ring {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    border: 3px solid rgba(255, 255, 255, 0.4);
+    transform: translate(-50%, -50%);
+    filter: blur(1.5px);
+}
+
+.charm-marker {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    border-radius: 2px;
+    background-color: rgba(255, 255, 255, 0.9);
+    box-shadow: 0 0 5px white;
+    transform: rotate(45deg);
+    filter: blur(0.5px);
+}
+
+.marker-top-right { top: 38px; right: 28px; }
+.marker-top-left { top: 38px; left: 28px; }
+.marker-bottom { bottom: -2px; left: 50%; margin-left: -5px; }
+
+.charm-slot {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #4591b9;
+    border: 1px solid #4B5563;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.charm-slot.active-slot.slot-top {
+    animation: accent-glow-animation 1.5s infinite ease-in-out;
+    border-color: var(--accent-primary); /* Menambahkan border agar serasi */
+}
+
+.charm-slot.active-slot.slot-bottom-left {
+    animation: accent-glow-animation 1.5s infinite ease-in-out;
+    border-color: var(--accent-primary);
+}
+
+.charm-slot.active-slot.slot-bottom-right {
+    animation: accent-glow-animation 1.5s infinite ease-in-out;
+    border-color: var(--accent-primary);
+}
+
+@keyframes accent-glow-animation {
+    0%, 100% { box-shadow: 0 0 4px 2px var(--glow-color); }
+    50% { box-shadow: 0 0 12px 5px var(--glow-color); }
+}
+
+.charm-slot .charm-perk-icon {
+    width: 32px;
+    height: 32px;
+    object-fit: contain;
+}
+
+.slot-top { top: -20px; left: 50%; transform: translateX(-50%);}
+.slot-bottom-left { bottom: 5px; left: 5px; }
+.slot-bottom-right { bottom: 5px; right: 5px; }
+
+
+/* --- 6. Komponen: Panel Material --- */
+.card-materials {
+    position: relative;
+    background-color: var(--background-dark);
+    border-radius: 12px;
+    padding: 1.5rem;
+    margin: 2rem auto 0;
+    border: 1px solid var(--background-feature);
+    text-align: center;
+}
+
+.materials {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    margin: 1.5rem 0;
+    flex-wrap: wrap;
+}
+
+.material-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+    width: 65px;
+}
+
+.material-box img,
+.material-box .placeholder-img {
+    width: 100%;
+    height: 65px;
+    border-radius: 8px;
+    object-fit: cover;
+    background-color: var(--background-card);
+    border: 1px solid #4B5563;
+    transition: transform .3s ease;
+}
+
+.material-box:hover img,
+.material-box:hover .placeholder-img {
+    transform: scale(1.05);
+}
+
+.material-amount {
+    margin-top: 6px;
+    font-size: 10px;
+    font-weight: 600;
+    color: var(--text-secondary);
+}
+
+#resetMaterialsBtn {
+    position: absolute;
+    top: 1.5rem;
+    right: 1.5rem;
+    margin: 0;
+    padding: 6px 10px;
+    font-size: 1.2rem;
+}
+
+
+/* --- 7. Komponen: Modal & Alert --- */
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+    animation: fadeIn 0.3s;
+}
+
+.modal-content {
+    background: var(--background-card);
+    color: var(--text-primary);
+    padding: 2rem;
+    border-radius: 12px;
+    border: 1px solid var(--background-feature);
+    box-shadow: 0 0 25px rgba(0, 0, 0, .5);
+    animation: scaleIn .3s ease-out;
+    text-align: center;
+    width: 90%;
+    max-width: 380px;
+}
+
+.modal-content h3 {
+    margin-bottom: 1.5rem;
+}
+
+.modal-content p {
+    margin-bottom: 1.5rem;
+}
+
+.modal-buttons {
+    display: flex;
+    gap: 1rem;
+    margin-top: 1.5rem;
+}
+
+.modal-buttons .btn {
+    flex: 1;
+    margin-top: 0;
+}
+
+
+/* --- 8. Komponen: Formulir --- */
+.level-input-group {
+    margin-bottom: 1rem;
+}
+
+.level-input-group label {
+    display: block;
+    color: var(--text-secondary);
+    margin-bottom: 5px;
+    text-align: left;
+}
+
+.level-input-group input,
+#materialInput {
+    width: 100%;
+    padding: 10px;
+    border-radius: 6px;
+    border: 1px solid var(--background-feature);
+    background-color: var(--background-dark);
+    color: var(--text-primary);
+    font-size: 1rem;
+}
+
+.level-input-group input:focus,
+#materialInput:focus {
+    outline: 0;
+    border-color: var(--accent-primary);
+    box-shadow: 0 0 0 3px var(--glow-color);
+}
+
+
+/* --- 9. Komponen: Ringkasan Material Bekas --- */
+.used-materials-summary-card {
+    max-width: 400px;
+    margin: 20px auto;
+    border-radius: 12px;
+    background-color: var(--background-feature);
+    padding: 1rem 1.5rem;
+}
+
+.used-materials-summary-card h4 {
+    margin: 0 0 12px;
+    text-align: center;
+    font-size: 1.2rem;
+    background: var(--accent-gradient);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+.materials-list {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.material-row {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 12px;
+    border-radius: 8px;
+    background-color: var(--background-dark);
+    font-size: .9rem;
+}
+
+.material-name {
+    color: var(--text-secondary);
+}
+
+.material-total {
+    font-weight: 700;
+    color: var(--text-primary);
+}
+
+
+/* --- 10. Kelas Utilitas & Animasi --- */
+.hidden {
+    display: none !important; /* !important diperlukan untuk menimpa gaya inline/spesifik */
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+@keyframes scaleIn {
+    from { transform: scale(.8); opacity: 0; }
+    to { transform: scale(1); opacity: 1; }
+}
+
+
+/* --- 11. Desain Responsif (Media Queries) --- */
+
+/* Tablet (Layar <= 768px) */
+@media (max-width: 768px) {
+    .container {
+        padding: 0 1rem 1rem 1rem;
+    }
+    .card {
+        padding: 1.5rem;
+    }
+    .box-middle {
+        top: 30px;
+    }
+    .charm-slot .charm-perk-icon {
+        width: 32px;
+        height: 32px;
+    }
+}
+
+/* Mobile (Layar <= 480px) */
+@media (max-width: 480px) {
+    body {
+        font-size: 14px;
+    }
+    .charm-layout {
+        max-width: 340px;
+    }
+    .box-middle {
+        top: 0px;
+    }
+    .charm-box {
+        width: 55px;
+        height: 55px;
+    }
+    .charm-perk-icon {
+        width: 13px;
+        height: 13px;
+    }
+    .charm-tier, .charm-stars {
+        font-size: 7px;
+    }
+    #charm-upgrade-area {
+        transform: scale(0.9);
+    }
+
+        /* Offset untuk gear kiri dan kanan */
+    .box-left .charm-item-container:nth-child(1) {
+        transform: translateX(15px);
+    }
+    .box-left .charm-item-container:nth-child(1):hover {
+        transform: translateX(15px) scale(1.1);
+    }
+
+    .box-left .charm-item-container:nth-child(2) {
+        transform: translateX(0px);
+    }
+    .box-left .charm-item-container:nth-child(2):hover {
+        transform: translateX(0px) scale(1.1);
+    }
+
+    .box-left .charm-item-container:nth-child(3) {
+        transform: translateX(15px);
+    }
+    .box-left .charm-item-container:nth-child(3):hover {
+        transform: translateX(15px) scale(1.1);
+    }
+
+    .box-right .charm-item-container:nth-child(1) {
+        transform: translateX(-15px);
+    }
+    .box-right .charm-item-container:nth-child(1):hover {
+        transform: translateX(-15px) scale(1.1);
+    }
+
+    .box-right .charm-item-container:nth-child(2) {
+        transform: translateX(0px);
+    }
+    .box-right .charm-item-container:nth-child(2):hover {
+        transform: translateX(0px) scale(1.1);
+    }
+
+    .box-right .charm-item-container:nth-child(3) {
+        transform: translateX(-15px);
+    }
+    .box-right .charm-item-container:nth-child(3):hover {
+        transform: translateX(-15px) scale(1.1);
+    }
+}
+
+/* Mobile Kecil (Layar <= 360px) */
+@media (max-width: 360px) {
+    .charm-layout {
+        max-width: 300px;
+    }
+    .charm-box {
+        width: 50px;
+        height: 50px;
+    }
+    .charm-perk-icon {
+        width: 12px; /* Perbaikan dari typo 120px */
+        height: 12px;
+    }
+    #charm-upgrade-area {
+        transform: scale(0.8);
+    }
+}
+
+/* Mobile Sangat Kecil (Layar <= 320px) - Tata letak diatur ulang untuk stabilitas */
+@media (max-width: 320px) {
+    .container {
+        padding: 0 0.5rem 1rem 0.5rem;
+    }
+    .card {
+        padding: 1rem 0.8rem;
+    }
+
+    /* KUNCI #1: GANTI STRATEGI LAYOUT AGAR STABIL */
+    .charm-layout {
+        display: flex;
+        justify-content: center; /* PUSATKAN SEMUA ITEM */
+        align-items: flex-start;
+        width: 275px;
+        position: relative;
+    }
+
+    /* Offset untuk gear kiri dan kanan */
+    .box-left .charm-item-container:nth-child(1) {
+        transform: translateX(15px);
+    }
+    .box-left .charm-item-container:nth-child(1):hover {
+        transform: translateX(15px) scale(1.1);
+    }
+
+    .box-left .charm-item-container:nth-child(2) {
+        transform: translateX(0px);
+    }
+    .box-left .charm-item-container:nth-child(2):hover {
+        transform: translateX(0px) scale(1.1);
+    }
+
+    .box-left .charm-item-container:nth-child(3) {
+        transform: translateX(15px);
+    }
+    .box-left .charm-item-container:nth-child(3):hover {
+        transform: translateX(15px) scale(1.1);
+    }
+
+    .box-right .charm-item-container:nth-child(1) {
+        transform: translateX(-15px);
+    }
+    .box-right .charm-item-container:nth-child(1):hover {
+        transform: translateX(-15px) scale(1.1);
+    }
+
+    .box-right .charm-item-container:nth-child(2) {
+        transform: translateX(0px);
+    }
+    .box-right .charm-item-container:nth-child(2):hover {
+        transform: translateX(0px) scale(1.1);
+    }
+
+    .box-right .charm-item-container:nth-child(3) {
+        transform: translateX(-15px);
+    }
+    .box-right .charm-item-container:nth-child(3):hover {
+        transform: translateX(-15px) scale(1.1);
+    }
+
+    
+    /* Ukuran elemen lain disesuaikan */
+    .charm-box {
+        width: 48px;
+        height: 48px;
+    }
+    .charm-perk-icon {
+        width: 14px;
+        height: 14px;
+    }
+    
+    .box-middle {
+        top: 0px !important;
+    }
+    #charm-upgrade-area {
+        transform: scale(0.75);
+    }
+    .charm-slot .charm-perk-icon {
+        width: 26px;
+        height: 26px;
+    }
+
+    .card h2 {
+        font-size: 1.5rem;
+    }
+}
+
+/* --- 12. GAYA UNTUK MODAL SET LEVEL --- */
+#levelModal .modal-content {
+    display: flex;
+    flex-direction: column;
+    max-height: 85vh; /* Batasi tinggi modal agar tidak melebihi 85% tinggi layar */
+    width: 90%;
+    max-width: 550px; /* Sedikit lebih lebar untuk mengakomodasi 3 kolom */
+}
+
+/* Buat form di dalamnya bisa di-scroll secara independen */
+#levelForm {
+    overflow-y: auto;  /* AKTIFKAN SCROLL di sini */
+    padding: 1rem;     /* Beri sedikit padding untuk scrollbar dan kerapian */
+    margin: 1rem 0;
+    border-top: 1px solid var(--background-feature);
+    border-bottom: 1px solid var(--background-feature);
+}
+
+#levelForm h3 {
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+    color: var(--accent-primary);
+    text-align: left;
+}
+
+#levelForm h3:first-child {
+    margin-top: 0;
+}
+
+.form-gear-group {
+    padding: 1rem;
+    border-radius: 8px;
+    background-color: var(--background-dark);
+    margin-bottom: 1rem;
+}
+
+.form-gear-label {
+    margin-bottom: 1rem;
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: var(--text-primary);
+}
+
+.form-path-inputs {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Selalu 3 kolom */
+    gap: 1rem;
+}
+
+.level-input-group label {
+    font-size: 0.8rem;
+    text-align: center;
+}
+
+.level-input-group input {
+    text-align: center;
+}
+
+.slot-level-text {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.65);
+    color: #fff;
+    padding: 2px 10px;
+    border-radius: 12px;
+    font-size: 0.8rem;
+    font-weight: 600;
+    z-index: 5;
+    pointer-events: none; /* Agar tidak bisa diklik */
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+/* Posisi untuk Teks Level Top */
+#slot-level-1 {
+    top: 48px; /* Tepat di bawah slot atas */
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+/* Posisi untuk Teks Level Kiri Bawah */
+#slot-level-2 {
+    bottom: -22px; /* Tepat di bawah slot kiri bawah */
+    left: 8px;
+}
+
+/* Posisi untuk Teks Level Kanan Bawah */
+#slot-level-3 {
+    bottom: -22px; /* Tepat di bawah slot kanan bawah */
+    right: 8px;
+}
+
+.max-materials span {
+    font-size: 1.2rem;
+    background: var(--accent-gradient);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+}
+
+/* --- 13. GAYA UNTUK RINGKASAN MATERIAL BEKAS --- */
+.used-materials-summary-card {
+    background-color: var(--background-feature);
+    border-radius: 12px;
+    padding: 1rem 1.5rem;
+    max-width: 400px;
+    margin: 20px auto 0; /* Beri jarak atas dari tombol upgrade */
+}
+
+.used-materials-summary-card h4 {
+    margin: 0 0 12px;
+    text-align: center;
+    font-size: 1.2rem;
+    background: var(--accent-gradient);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+.materials-list {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.material-row {
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--background-dark);
+    padding: 8px 12px;
+    border-radius: 8px;
+    font-size: .9rem;
+}
+
+.material-name {
+    color: var(--text-secondary);
+    text-transform: capitalize;
+}
+
+.material-total {
+    font-weight: 700;
+    color: var(--text-primary);
+}
+
+@media (max-width: 480px) {
+    /* Atur ulang container utama agar tidak terlalu mepet di mobile */
+    .card {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+    /* KUNCI UTAMA: Atur ulang layout material */
+    .materials {
+        gap: 0.75rem; /* Kurangi jarak antar box material */
+    }
+
+    .material-box {
+        width: 60px; /* Perkecil ukuran box material */
+        flex-shrink: 0; /* Cegah box agar tidak menyusut aneh */
+    }
+
+    .material-box img {
+        height: 60px; /* Sesuaikan tinggi gambar */
+    }
+
+    .material-amount {
+        font-size: 9px; /* Perkecil sedikit font di bawahnya */
+    }
+}
+
+@media (max-width: 360px) {
+    /* Penyesuaian untuk layar yang lebih kecil lagi */
+    .materials {
+        gap: 0.5rem;
+    }
+
+    .material-box {
+        width: 55px;
+    }
+    
+    .material-box img {
+        height: 55px;
+    }
+}
+
+.language-switcher {
+    text-align: right;
+    margin-bottom: 1rem;
+    position: relative;
+}
+
+.language-switcher select {
+    background-color: var(--background-feature);
+    color: var(--text-primary);
+    border: 1px solid var(--background-card);
+    padding: 5px 10px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+}
+
+.language-switcher select:focus {
+    outline: none;
+    box-shadow: 0 0 0 2px var(--accent-primary);
+}
+
+.language-switcher i {
+    margin-right: 8px;
+    color: var(--text-secondary);
+}
