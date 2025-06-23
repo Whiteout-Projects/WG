@@ -19,13 +19,13 @@
     </header>
     <div class="container">
       <div class="card card-wide">
-         <div class="language-switcher">
-            <i class="fas fa-globe"></i>
-            <select id="lang-selector">
-                <option value="en">English</option>
-                <option value="id">Bahasa Indonesia</option>
-                <option value="jp">日本語</option>
-            </select>
+        <div class="language-switcher">
+          <i class="fas fa-globe"></i>
+          <select id="lang-selector">
+            <option value="en">English</option>
+            <option value="id">Bahasa Indonesia</option>
+            <option value="jp">日本語</option>
+          </select>
         </div>
         <a href="index.html" class="back-link">
           <i class="fas fa-arrow-left"></i>
@@ -36,7 +36,6 @@
           <button class="btn" id="open-level-modal" data-i18n-title="charms_set_start_levels">⚙️</button>
           <button class="btn" id="reset-levels" data-i18n-title="gears_reset_levels">🔄</button>
         </div>
-        
         <div class="charm-layout">
           <div class="box-left">
             <div class="charm-item-container" data-charm-id="1">
@@ -44,7 +43,9 @@
                 <div class="charm-tier">T3</div>
                 <img src="assets/images/gears/Frost_Coronet.png" alt="Gear 1" class="charm-img">
                 <div class="charm-stars">
-                  <span class="star">⭐</span><span class="star">⭐</span><span class="star">⭐</span>
+                  <span class="star">⭐</span>
+                  <span class="star">⭐</span>
+                  <span class="star">⭐</span>
                 </div>
               </div>
               <div class="small-boxes-container">
@@ -58,7 +59,9 @@
                 <div class="charm-tier">T3</div>
                 <img src="assets/images/gears/Dynastic_Ward.png" alt="Gear 2" class="charm-img">
                 <div class="charm-stars">
-                  <span class="star">⭐</span><span class="star">⭐</span><span class="star">⭐</span>
+                  <span class="star">⭐</span>
+                  <span class="star">⭐</span>
+                  <span class="star">⭐</span>
                 </div>
               </div>
               <div class="small-boxes-container">
@@ -72,7 +75,9 @@
                 <div class="charm-tier">T3</div>
                 <img src="assets/images/gears/Golden_Zeal.png" alt="Gear 3" class="charm-img">
                 <div class="charm-stars">
-                  <span class="star">⭐</span><span class="star">⭐</span><span class="star">⭐</span>
+                  <span class="star">⭐</span>
+                  <span class="star">⭐</span>
+                  <span class="star">⭐</span>
                 </div>
               </div>
               <div class="small-boxes-container">
@@ -82,7 +87,6 @@
               </div>
             </div>
           </div>
-
           <div class="box-middle">
             <div id="charm-upgrade-area">
               <div class="charm-path-ring"></div>
@@ -97,14 +101,15 @@
               <span class="slot-level-text hidden" id="slot-level-3">Lv. 0</span>
             </div>
           </div>
-
           <div class="box-right">
             <div class="charm-item-container" data-charm-id="4">
               <div class="charm-box">
                 <div class="charm-tier">T3</div>
                 <img src="assets/images/gears/Solaris_Incandescence.png" alt="Gear 4" class="charm-img">
                 <div class="charm-stars">
-                  <span class="star">⭐</span><span class="star">⭐</span><span class="star">⭐</span>
+                  <span class="star">⭐</span>
+                  <span class="star">⭐</span>
+                  <span class="star">⭐</span>
                 </div>
               </div>
               <div class="small-boxes-container">
@@ -118,7 +123,9 @@
                 <div class="charm-tier">T3</div>
                 <img src="assets/images/gears/Conquerors_Cadence.png" alt="Gear 5" class="charm-img">
                 <div class="charm-stars">
-                  <span class="star">⭐</span><span class="star">⭐</span><span class="star">⭐</span>
+                  <span class="star">⭐</span>
+                  <span class="star">⭐</span>
+                  <span class="star">⭐</span>
                 </div>
               </div>
               <div class="small-boxes-container">
@@ -132,7 +139,9 @@
                 <div class="charm-tier">T3</div>
                 <img src="assets/images/gears/Finite_Infinitus.png" alt="Gear 6" class="charm-img">
                 <div class="charm-stars">
-                  <span class="star">⭐</span><span class="star">⭐</span><span class="star">⭐</span>
+                  <span class="star">⭐</span>
+                  <span class="star">⭐</span>
+                  <span class="star">⭐</span>
                 </div>
               </div>
               <div class="small-boxes-container">
@@ -143,7 +152,6 @@
             </div>
           </div>
         </div>
-        
         <div class="card-materials">
           <h2 data-i18n="gears_required_materials">Required Materials</h2>
           <button id="resetMaterialsBtn" class="btn" data-i18n-title="gears_reset_materials">🧹</button>
@@ -153,7 +161,6 @@
         </div>
       </div>
     </div>
-    
     <div id="materialModal" class="modal-overlay hidden">
       <div class="modal-content">
         <h3 id="modal-title">Add Material</h3>
@@ -164,28 +171,27 @@
         </div>
       </div>
     </div>
-    
     <div id="levelModal" class="modal-overlay hidden">
       <div class="modal-content">
-        <h3 data-i18n="charms_set_start_levels">Set Start Levels (0-16)</h3>
+        <h3 data-i18n="charms_set_start_levels">Set Start Levels</h3>
         <form id="levelForm"></form>
         <div class="modal-buttons">
-            <button type="submit" form="levelForm" class="btn" data-i18n="gears_save_button">Save</button>
-            <button type="button" id="cancelModal" class="btn btn-secondary" data-i18n="gears_cancel_button">Cancel</button>
+          <button type="submit" form="levelForm" class="btn" data-i18n="gears_save_button">Save</button>
+          <button type="button" id="cancelModal" class="btn btn-secondary" data-i18n="gears_cancel_button">Cancel</button>
         </div>
       </div>
     </div>
-    
     <div id="custom-alert" class="modal-overlay hidden">
       <div class="modal-content">
         <p id="custom-alert-message"></p>
         <button id="alert-ok-btn" class="btn">OK</button>
       </div>
     </div>
-    
+    <footer>
+      <p>Copyright &copy; Leo-Karla 2025</p>
+    </footer>
     <audio id="upgrade-sound" src="assets/sounds/upgrade_gear.mp3" preload="auto"></audio>
     <audio id="click-sound" src="assets/sounds/click.mp3" preload="auto"></audio>
-    
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <script src="assets/js/i18n.js"></script>
     <script src="assets/js/charms.js"></script>
