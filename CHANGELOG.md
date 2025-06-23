@@ -1,3 +1,42 @@
+# Changelog: Interactive Modals & UX Overhaul v1.4
+
+**Release Date:** June 23, 2025
+
+Version 1.4 is a significant user experience (UX) and quality-of-life update, focusing on a complete overhaul of the modal system and introducing highly interactive components for setting levels in both simulators.
+
+---
+
+### ✨ Major Features & Improvements
+
+- **Interactive Level Selector**
+
+  - Replaced standard number inputs in the "Set Start Levels" modal with a fully custom, interactive dropdown component for both **Gear and Charm simulators**.
+  - Dropdown options now display the corresponding **Gear or Charm icon**, making level selection more intuitive and visual.
+  - The new dropdowns are "smart" and will **automatically open** if there is not enough space below, preventing the list from being cut off.
+
+- **UI/UX Enhancements**
+
+  - Scrollbars within all modals are now **custom-styled** to match the application's dark theme, creating a more polished and unified look.
+  - Alert/notification modals have an **improved layout** with better spacing for visual consistency.
+
+- **Internationalization (i18n) Expansion**
+  - Added comprehensive translations for all 42 gear rarity levels.
+  - Added new keys and translations for gear slot names (`Cap`, `Coat`, etc.) across all supported languages.
+
+---
+
+### 🐞 Critical Bug Fixes & Optimizations
+
+- **[FATAL] Fixed Background Scrolling Bug**
+
+  - Resolved a critical UX bug where the main page body could still be scrolled when a modal was active. The background is now correctly "locked" by applying an `overflow: hidden` class to the `<body>` element.
+
+- **Complete Modal System Overhaul**
+  - Fixed a major layout issue where modal content (headers or buttons) could be pushed off-screen. Modals are now always perfectly centered, with **internal content scrolling** independently.
+  - All modal open/close events were refactored to use a centralized JavaScript function (`showModal`/`hideModal`), ensuring consistent behavior and preventing bugs.
+
+---
+
 # Changelog: Charm Simulator, Visual Overhaul & Multilingual Update v1.3
 
 **Release Date:** June 21, 2025
