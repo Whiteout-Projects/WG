@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home - Leo.dev</title>
+    <link rel="icon" href="assets/images/Logo.png" type="image/png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+    <link rel="stylesheet" href="assets/css/home.css" />
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <img src="assets/images/Logo.png" alt="Logo" />
+      </div>
+      <div class="language-switcher">
+        <i class="fas fa-globe"></i>
+        <select id="lang-selector">
+          <option value="en">English</option>
+          <option value="id">Bahasa Indonesia</option>
+          <option value="jp">日本語</option>
+        </select>
+      </div>
+    </header>
+    <div class="container">
+      <section class="hero">
+        <h1 data-i18n="home_title">Welcome to My Personal Project</h1>
+        <p class="subtitle" data-i18n="hero_subtitle">Hello! I'm Leo, a solo developer. This is my Simulator WOS.</p>
+      </section>
+      <section class="description-card">
+        <h2 data-i18n="gears_charms_title">Gear & Charm Simulators</h2>
+        <p data-i18n="gears_charms_desc">Plan your Chief Gear and Charm upgrades with precision. These tools help you calculate the total material requirements for every level, ensuring you never run short on resources midway.</p>
+        <div class="features-grid">
+          <div class="feature-item">
+            <i class="fas fa-sync-alt"></i>
+            <h3 data-i18n="feature_planning_title">Detailed Planning</h3>
+            <p data-i18n="feature_planning_desc">Simulate upgrades from any level for all 6 Gears and 18 Charm Paths. Set your starting levels to match your in-game progress.</p>
+          </div>
+          <div class="feature-item">
+            <i class="fa-solid fa-gear"></i>
+            <h3 data-i18n="feature_materials_title">Material Management</h3>
+            <p data-i18n="feature_materials_desc">Input the materials you own and automatically track your total spending. Reset your data anytime to start a new calculation.</p>
+          </div>
+          <div class="feature-item">
+            <i class="fas fa-shield-alt"></i>
+            <h3 data-i18n="feature_simulation_title">Accurate Simulation</h3>
+            <p data-i18n="feature_simulation_desc">Get a clear picture of the total cost to maximize your equipment. This tool is built purely for planning and strategic purposes.</p>
+          </div>
+        </div>
+        <a href="gears-simulator.html" class="btn-primary mt-1" data-i18n="try_gears_btn"> Try Gears <i class="fas fa-arrow-right"></i>
+        </a>
+        <a href="charms-simulator.html" class="btn-primary mt-1" data-i18n="try_charms_btn"> Try Charms <i class="fas fa-arrow-right"></i>
+        </a>
+      </section>
+      <section class="profile-card">
+        <div class="profile-main">
+          <div class="profile-avatar">
+            <video src="assets/video/profile.mp4" autoplay loop muted playsinline alt="Leo WOS Profile Video"></video>
+          </div>
+          <div class="profile-info">
+            <h3 class="profile-name">
+              <span>[KOH]</span>Lèo
+            </h3>
+            <p class="profile-id">
+              <span data-i18n="profile_discord">Discord:</span>
+              <span id="username-text">4db.</span>
+              <span class="copy-wrapper">
+                <i class="far fa-copy" id="copy-username-btn" data-i18n-title="profile_copy_title" title="Salin Username"></i>
+                <span id="copy-feedback" class="copy-feedback"></span>
+              </span>
+            </p>
+            <div class="profile-meta">
+              <span>
+                <span data-i18n="profile_alliance">Alliance:</span> KOH </span>
+              <span>
+                <span data-i18n="profile_state">State:</span> #740 </span>
+            </div>
+          </div>
+        </div>
+        <div class="profile-links">
+          <a href="https://github.com/Whiteout-Projects/WG" target="_blank" class="link-btn github">
+            <i class="fab fa-github"></i>
+            <span data-i18n="profile_github">GitHub Project</span>
+          </a>
+          <a href="https://ko-fi.com/Eliasleo" target="_blank" class="link-btn kofi">
+            <i class="fas fa-coffee"></i>
+            <span data-i18n="profile_kofi">Support with Ko-fi</span>
+          </a>
+        </div>
+      </section>
+    </div>
+    <footer>
+      <p>Copyright &copy; Karla-Leo 2025</p>
+    </footer>
+    <script src="assets/js/i18n.js"></script>
+    <script src="assets/js/home.js"></script>
+  </body>
+</html>

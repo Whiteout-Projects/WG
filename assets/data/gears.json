@@ -1,0 +1,3638 @@
+{
+  "1": {
+    "levels": {
+      "0": {
+        "gear_name": "Crude Cap",
+        "gear_tier": "",
+        "category": "left",
+        "stars": 0,
+        "icon": "",
+        "preview": "",
+        "materials": {
+          "Hardened_Alloy": 1500,
+          "Polishing_Solution": 15,
+          "Design_Plans": 0,
+          "Lunar_Amber": 0
+        }
+      },
+      "1": {
+        "gear_name": "Crude Cap",
+        "gear_tier": "",
+        "category": "left",
+        "stars": 0,
+        "icon": "assets/images/gears/Crude_Cap.png",
+        "preview": "assets/images/gears/Crude_Cap_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 1500,
+          "Polishing_Solution": 15,
+          "Design_Plans": 0,
+          "Lunar_Amber": 0
+        }
+      },
+      "2": {
+        "gear_name": "Crude Cap",
+        "gear_tier": "",
+        "category": "left",
+        "stars": 1,
+        "icon": "assets/images/gears/Crude_Cap.png",
+        "preview": "assets/images/gears/Crude_Cap_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 3800,
+          "Polishing_Solution": 40,
+          "Design_Plans": 0,
+          "Lunar_Amber": 0
+        }
+      },
+      "3": {
+        "gear_name": "Winter Hat",
+        "gear_tier": "",
+        "category": "left",
+        "stars": 0,
+        "icon": "assets/images/gears/Winter_Hat.png",
+        "preview": "assets/images/gears/Winter_Hat_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 7000,
+          "Polishing_Solution": 70,
+          "Design_Plans": 0,
+          "Lunar_Amber": 0
+        }
+      },
+      "4": {
+        "gear_name": "Winter Hat",
+        "gear_tier": "",
+        "category": "left",
+        "stars": 1,
+        "icon": "assets/images/gears/Winter_Hat.png",
+        "preview": "assets/images/gears/Winter_Hat_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 9700,
+          "Polishing_Solution": 95,
+          "Design_Plans": 0,
+          "Lunar_Amber": 0
+        }
+      },
+      "5": {
+        "gear_name": "Winter Hat",
+        "gear_tier": "",
+        "category": "left",
+        "stars": 2,
+        "icon": "assets/images/gears/Winter_Hat.png",
+        "preview": "assets/images/gears/Winter_Hat_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 0,
+          "Polishing_Solution": 0,
+          "Design_Plans": 45,
+          "Lunar_Amber": 0
+        }
+      },
+      "6": {
+        "gear_name": "Winter Hat",
+        "gear_tier": "",
+        "category": "left",
+        "stars": 3,
+        "icon": "assets/images/gears/Winter_Hat.png",
+        "preview": "assets/images/gears/Winter_Hat_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 0,
+          "Polishing_Solution": 0,
+          "Design_Plans": 50,
+          "Lunar_Amber": 0
+        }
+      },
+      "7": {
+        "gear_name": "Gales Helm",
+        "gear_tier": "",
+        "category": "left",
+        "stars": 0,
+        "icon": "assets/images/gears/Gales_Helm.png",
+        "preview": "assets/images/gears/Gales_Helm_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 0,
+          "Polishing_Solution": 0,
+          "Design_Plans": 60,
+          "Lunar_Amber": 0
+        }
+      },
+      "8": {
+        "gear_name": "Gales Helm",
+        "gear_tier": "",
+        "category": "left",
+        "stars": 1,
+        "icon": "assets/images/gears/Gales_Helm.png",
+        "preview": "assets/images/gears/Gales_Helm_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 0,
+          "Polishing_Solution": 0,
+          "Design_Plans": 70,
+          "Lunar_Amber": 0
+        }
+      },
+      "9": {
+        "gear_name": "Gales Helm",
+        "gear_tier": "",
+        "category": "left",
+        "stars": 2,
+        "icon": "assets/images/gears/Gales_Helm.png",
+        "preview": "assets/images/gears/Gales_Helm_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 6500,
+          "Polishing_Solution": 65,
+          "Design_Plans": 40,
+          "Lunar_Amber": 0
+        }
+      },
+      "10": {
+        "gear_name": "Gales Helm",
+        "gear_tier": "",
+        "category": "left",
+        "stars": 3,
+        "icon": "assets/images/gears/Gales_Helm.png",
+        "preview": "assets/images/gears/Gales_Helm_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 8000,
+          "Polishing_Solution": 80,
+          "Design_Plans": 50,
+          "Lunar_Amber": 0
+        }
+      },
+      "11": {
+        "gear_name": "Gales Helm",
+        "gear_tier": "T1",
+        "category": "left",
+        "stars": 0,
+        "icon": "assets/images/gears/Gales_Helm.png",
+        "preview": "assets/images/gears/Gales_Helm_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 10000,
+          "Polishing_Solution": 95,
+          "Design_Plans": 60,
+          "Lunar_Amber": 0
+        }
+      },
+      "12": {
+        "gear_name": "Gales Helm",
+        "gear_tier": "T1",
+        "category": "left",
+        "stars": 1,
+        "icon": "assets/images/gears/Gales_Helm.png",
+        "preview": "assets/images/gears/Gales_Helm_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 11000,
+          "Polishing_Solution": 110,
+          "Design_Plans": 70,
+          "Lunar_Amber": 0
+        }
+      },
+      "13": {
+        "gear_name": "Gales Helm",
+        "gear_tier": "T1",
+        "category": "left",
+        "stars": 2,
+        "icon": "assets/images/gears/Gales_Helm.png",
+        "preview": "assets/images/gears/Gales_Helm_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 13000,
+          "Polishing_Solution": 130,
+          "Design_Plans": 85,
+          "Lunar_Amber": 0
+        }
+      },
+      "14": {
+        "gear_name": "Gales Helm",
+        "gear_tier": "T1",
+        "category": "left",
+        "stars": 3,
+        "icon": "assets/images/gears/Gales_Helm.png",
+        "preview": "assets/images/gears/Gales_Helm_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 15000,
+          "Polishing_Solution": 160,
+          "Design_Plans": 100,
+          "Lunar_Amber": 0
+        }
+      },
+      "15": {
+        "gear_name": "Pioneers Helm",
+        "gear_tier": "",
+        "category": "left",
+        "stars": 0,
+        "icon": "assets/images/gears/Pioneers_Helm.png",
+        "preview": "assets/images/gears/Pioneers_Helm_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 22000,
+          "Polishing_Solution": 220,
+          "Design_Plans": 40,
+          "Lunar_Amber": 0
+        }
+      },
+      "16": {
+        "gear_name": "Pioneers Helm",
+        "gear_tier": "",
+        "category": "left",
+        "stars": 1,
+        "icon": "assets/images/gears/Pioneers_Helm.png",
+        "preview": "assets/images/gears/Pioneers_Helm_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 23000,
+          "Polishing_Solution": 230,
+          "Design_Plans": 40,
+          "Lunar_Amber": 0
+        }
+      },
+      "17": {
+        "gear_name": "Pioneers Helm",
+        "gear_tier": "",
+        "category": "left",
+        "stars": 2,
+        "icon": "assets/images/gears/Pioneers_Helm.png",
+        "preview": "assets/images/gears/Pioneers_Helm_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 25000,
+          "Polishing_Solution": 250,
+          "Design_Plans": 45,
+          "Lunar_Amber": 0
+        }
+      },
+      "18": {
+        "gear_name": "Pioneers Helm",
+        "gear_tier": "",
+        "category": "left",
+        "stars": 3,
+        "icon": "assets/images/gears/Pioneers_Helm.png",
+        "preview": "assets/images/gears/Pioneers_Helm_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 26000,
+          "Polishing_Solution": 260,
+          "Design_Plans": 45,
+          "Lunar_Amber": 0
+        }
+      },
+      "19": {
+        "gear_name": "Pioneers Helm",
+        "gear_tier": "T1",
+        "category": "left",
+        "stars": 0,
+        "icon": "assets/images/gears/Pioneers_Helm.png",
+        "preview": "assets/images/gears/Pioneers_Helm_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 28000,
+          "Polishing_Solution": 280,
+          "Design_Plans": 45,
+          "Lunar_Amber": 0
+        }
+      },
+      "20": {
+        "gear_name": "Pioneers Helm",
+        "gear_tier": "T1",
+        "category": "left",
+        "stars": 1,
+        "icon": "assets/images/gears/Pioneers_Helm.png",
+        "preview": "assets/images/gears/Pioneers_Helm_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 28000,
+          "Polishing_Solution": 300,
+          "Design_Plans": 55,
+          "Lunar_Amber": 0
+        }
+      },
+      "21": {
+        "gear_name": "Pioneers Helm",
+        "gear_tier": "T1",
+        "category": "left",
+        "stars": 2,
+        "icon": "assets/images/gears/Pioneers_Helm.png",
+        "preview": "assets/images/gears/Pioneers_Helm_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 32000,
+          "Polishing_Solution": 320,
+          "Design_Plans": 55,
+          "Lunar_Amber": 0
+        }
+      },
+      "22": {
+        "gear_name": "Pioneers Helm",
+        "gear_tier": "T1",
+        "category": "left",
+        "stars": 3,
+        "icon": "assets/images/gears/Pioneers_Helm.png",
+        "preview": "assets/images/gears/Pioneers_Helm_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 35000,
+          "Polishing_Solution": 340,
+          "Design_Plans": 55,
+          "Lunar_Amber": 0
+        }
+      },    
+      "23": {
+        "gear_name": "Pioneers Helm",
+        "gear_tier": "T2",
+        "category": "left",
+        "stars": 0,
+        "icon": "assets/images/gears/Pioneers_Helm.png",
+        "preview": "assets/images/gears/Pioneers_Helm_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 38000,
+          "Polishing_Solution": 360,
+          "Design_Plans": 55,
+          "Lunar_Amber": 0
+        }
+      },    
+      "24": {
+        "gear_name": "Pioneers Helm",
+        "gear_tier": "T2",
+        "category": "left",
+        "stars": 1,
+        "icon": "assets/images/gears/Pioneers_Helm.png",
+        "preview": "assets/images/gears/Pioneers_Helm_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 43000,
+          "Polishing_Solution": 430,
+          "Design_Plans": 75,
+          "Lunar_Amber": 0
+        }
+      },    
+      "25": {
+        "gear_name": "Pioneers Helm",
+        "gear_tier": "T2",
+        "category": "left",
+        "stars": 2,
+        "icon": "assets/images/gears/Pioneers_Helm.png",
+        "preview": "assets/images/gears/Pioneers_Helm_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 45000,
+          "Polishing_Solution": 460,
+          "Design_Plans": 80,
+          "Lunar_Amber": 0
+        }
+      },    
+      "26": {
+        "gear_name": "Pioneers Helm",
+        "gear_tier": "T2",
+        "category": "left",
+        "stars": 3,
+        "icon": "assets/images/gears/Pioneers_Helm.png",
+        "preview": "assets/images/gears/Pioneers_Helm_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 48000,
+          "Polishing_Solution": 500,
+          "Design_Plans": 85,
+          "Lunar_Amber": 0
+        }
+      },    
+      "27": {
+        "gear_name": "Frost Coronet",
+        "gear_tier": "",
+        "category": "left",
+        "stars": 0,
+        "icon": "assets/images/gears/Frost_Coronet.png",
+        "preview": "assets/images/gears/Frost_Coronet_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 50000,
+          "Polishing_Solution": 530,
+          "Design_Plans": 85,
+          "Lunar_Amber": 10
+        }
+      },    
+      "28": {
+        "gear_name": "Frost Coronet",
+        "gear_tier": "",
+        "category": "left",
+        "stars": 1,
+        "icon": "assets/images/gears/Frost_Coronet.png",
+        "preview": "assets/images/gears/Frost_Coronet_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 52000,
+          "Polishing_Solution": 560,
+          "Design_Plans": 90,
+          "Lunar_Amber": 10
+        }
+      },    
+      "29": {
+        "gear_name": "Frost Coronet",
+        "gear_tier": "",
+        "category": "left",
+        "stars": 2,
+        "icon": "assets/images/gears/Frost_Coronet.png",
+        "preview": "assets/images/gears/Frost_Coronet_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 54000,
+          "Polishing_Solution": 590,
+          "Design_Plans": 95,
+          "Lunar_Amber": 10
+        }
+      },    
+      "30": {
+        "gear_name": "Frost Coronet",
+        "gear_tier": "",
+        "category": "left",
+        "stars": 3,
+        "icon": "assets/images/gears/Frost_Coronet.png",
+        "preview": "assets/images/gears/Frost_Coronet_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 56000,
+          "Polishing_Solution": 620,
+          "Design_Plans": 100,
+          "Lunar_Amber": 10
+        }
+      },    
+      "31": {
+        "gear_name": "Frost Coronet",
+        "gear_tier": "T1",
+        "category": "left",
+        "stars": 0,
+        "icon": "assets/images/gears/Frost_Coronet.png",
+        "preview": "assets/images/gears/Frost_Coronet_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 59000,
+          "Polishing_Solution": 670,
+          "Design_Plans": 110,
+          "Lunar_Amber": 15
+        }
+      },    
+      "32": {
+        "gear_name": "Frost Coronet",
+        "gear_tier": "T1",
+        "category": "left",
+        "stars": 1,
+        "icon": "assets/images/gears/Frost_Coronet.png",
+        "preview": "assets/images/gears/Frost_Coronet_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 61000,
+          "Polishing_Solution": 700,
+          "Design_Plans": 115,
+          "Lunar_Amber": 15
+        }
+      },    
+      "33": {
+        "gear_name": "Frost Coronet",
+        "gear_tier": "T1",
+        "category": "left",
+        "stars": 2,
+        "icon": "assets/images/gears/Frost_Coronet.png",
+        "preview": "assets/images/gears/Frost_Coronet_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 63000,
+          "Polishing_Solution": 730,
+          "Design_Plans": 120,
+          "Lunar_Amber": 15
+        }
+      },    
+      "34": {
+        "gear_name": "Frost Coronet",
+        "gear_tier": "T1",
+        "category": "left",
+        "stars": 3,
+        "icon": "assets/images/gears/Frost_Coronet.png",
+        "preview": "assets/images/gears/Frost_Coronet_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 65000,
+          "Polishing_Solution": 760,
+          "Design_Plans": 125,
+          "Lunar_Amber": 15
+        }
+      },    
+      "35": {
+        "gear_name": "Frost Coronet",
+        "gear_tier": "T2",
+        "category": "left",
+        "stars": 0,
+        "icon": "assets/images/gears/Frost_Coronet.png",
+        "preview": "assets/images/gears/Frost_Coronet_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 68000,
+          "Polishing_Solution": 810,
+          "Design_Plans": 135,
+          "Lunar_Amber": 20
+        }
+      },    
+      "36": {
+        "gear_name": "Frost Coronet",
+        "gear_tier": "T2",
+        "category": "left",
+        "stars": 1,
+        "icon": "assets/images/gears/Frost_Coronet.png",
+        "preview": "assets/images/gears/Frost_Coronet_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 70000,
+          "Polishing_Solution": 840,
+          "Design_Plans": 140,
+          "Lunar_Amber": 20
+        }
+      },    
+      "37": {
+        "gear_name": "Frost Coronet",
+        "gear_tier": "T2",
+        "category": "left",
+        "stars": 2,
+        "icon": "assets/images/gears/Frost_Coronet.png",
+        "preview": "assets/images/gears/Frost_Coronet_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 72000,
+          "Polishing_Solution": 870,
+          "Design_Plans": 145,
+          "Lunar_Amber": 20
+        }
+      },    
+      "38": {
+        "gear_name": "Frost Coronet",
+        "gear_tier": "T2",
+        "category": "left",
+        "stars": 3,
+        "icon": "assets/images/gears/Frost_Coronet.png",
+        "preview": "assets/images/gears/Frost_Coronet_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 74000,
+          "Polishing_Solution": 900,
+          "Design_Plans": 150,
+          "Lunar_Amber": 20
+        }
+      },    
+      "39": {
+        "gear_name": "Frost Coronet",
+        "gear_tier": "T3",
+        "category": "left",
+        "stars": 0,
+        "icon": "assets/images/gears/Frost_Coronet.png",
+        "preview": "assets/images/gears/Frost_Coronet_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 77000,
+          "Polishing_Solution": 950,
+          "Design_Plans": 160,
+          "Lunar_Amber": 25
+        }
+      },    
+      "40": {
+        "gear_name": "Frost Coronet",
+        "gear_tier": "T3",
+        "category": "left",
+        "stars": 1,
+        "icon": "assets/images/gears/Frost_Coronet.png",
+        "preview": "assets/images/gears/Frost_Coronet_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 80000,
+          "Polishing_Solution": 990,
+          "Design_Plans": 160,
+          "Lunar_Amber": 25
+        }
+      },    
+      "41": {
+        "gear_name": "Frost Coronet",
+        "gear_tier": "T3",
+        "category": "left",
+        "stars": 2,
+        "icon": "assets/images/gears/Frost_Coronet.png",
+        "preview": "assets/images/gears/Frost_Coronet_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 83000,
+          "Polishing_Solution": 1030,
+          "Design_Plans": 170,
+          "Lunar_Amber": 25
+        }
+      },    
+      "42": {
+        "gear_name": "Frost Coronet",
+        "gear_tier": "T3",
+        "category": "left",
+        "stars": 3,
+        "icon": "assets/images/gears/Frost_Coronet.png",
+        "preview": "assets/images/gears/Frost_Coronet_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 86000,
+          "Polishing_Solution": 1070,
+          "Design_Plans": 180,
+          "Lunar_Amber": 25
+        }
+      }
+    }
+  },
+  "2": {
+    "levels": {
+      "0": {
+        "gear_name": "Crude Coat",
+        "gear_tier": "",
+        "category": "left",
+        "stars": 0,
+        "icon": "",
+        "preview": "",
+        "materials": {
+          "Hardened_Alloy": 1500,
+          "Polishing_Solution": 15,
+          "Design_Plans": 0,
+          "Lunar_Amber": 0
+        }
+      },
+      "1": {
+        "gear_name": "Crude Coat",
+        "gear_tier": "",
+        "category": "left",
+        "stars": 0,
+        "icon": "assets/images/gears/Crude_Coat.png",
+        "preview": "assets/images/gears/Crude_Coat_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 1500,
+          "Polishing_Solution": 15,
+          "Design_Plans": 0,
+          "Lunar_Amber": 0
+        }
+      },
+      "2": {
+        "gear_name": "Crude Coat",
+        "gear_tier": "",
+        "category": "left",
+        "stars": 1,
+        "icon": "assets/images/gears/Crude_Coat.png",
+        "preview": "assets/images/gears/Crude_Coat_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 3800,
+          "Polishing_Solution": 40,
+          "Design_Plans": 0,
+          "Lunar_Amber": 0
+        }
+      },
+      "3": {
+        "gear_name": "Winter Coat",
+        "gear_tier": "",
+        "category": "left",
+        "stars": 0,
+        "icon": "assets/images/gears/Winter_Coat.png",
+        "preview": "assets/images/gears/Winter_Coat_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 7000,
+          "Polishing_Solution": 70,
+          "Design_Plans": 0,
+          "Lunar_Amber": 0
+        }
+      },
+      "4": {
+        "gear_name": "Winter Coat",
+        "gear_tier": "",
+        "category": "left",
+        "stars": 1,
+        "icon": "assets/images/gears/Winter_Coat.png",
+        "preview": "assets/images/gears/Winter_Coat_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 9700,
+          "Polishing_Solution": 95,
+          "Design_Plans": 0,
+          "Lunar_Amber": 0
+        }
+      },
+      "5": {
+        "gear_name": "Winter Coat",
+        "gear_tier": "",
+        "category": "left",
+        "stars": 2,
+        "icon": "assets/images/gears/Winter_Coat.png",
+        "preview": "assets/images/gears/Winter_Coat_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 0,
+          "Polishing_Solution": 0,
+          "Design_Plans": 45,
+          "Lunar_Amber": 0
+        }
+      },
+      "6": {
+        "gear_name": "Winter Coat",
+        "gear_tier": "",
+        "category": "left",
+        "stars": 3,
+        "icon": "assets/images/gears/Winter_Coat.png",
+        "preview": "assets/images/gears/Winter_Coat_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 0,
+          "Polishing_Solution": 0,
+          "Design_Plans": 50,
+          "Lunar_Amber": 0
+        }
+      },
+      "7": {
+        "gear_name": "Valors Embrace",
+        "gear_tier": "",
+        "category": "left",
+        "stars": 0,
+        "icon": "assets/images/gears/Valors_Embrace.png",
+        "preview": "assets/images/gears/Valors_Embrace_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 0,
+          "Polishing_Solution": 0,
+          "Design_Plans": 60,
+          "Lunar_Amber": 0
+        }
+      },
+      "8": {
+        "gear_name": "Valors Embrace",
+        "gear_tier": "",
+        "category": "left",
+        "stars": 1,
+        "icon": "assets/images/gears/Valors_Embrace.png",
+        "preview": "assets/images/gears/Valors_Embrace_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 0,
+          "Polishing_Solution": 0,
+          "Design_Plans": 70,
+          "Lunar_Amber": 0
+        }
+      },
+      "9": {
+        "gear_name": "Valors Embrace",
+        "gear_tier": "",
+        "category": "left",
+        "stars": 2,
+        "icon": "assets/images/gears/Valors_Embrace.png",
+        "preview": "assets/images/gears/Valors_Embrace_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 6500,
+          "Polishing_Solution": 65,
+          "Design_Plans": 40,
+          "Lunar_Amber": 0
+        }
+      },
+      "10": {
+        "gear_name": "Valors Embrace",
+        "gear_tier": "",
+        "category": "left",
+        "stars": 3,
+        "icon": "assets/images/gears/Valors_Embrace.png",
+        "preview": "assets/images/gears/Valors_Embrace_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 8000,
+          "Polishing_Solution": 80,
+          "Design_Plans": 50,
+          "Lunar_Amber": 0
+        }
+      },
+      "11": {
+        "gear_name": "Valors Embrace",
+        "gear_tier": "T1",
+        "category": "left",
+        "stars": 0,
+        "icon": "assets/images/gears/Valors_Embrace.png",
+        "preview": "assets/images/gears/Valors_Embrace_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 10000,
+          "Polishing_Solution": 95,
+          "Design_Plans": 60,
+          "Lunar_Amber": 0
+        }
+      },
+      "12": {
+        "gear_name": "Valors Embrace",
+        "gear_tier": "T1",
+        "category": "left",
+        "stars": 1,
+        "icon": "assets/images/gears/Valors_Embrace.png",
+        "preview": "assets/images/gears/Valors_Embrace_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 11000,
+          "Polishing_Solution": 110,
+          "Design_Plans": 70,
+          "Lunar_Amber": 0
+        }
+      },
+      "13": {
+        "gear_name": "Valors Embrace",
+        "gear_tier": "T1",
+        "category": "left",
+        "stars": 2,
+        "icon": "assets/images/gears/Valors_Embrace.png",
+        "preview": "assets/images/gears/Valors_Embrace_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 13000,
+          "Polishing_Solution": 130,
+          "Design_Plans": 85,
+          "Lunar_Amber": 0
+        }
+      },
+      "14": {
+        "gear_name": "Valors Embrace",
+        "gear_tier": "T1",
+        "category": "left",
+        "stars": 3,
+        "icon": "assets/images/gears/Valors_Embrace.png",
+        "preview": "assets/images/gears/Valors_Embrace_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 15000,
+          "Polishing_Solution": 160,
+          "Design_Plans": 100,
+          "Lunar_Amber": 0
+        }
+      },
+      "15": {
+        "gear_name": "Dawns Pride",
+        "gear_tier": "",
+        "category": "left",
+        "stars": 0,
+        "icon": "assets/images/gears/Dawns_Pride.png",
+        "preview": "assets/images/gears/Dawns_Pride_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 22000,
+          "Polishing_Solution": 220,
+          "Design_Plans": 40,
+          "Lunar_Amber": 0
+        }
+      },
+      "16": {
+        "gear_name": "Dawns Pride",
+        "gear_tier": "",
+        "category": "left",
+        "stars": 1,
+        "icon": "assets/images/gears/Dawns_Pride.png",
+        "preview": "assets/images/gears/Dawns_Pride_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 23000,
+          "Polishing_Solution": 230,
+          "Design_Plans": 40,
+          "Lunar_Amber": 0
+        }
+      },
+      "17": {
+        "gear_name": "Dawns Pride",
+        "gear_tier": "",
+        "category": "left",
+        "stars": 2,
+        "icon": "assets/images/gears/Dawns_Pride.png",
+        "preview": "assets/images/gears/Dawns_Pride_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 25000,
+          "Polishing_Solution": 250,
+          "Design_Plans": 45,
+          "Lunar_Amber": 0
+        }
+      },
+      "18": {
+        "gear_name": "Dawns Pride",
+        "gear_tier": "",
+        "category": "left",
+        "stars": 3,
+        "icon": "assets/images/gears/Dawns_Pride.png",
+        "preview": "assets/images/gears/Dawns_Pride_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 26000,
+          "Polishing_Solution": 260,
+          "Design_Plans": 45,
+          "Lunar_Amber": 0
+        }
+      },
+      "19": {
+        "gear_name": "Dawns Pride",
+        "gear_tier": "T1",
+        "category": "left",
+        "stars": 0,
+        "icon": "assets/images/gears/Dawns_Pride.png",
+        "preview": "assets/images/gears/Dawns_Pride_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 28000,
+          "Polishing_Solution": 280,
+          "Design_Plans": 45,
+          "Lunar_Amber": 0
+        }
+      },
+      "20": {
+        "gear_name": "Dawns Pride",
+        "gear_tier": "T1",
+        "category": "left",
+        "stars": 1,
+        "icon": "assets/images/gears/Dawns_Pride.png",
+        "preview": "assets/images/gears/Dawns_Pride_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 28000,
+          "Polishing_Solution": 300,
+          "Design_Plans": 55,
+          "Lunar_Amber": 0
+        }
+      },
+      "21": {
+        "gear_name": "Dawns Pride",
+        "gear_tier": "T1",
+        "category": "left",
+        "stars": 2,
+        "icon": "assets/images/gears/Dawns_Pride.png",
+        "preview": "assets/images/gears/Dawns_Pride_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 32000,
+          "Polishing_Solution": 320,
+          "Design_Plans": 55,
+          "Lunar_Amber": 0
+        }
+      },
+      "22": {
+        "gear_name": "Dawns Pride",
+        "gear_tier": "T1",
+        "category": "left",
+        "stars": 3,
+        "icon": "assets/images/gears/Dawns_Pride.png",
+        "preview": "assets/images/gears/Dawns_Pride_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 35000,
+          "Polishing_Solution": 340,
+          "Design_Plans": 55,
+          "Lunar_Amber": 0
+        }
+      },    
+      "23": {
+        "gear_name": "Dawns Pride",
+        "gear_tier": "T2",
+        "category": "left",
+        "stars": 0,
+        "icon": "assets/images/gears/Dawns_Pride.png",
+        "preview": "assets/images/gears/Dawns_Pride_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 38000,
+          "Polishing_Solution": 360,
+          "Design_Plans": 55,
+          "Lunar_Amber": 0
+        }
+      },    
+      "24": {
+        "gear_name": "Dawns Pride",
+        "gear_tier": "T2",
+        "category": "left",
+        "stars": 1,
+        "icon": "assets/images/gears/Dawns_Pride.png",
+        "preview": "assets/images/gears/Dawns_Pride_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 43000,
+          "Polishing_Solution": 430,
+          "Design_Plans": 75,
+          "Lunar_Amber": 0
+        }
+      },    
+      "25": {
+        "gear_name": "Dawns Pride",
+        "gear_tier": "T2",
+        "category": "left",
+        "stars": 2,
+        "icon": "assets/images/gears/Dawns_Pride.png",
+        "preview": "assets/images/gears/Dawns_Pride_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 45000,
+          "Polishing_Solution": 460,
+          "Design_Plans": 80,
+          "Lunar_Amber": 0
+        }
+      },    
+      "26": {
+        "gear_name": "Dawns Pride",
+        "gear_tier": "T2",
+        "category": "left",
+        "stars": 3,
+        "icon": "assets/images/gears/Dawns_Pride.png",
+        "preview": "assets/images/gears/Dawns_Pride_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 48000,
+          "Polishing_Solution": 500,
+          "Design_Plans": 85,
+          "Lunar_Amber": 0
+        }
+      },    
+      "27": {
+        "gear_name": "Dynastic Ward",
+        "gear_tier": "",
+        "category": "left",
+        "stars": 0,
+        "icon": "assets/images/gears/Dynastic_Ward.png",
+        "preview": "assets/images/gears/Dynastic_Ward_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 50000,
+          "Polishing_Solution": 530,
+          "Design_Plans": 85,
+          "Lunar_Amber": 10
+        }
+      },    
+      "28": {
+        "gear_name": "Dynastic Ward",
+        "gear_tier": "",
+        "category": "left",
+        "stars": 1,
+        "icon": "assets/images/gears/Dynastic_Ward.png",
+        "preview": "assets/images/gears/Dynastic_Ward_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 52000,
+          "Polishing_Solution": 560,
+          "Design_Plans": 90,
+          "Lunar_Amber": 10
+        }
+      },    
+      "29": {
+        "gear_name": "Dynastic Ward",
+        "gear_tier": "",
+        "category": "left",
+        "stars": 2,
+        "icon": "assets/images/gears/Dynastic_Ward.png",
+        "preview": "assets/images/gears/Dynastic_Ward_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 54000,
+          "Polishing_Solution": 590,
+          "Design_Plans": 95,
+          "Lunar_Amber": 10
+        }
+      },    
+      "30": {
+        "gear_name": "Dynastic Ward",
+        "gear_tier": "",
+        "category": "left",
+        "stars": 3,
+        "icon": "assets/images/gears/Dynastic_Ward.png",
+        "preview": "assets/images/gears/Dynastic_Ward_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 56000,
+          "Polishing_Solution": 620,
+          "Design_Plans": 100,
+          "Lunar_Amber": 10
+        }
+      },    
+      "31": {
+        "gear_name": "Dynastic Ward",
+        "gear_tier": "T1",
+        "category": "left",
+        "stars": 0,
+        "icon": "assets/images/gears/Dynastic_Ward.png",
+        "preview": "assets/images/gears/Dynastic_Ward_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 59000,
+          "Polishing_Solution": 670,
+          "Design_Plans": 110,
+          "Lunar_Amber": 15
+        }
+      },    
+      "32": {
+        "gear_name": "Dynastic Ward",
+        "gear_tier": "T1",
+        "category": "left",
+        "stars": 1,
+        "icon": "assets/images/gears/Dynastic_Ward.png",
+        "preview": "assets/images/gears/Dynastic_Ward_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 61000,
+          "Polishing_Solution": 700,
+          "Design_Plans": 115,
+          "Lunar_Amber": 15
+        }
+      },    
+      "33": {
+        "gear_name": "Dynastic Ward",
+        "gear_tier": "T1",
+        "category": "left",
+        "stars": 2,
+        "icon": "assets/images/gears/Dynastic_Ward.png",
+        "preview": "assets/images/gears/Dynastic_Ward_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 63000,
+          "Polishing_Solution": 730,
+          "Design_Plans": 120,
+          "Lunar_Amber": 15
+        }
+      },    
+      "34": {
+        "gear_name": "Dynastic Ward",
+        "gear_tier": "T1",
+        "category": "left",
+        "stars": 3,
+        "icon": "assets/images/gears/Dynastic_Ward.png",
+        "preview": "assets/images/gears/Dynastic_Ward_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 65000,
+          "Polishing_Solution": 760,
+          "Design_Plans": 125,
+          "Lunar_Amber": 15
+        }
+      },    
+      "35": {
+        "gear_name": "Dynastic Ward",
+        "gear_tier": "T2",
+        "category": "left",
+        "stars": 0,
+        "icon": "assets/images/gears/Dynastic_Ward.png",
+        "preview": "assets/images/gears/Dynastic_Ward_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 68000,
+          "Polishing_Solution": 810,
+          "Design_Plans": 135,
+          "Lunar_Amber": 20
+        }
+      },    
+      "36": {
+        "gear_name": "Dynastic Ward",
+        "gear_tier": "T2",
+        "category": "left",
+        "stars": 1,
+        "icon": "assets/images/gears/Dynastic_Ward.png",
+        "preview": "assets/images/gears/Dynastic_Ward_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 70000,
+          "Polishing_Solution": 840,
+          "Design_Plans": 140,
+          "Lunar_Amber": 20
+        }
+      },    
+      "37": {
+        "gear_name": "Dynastic Ward",
+        "gear_tier": "T2",
+        "category": "left",
+        "stars": 2,
+        "icon": "assets/images/gears/Dynastic_Ward.png",
+        "preview": "assets/images/gears/Dynastic_Ward_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 72000,
+          "Polishing_Solution": 870,
+          "Design_Plans": 145,
+          "Lunar_Amber": 20
+        }
+      },    
+      "38": {
+        "gear_name": "Dynastic Ward",
+        "gear_tier": "T2",
+        "category": "left",
+        "stars": 3,
+        "icon": "assets/images/gears/Dynastic_Ward.png",
+        "preview": "assets/images/gears/Dynastic_Ward_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 74000,
+          "Polishing_Solution": 900,
+          "Design_Plans": 150,
+          "Lunar_Amber": 20
+        }
+      },    
+      "39": {
+        "gear_name": "Dynastic Ward",
+        "gear_tier": "T3",
+        "category": "left",
+        "stars": 0,
+        "icon": "assets/images/gears/Dynastic_Ward.png",
+        "preview": "assets/images/gears/Dynastic_Ward_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 77000,
+          "Polishing_Solution": 950,
+          "Design_Plans": 160,
+          "Lunar_Amber": 25
+        }
+      },    
+      "40": {
+        "gear_name": "Dynastic Ward",
+        "gear_tier": "T3",
+        "category": "left",
+        "stars": 1,
+        "icon": "assets/images/gears/Dynastic_Ward.png",
+        "preview": "assets/images/gears/Dynastic_Ward_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 80000,
+          "Polishing_Solution": 990,
+          "Design_Plans": 160,
+          "Lunar_Amber": 25
+        }
+      },    
+      "41": {
+        "gear_name": "Dynastic Ward",
+        "gear_tier": "T3",
+        "category": "left",
+        "stars": 2,
+        "icon": "assets/images/gears/Dynastic_Ward.png",
+        "preview": "assets/images/gears/Dynastic_Ward_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 83000,
+          "Polishing_Solution": 1030,
+          "Design_Plans": 170,
+          "Lunar_Amber": 25
+        }
+      },    
+      "42": {
+        "gear_name": "Dynastic Ward",
+        "gear_tier": "T3",
+        "category": "left",
+        "stars": 3,
+        "icon": "assets/images/gears/Dynastic_Ward.png",
+        "preview": "assets/images/gears/Dynastic_Ward_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 86000,
+          "Polishing_Solution": 1070,
+          "Design_Plans": 180,
+          "Lunar_Amber": 25
+        }
+      }
+    }
+  },
+  "3": {
+    "levels": {
+      "0": {
+        "gear_name": "Crude Ring",
+        "gear_tier": "",
+        "category": "left",
+        "stars": 0,
+        "icon": "",
+        "preview": "",
+        "materials": {
+          "Hardened_Alloy": 1500,
+          "Polishing_Solution": 15,
+          "Design_Plans": 0,
+          "Lunar_Amber": 0
+        }
+      },
+      "1": {
+        "gear_name": "Crude Ring",
+        "gear_tier": "",
+        "category": "left",
+        "stars": 0,
+        "icon": "assets/images/gears/Crude_Ring.png",
+        "preview": "assets/images/gears/Crude_Ring_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 1500,
+          "Polishing_Solution": 15,
+          "Design_Plans": 0,
+          "Lunar_Amber": 0
+        }
+      },
+      "2": {
+        "gear_name": "Crude Ring",
+        "gear_tier": "",
+        "category": "left",
+        "stars": 1,
+        "icon": "assets/images/gears/Crude_Ring.png",
+        "preview": "assets/images/gears/Crude_Ring_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 3800,
+          "Polishing_Solution": 40,
+          "Design_Plans": 0,
+          "Lunar_Amber": 0
+        }
+      },
+      "3": {
+        "gear_name": "Ring of Resilience",
+        "gear_tier": "",
+        "category": "left",
+        "stars": 0,
+        "icon": "assets/images/gears/Ring_of_Resilience.png",
+        "preview": "assets/images/gears/Ring_of_Resilience_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 7000,
+          "Polishing_Solution": 70,
+          "Design_Plans": 0,
+          "Lunar_Amber": 0
+        }
+      },
+      "4": {
+        "gear_name": "Ring of Resilience",
+        "gear_tier": "",
+        "category": "left",
+        "stars": 1,
+        "icon": "assets/images/gears/Ring_of_Resilience.png",
+        "preview": "assets/images/gears/Ring_of_Resilience_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 9700,
+          "Polishing_Solution": 95,
+          "Design_Plans": 0,
+          "Lunar_Amber": 0
+        }
+      },
+      "5": {
+        "gear_name": "Ring of Resilience",
+        "gear_tier": "",
+        "category": "left",
+        "stars": 2,
+        "icon": "assets/images/gears/Ring_of_Resilience.png",
+        "preview": "assets/images/gears/Ring_of_Resilience_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 0,
+          "Polishing_Solution": 0,
+          "Design_Plans": 45,
+          "Lunar_Amber": 0
+        }
+      },
+      "6": {
+        "gear_name": "Ring of Resilience",
+        "gear_tier": "",
+        "category": "left",
+        "stars": 3,
+        "icon": "assets/images/gears/Ring_of_Resilience.png",
+        "preview": "assets/images/gears/Ring_of_Resilience_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 0,
+          "Polishing_Solution": 0,
+          "Design_Plans": 50,
+          "Lunar_Amber": 0
+        }
+      },
+      "7": {
+        "gear_name": "Ring of Eureka",
+        "gear_tier": "",
+        "category": "left",
+        "stars": 0,
+        "icon": "assets/images/gears/Ring_of_Eureka.png",
+        "preview": "assets/images/gears/Ring_of_Eureka_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 0,
+          "Polishing_Solution": 0,
+          "Design_Plans": 60,
+          "Lunar_Amber": 0
+        }
+      },
+      "8": {
+        "gear_name": "Ring of Eureka",
+        "gear_tier": "",
+        "category": "left",
+        "stars": 1,
+        "icon": "assets/images/gears/Ring_of_Eureka.png",
+        "preview": "assets/images/gears/Ring_of_Eureka_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 0,
+          "Polishing_Solution": 0,
+          "Design_Plans": 70,
+          "Lunar_Amber": 0
+        }
+      },
+      "9": {
+        "gear_name": "Ring of Eureka",
+        "gear_tier": "",
+        "category": "left",
+        "stars": 2,
+        "icon": "assets/images/gears/Ring_of_Eureka.png",
+        "preview": "assets/images/gears/Ring_of_Eureka_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 6500,
+          "Polishing_Solution": 65,
+          "Design_Plans": 40,
+          "Lunar_Amber": 0
+        }
+      },
+      "10": {
+        "gear_name": "Ring of Eureka",
+        "gear_tier": "",
+        "category": "left",
+        "stars": 3,
+        "icon": "assets/images/gears/Ring_of_Eureka.png",
+        "preview": "assets/images/gears/Ring_of_Eureka_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 8000,
+          "Polishing_Solution": 80,
+          "Design_Plans": 50,
+          "Lunar_Amber": 0
+        }
+      },
+      "11": {
+        "gear_name": "Ring of Eureka",
+        "gear_tier": "T1",
+        "category": "left",
+        "stars": 0,
+        "icon": "assets/images/gears/Ring_of_Eureka.png",
+        "preview": "assets/images/gears/Ring_of_Eureka_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 10000,
+          "Polishing_Solution": 95,
+          "Design_Plans": 60,
+          "Lunar_Amber": 0
+        }
+      },
+      "12": {
+        "gear_name": "Ring of Eureka",
+        "gear_tier": "T1",
+        "category": "left",
+        "stars": 1,
+        "icon": "assets/images/gears/Ring_of_Eureka.png",
+        "preview": "assets/images/gears/Ring_of_Eureka_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 11000,
+          "Polishing_Solution": 110,
+          "Design_Plans": 70,
+          "Lunar_Amber": 0
+        }
+      },
+      "13": {
+        "gear_name": "Ring of Eureka",
+        "gear_tier": "T1",
+        "category": "left",
+        "stars": 2,
+        "icon": "assets/images/gears/Ring_of_Eureka.png",
+        "preview": "assets/images/gears/Ring_of_Eureka_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 13000,
+          "Polishing_Solution": 130,
+          "Design_Plans": 85,
+          "Lunar_Amber": 0
+        }
+      },
+      "14": {
+        "gear_name": "Ring of Eureka",
+        "gear_tier": "T1",
+        "category": "left",
+        "stars": 3,
+        "icon": "assets/images/gears/Ring_of_Eureka.png",
+        "preview": "assets/images/gears/Ring_of_Eureka_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 15000,
+          "Polishing_Solution": 160,
+          "Design_Plans": 100,
+          "Lunar_Amber": 0
+        }
+      },
+      "15": {
+        "gear_name": "Frosty Blessing",
+        "gear_tier": "",
+        "category": "left",
+        "stars": 0,
+        "icon": "assets/images/gears/Frosty_Blessing.png",
+        "preview": "assets/images/gears/Frosty_Blessing_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 22000,
+          "Polishing_Solution": 220,
+          "Design_Plans": 40,
+          "Lunar_Amber": 0
+        }
+      },
+      "16": {
+        "gear_name": "Frosty Blessing",
+        "gear_tier": "",
+        "category": "left",
+        "stars": 1,
+        "icon": "assets/images/gears/Frosty_Blessing.png",
+        "preview": "assets/images/gears/Frosty_Blessing_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 23000,
+          "Polishing_Solution": 230,
+          "Design_Plans": 40,
+          "Lunar_Amber": 0
+        }
+      },
+      "17": {
+        "gear_name": "Frosty Blessing",
+        "gear_tier": "",
+        "category": "left",
+        "stars": 2,
+        "icon": "assets/images/gears/Frosty_Blessing.png",
+        "preview": "assets/images/gears/Frosty_Blessing_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 25000,
+          "Polishing_Solution": 250,
+          "Design_Plans": 45,
+          "Lunar_Amber": 0
+        }
+      },
+      "18": {
+        "gear_name": "Frosty Blessing",
+        "gear_tier": "",
+        "category": "left",
+        "stars": 3,
+        "icon": "assets/images/gears/Frosty_Blessing.png",
+        "preview": "assets/images/gears/Frosty_Blessing_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 26000,
+          "Polishing_Solution": 260,
+          "Design_Plans": 45,
+          "Lunar_Amber": 0
+        }
+      },
+      "19": {
+        "gear_name": "Frosty Blessing",
+        "gear_tier": "T1",
+        "category": "left",
+        "stars": 0,
+        "icon": "assets/images/gears/Frosty_Blessing.png",
+        "preview": "assets/images/gears/Frosty_Blessing_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 28000,
+          "Polishing_Solution": 280,
+          "Design_Plans": 45,
+          "Lunar_Amber": 0
+        }
+      },
+      "20": {
+        "gear_name": "Frosty Blessing",
+        "gear_tier": "T1",
+        "category": "left",
+        "stars": 1,
+        "icon": "assets/images/gears/Frosty_Blessing.png",
+        "preview": "assets/images/gears/Frosty_Blessing_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 28000,
+          "Polishing_Solution": 300,
+          "Design_Plans": 55,
+          "Lunar_Amber": 0
+        }
+      },
+      "21": {
+        "gear_name": "Frosty Blessing",
+        "gear_tier": "T1",
+        "category": "left",
+        "stars": 2,
+        "icon": "assets/images/gears/Frosty_Blessing.png",
+        "preview": "assets/images/gears/Frosty_Blessing_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 32000,
+          "Polishing_Solution": 320,
+          "Design_Plans": 55,
+          "Lunar_Amber": 0
+        }
+      },
+      "22": {
+        "gear_name": "Frosty Blessing",
+        "gear_tier": "T1",
+        "category": "left",
+        "stars": 3,
+        "icon": "assets/images/gears/Frosty_Blessing.png",
+        "preview": "assets/images/gears/Frosty_Blessing_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 35000,
+          "Polishing_Solution": 340,
+          "Design_Plans": 55,
+          "Lunar_Amber": 0
+        }
+      },    
+      "23": {
+        "gear_name": "Frosty Blessing",
+        "gear_tier": "T2",
+        "category": "left",
+        "stars": 0,
+        "icon": "assets/images/gears/Frosty_Blessing.png",
+        "preview": "assets/images/gears/Frosty_Blessing_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 38000,
+          "Polishing_Solution": 360,
+          "Design_Plans": 55,
+          "Lunar_Amber": 0
+        }
+      },    
+      "24": {
+        "gear_name": "Frosty Blessing",
+        "gear_tier": "T2",
+        "category": "left",
+        "stars": 1,
+        "icon": "assets/images/gears/Frosty_Blessing.png",
+        "preview": "assets/images/gears/Frosty_Blessing_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 43000,
+          "Polishing_Solution": 430,
+          "Design_Plans": 75,
+          "Lunar_Amber": 0
+        }
+      },    
+      "25": {
+        "gear_name": "Frosty Blessing",
+        "gear_tier": "T2",
+        "category": "left",
+        "stars": 2,
+        "icon": "assets/images/gears/Frosty_Blessing.png",
+        "preview": "assets/images/gears/Frosty_Blessing_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 45000,
+          "Polishing_Solution": 460,
+          "Design_Plans": 80,
+          "Lunar_Amber": 0
+        }
+      },    
+      "26": {
+        "gear_name": "Frosty Blessing",
+        "gear_tier": "T2",
+        "category": "left",
+        "stars": 3,
+        "icon": "assets/images/gears/Frosty_Blessing.png",
+        "preview": "assets/images/gears/Frosty_Blessing_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 48000,
+          "Polishing_Solution": 500,
+          "Design_Plans": 85,
+          "Lunar_Amber": 0
+        }
+      },    
+      "27": {
+        "gear_name": "Solaris Incandescence",
+        "gear_tier": "",
+        "category": "left",
+        "stars": 0,
+        "icon": "assets/images/gears/Solaris_Incandescence.png",
+        "preview": "assets/images/gears/Solaris_Incandescence_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 50000,
+          "Polishing_Solution": 530,
+          "Design_Plans": 85,
+          "Lunar_Amber": 10
+        }
+      },    
+      "28": {
+        "gear_name": "Solaris Incandescence",
+        "gear_tier": "",
+        "category": "left",
+        "stars": 1,
+        "icon": "assets/images/gears/Solaris_Incandescence.png",
+        "preview": "assets/images/gears/Solaris_Incandescence_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 52000,
+          "Polishing_Solution": 560,
+          "Design_Plans": 90,
+          "Lunar_Amber": 10
+        }
+      },    
+      "29": {
+        "gear_name": "Solaris Incandescence",
+        "gear_tier": "",
+        "category": "left",
+        "stars": 2,
+        "icon": "assets/images/gears/Solaris_Incandescence.png",
+        "preview": "assets/images/gears/Solaris_Incandescence_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 54000,
+          "Polishing_Solution": 590,
+          "Design_Plans": 95,
+          "Lunar_Amber": 10
+        }
+      },    
+      "30": {
+        "gear_name": "Solaris Incandescence",
+        "gear_tier": "",
+        "category": "left",
+        "stars": 3,
+        "icon": "assets/images/gears/Solaris_Incandescence.png",
+        "preview": "assets/images/gears/Solaris_Incandescence_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 56000,
+          "Polishing_Solution": 620,
+          "Design_Plans": 100,
+          "Lunar_Amber": 10
+        }
+      },    
+      "31": {
+        "gear_name": "Solaris Incandescence",
+        "gear_tier": "T1",
+        "category": "left",
+        "stars": 0,
+        "icon": "assets/images/gears/Solaris_Incandescence.png",
+        "preview": "assets/images/gears/Solaris_Incandescence_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 59000,
+          "Polishing_Solution": 670,
+          "Design_Plans": 110,
+          "Lunar_Amber": 15
+        }
+      },    
+      "32": {
+        "gear_name": "Solaris Incandescence",
+        "gear_tier": "T1",
+        "category": "left",
+        "stars": 1,
+        "icon": "assets/images/gears/Solaris_Incandescence.png",
+        "preview": "assets/images/gears/Solaris_Incandescence_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 61000,
+          "Polishing_Solution": 700,
+          "Design_Plans": 115,
+          "Lunar_Amber": 15
+        }
+      },    
+      "33": {
+        "gear_name": "Solaris Incandescence",
+        "gear_tier": "T1",
+        "category": "left",
+        "stars": 2,
+        "icon": "assets/images/gears/Solaris_Incandescence.png",
+        "preview": "assets/images/gears/Solaris_Incandescence_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 63000,
+          "Polishing_Solution": 730,
+          "Design_Plans": 120,
+          "Lunar_Amber": 15
+        }
+      },    
+      "34": {
+        "gear_name": "Solaris Incandescence",
+        "gear_tier": "T1",
+        "category": "left",
+        "stars": 3,
+        "icon": "assets/images/gears/Solaris_Incandescence.png",
+        "preview": "assets/images/gears/Solaris_Incandescence_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 65000,
+          "Polishing_Solution": 760,
+          "Design_Plans": 125,
+          "Lunar_Amber": 15
+        }
+      },    
+      "35": {
+        "gear_name": "Solaris Incandescence",
+        "gear_tier": "T2",
+        "category": "left",
+        "stars": 0,
+        "icon": "assets/images/gears/Solaris_Incandescence.png",
+        "preview": "assets/images/gears/Solaris_Incandescence_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 68000,
+          "Polishing_Solution": 810,
+          "Design_Plans": 135,
+          "Lunar_Amber": 20
+        }
+      },    
+      "36": {
+        "gear_name": "Solaris Incandescence",
+        "gear_tier": "T2",
+        "category": "left",
+        "stars": 1,
+        "icon": "assets/images/gears/Solaris_Incandescence.png",
+        "preview": "assets/images/gears/Solaris_Incandescence_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 70000,
+          "Polishing_Solution": 840,
+          "Design_Plans": 140,
+          "Lunar_Amber": 20
+        }
+      },    
+      "37": {
+        "gear_name": "Solaris Incandescence",
+        "gear_tier": "T2",
+        "category": "left",
+        "stars": 2,
+        "icon": "assets/images/gears/Solaris_Incandescence.png",
+        "preview": "assets/images/gears/Solaris_Incandescence_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 72000,
+          "Polishing_Solution": 870,
+          "Design_Plans": 145,
+          "Lunar_Amber": 20
+        }
+      },    
+      "38": {
+        "gear_name": "Solaris Incandescence",
+        "gear_tier": "T2",
+        "category": "left",
+        "stars": 3,
+        "icon": "assets/images/gears/Solaris_Incandescence.png",
+        "preview": "assets/images/gears/Solaris_Incandescence_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 74000,
+          "Polishing_Solution": 900,
+          "Design_Plans": 150,
+          "Lunar_Amber": 20
+        }
+      },    
+      "39": {
+        "gear_name": "Solaris Incandescence",
+        "gear_tier": "T3",
+        "category": "left",
+        "stars": 0,
+        "icon": "assets/images/gears/Solaris_Incandescence.png",
+        "preview": "assets/images/gears/Solaris_Incandescence_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 77000,
+          "Polishing_Solution": 950,
+          "Design_Plans": 160,
+          "Lunar_Amber": 25
+        }
+      },    
+      "40": {
+        "gear_name": "Solaris Incandescence",
+        "gear_tier": "T3",
+        "category": "left",
+        "stars": 1,
+        "icon": "assets/images/gears/Solaris_Incandescence.png",
+        "preview": "assets/images/gears/Solaris_Incandescence_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 80000,
+          "Polishing_Solution": 990,
+          "Design_Plans": 160,
+          "Lunar_Amber": 25
+        }
+      },    
+      "41": {
+        "gear_name": "Solaris Incandescence",
+        "gear_tier": "T3",
+        "category": "left",
+        "stars": 2,
+        "icon": "assets/images/gears/Solaris_Incandescence.png",
+        "preview": "assets/images/gears/Solaris_Incandescence_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 83000,
+          "Polishing_Solution": 1030,
+          "Design_Plans": 170,
+          "Lunar_Amber": 25
+        }
+      },    
+      "42": {
+        "gear_name": "Solaris Incandescence",
+        "gear_tier": "T3",
+        "category": "left",
+        "stars": 3,
+        "icon": "assets/images/gears/Solaris_Incandescence.png",
+        "preview": "assets/images/gears/Solaris_Incandescence_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 86000,
+          "Polishing_Solution": 1070,
+          "Design_Plans": 180,
+          "Lunar_Amber": 25
+        }
+      }
+    }
+  },
+  "4": {
+    "levels": {
+      "0": {
+        "gear_name": "Crude Watch",
+        "gear_tier": "",
+        "category": "right",
+        "stars": 0,
+        "icon": "",
+        "preview": "",
+        "materials": {
+          "Hardened_Alloy": 1500,
+          "Polishing_Solution": 15,
+          "Design_Plans": 0,
+          "Lunar_Amber": 0
+        }
+      },
+      "1": {
+        "gear_name": "Crude Watch",
+        "gear_tier": "",
+        "category": "right",
+        "stars": 0,
+        "icon": "assets/images/gears/Crude_Watch.png",
+        "preview": "assets/images/gears/Crude_Watch_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 1500,
+          "Polishing_Solution": 15,
+          "Design_Plans": 0,
+          "Lunar_Amber": 0
+        }
+      },
+      "2": {
+        "gear_name": "Crude Watch",
+        "gear_tier": "",
+        "category": "right",
+        "stars": 1,
+        "icon": "assets/images/gears/Crude_Watch.png",
+        "preview": "assets/images/gears/Crude_Watch_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 3800,
+          "Polishing_Solution": 40,
+          "Design_Plans": 0,
+          "Lunar_Amber": 0
+        }
+      },
+      "3": {
+        "gear_name": "Durable Watch",
+        "gear_tier": "",
+        "category": "right",
+        "stars": 0,
+        "icon": "assets/images/gears/Durable_Watch.png",
+        "preview": "assets/images/gears/Durable_Watch_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 7000,
+          "Polishing_Solution": 70,
+          "Design_Plans": 0,
+          "Lunar_Amber": 0
+        }
+      },
+      "4": {
+        "gear_name": "Durable Watch",
+        "gear_tier": "",
+        "category": "right",
+        "stars": 1,
+        "icon": "assets/images/gears/Durable_Watch.png",
+        "preview": "assets/images/gears/Durable_Watch_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 9700,
+          "Polishing_Solution": 95,
+          "Design_Plans": 0,
+          "Lunar_Amber": 0
+        }
+      },
+      "5": {
+        "gear_name": "Durable Watch",
+        "gear_tier": "",
+        "category": "right",
+        "stars": 2,
+        "icon": "assets/images/gears/Durable_Watch.png",
+        "preview": "assets/images/gears/Durable_Watch_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 0,
+          "Polishing_Solution": 0,
+          "Design_Plans": 45,
+          "Lunar_Amber": 0
+        }
+      },
+      "6": {
+        "gear_name": "Durable Watch",
+        "gear_tier": "",
+        "category": "right",
+        "stars": 3,
+        "icon": "assets/images/gears/Durable_Watch.png",
+        "preview": "assets/images/gears/Durable_Watch_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 0,
+          "Polishing_Solution": 0,
+          "Design_Plans": 50,
+          "Lunar_Amber": 0
+        }
+      },
+      "7": {
+        "gear_name": "Astral Pointer",
+        "gear_tier": "",
+        "category": "right",
+        "stars": 0,
+        "icon": "assets/images/gears/Astral_Pointer.png",
+        "preview": "assets/images/gears/Astral_Pointer_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 0,
+          "Polishing_Solution": 0,
+          "Design_Plans": 60,
+          "Lunar_Amber": 0
+        }
+      },
+      "8": {
+        "gear_name": "Astral Pointer",
+        "gear_tier": "",
+        "category": "right",
+        "stars": 1,
+        "icon": "assets/images/gears/Astral_Pointer.png",
+        "preview": "assets/images/gears/Astral_Pointer_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 0,
+          "Polishing_Solution": 0,
+          "Design_Plans": 70,
+          "Lunar_Amber": 0
+        }
+      },
+      "9": {
+        "gear_name": "Astral Pointer",
+        "gear_tier": "",
+        "category": "right",
+        "stars": 2,
+        "icon": "assets/images/gears/Astral_Pointer.png",
+        "preview": "assets/images/gears/Astral_Pointer_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 6500,
+          "Polishing_Solution": 65,
+          "Design_Plans": 40,
+          "Lunar_Amber": 0
+        }
+      },
+      "10": {
+        "gear_name": "Astral Pointer",
+        "gear_tier": "",
+        "category": "right",
+        "stars": 3,
+        "icon": "assets/images/gears/Astral_Pointer.png",
+        "preview": "assets/images/gears/Astral_Pointer_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 8000,
+          "Polishing_Solution": 80,
+          "Design_Plans": 50,
+          "Lunar_Amber": 0
+        }
+      },
+      "11": {
+        "gear_name": "Astral Pointer",
+        "gear_tier": "T1",
+        "category": "right",
+        "stars": 0,
+        "icon": "assets/images/gears/Astral_Pointer.png",
+        "preview": "assets/images/gears/Astral_Pointer_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 10000,
+          "Polishing_Solution": 95,
+          "Design_Plans": 60,
+          "Lunar_Amber": 0
+        }
+      },
+      "12": {
+        "gear_name": "Astral Pointer",
+        "gear_tier": "T1",
+        "category": "right",
+        "stars": 1,
+        "icon": "assets/images/gears/Astral_Pointer.png",
+        "preview": "assets/images/gears/Astral_Pointer_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 11000,
+          "Polishing_Solution": 110,
+          "Design_Plans": 70,
+          "Lunar_Amber": 0
+        }
+      },
+      "13": {
+        "gear_name": "Astral Pointer",
+        "gear_tier": "T1",
+        "category": "right",
+        "stars": 2,
+        "icon": "assets/images/gears/Astral_Pointer.png",
+        "preview": "assets/images/gears/Astral_Pointer_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 13000,
+          "Polishing_Solution": 130,
+          "Design_Plans": 85,
+          "Lunar_Amber": 0
+        }
+      },
+      "14": {
+        "gear_name": "Astral Pointer",
+        "gear_tier": "T1",
+        "category": "right",
+        "stars": 3,
+        "icon": "assets/images/gears/Astral_Pointer.png",
+        "preview": "assets/images/gears/Astral_Pointer_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 15000,
+          "Polishing_Solution": 160,
+          "Design_Plans": 100,
+          "Lunar_Amber": 0
+        }
+      },
+      "15": {
+        "gear_name": "Clock of Fate",
+        "gear_tier": "",
+        "category": "right",
+        "stars": 0,
+        "icon": "assets/images/gears/Clock_of_Fate.png",
+        "preview": "assets/images/gears/Clock_of_Fate_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 22000,
+          "Polishing_Solution": 220,
+          "Design_Plans": 40,
+          "Lunar_Amber": 0
+        }
+      },
+      "16": {
+        "gear_name": "Clock of Fate",
+        "gear_tier": "",
+        "category": "right",
+        "stars": 1,
+        "icon": "assets/images/gears/Clock_of_Fate.png",
+        "preview": "assets/images/gears/Clock_of_Fate_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 23000,
+          "Polishing_Solution": 230,
+          "Design_Plans": 40,
+          "Lunar_Amber": 0
+        }
+      },
+      "17": {
+        "gear_name": "Clock of Fate",
+        "gear_tier": "",
+        "category": "right",
+        "stars": 2,
+        "icon": "assets/images/gears/Clock_of_Fate.png",
+        "preview": "assets/images/gears/Clock_of_Fate_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 25000,
+          "Polishing_Solution": 250,
+          "Design_Plans": 45,
+          "Lunar_Amber": 0
+        }
+      },
+      "18": {
+        "gear_name": "Clock of Fate",
+        "gear_tier": "",
+        "category": "right",
+        "stars": 3,
+        "icon": "assets/images/gears/Clock_of_Fate.png",
+        "preview": "assets/images/gears/Clock_of_Fate_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 26000,
+          "Polishing_Solution": 260,
+          "Design_Plans": 45,
+          "Lunar_Amber": 0
+        }
+      },
+      "19": {
+        "gear_name": "Clock of Fate",
+        "gear_tier": "T1",
+        "category": "right",
+        "stars": 0,
+        "icon": "assets/images/gears/Clock_of_Fate.png",
+        "preview": "assets/images/gears/Clock_of_Fate_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 28000,
+          "Polishing_Solution": 280,
+          "Design_Plans": 45,
+          "Lunar_Amber": 0
+        }
+      },
+      "20": {
+        "gear_name": "Clock of Fate",
+        "gear_tier": "T1",
+        "category": "right",
+        "stars": 1,
+        "icon": "assets/images/gears/Clock_of_Fate.png",
+        "preview": "assets/images/gears/Clock_of_Fate_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 28000,
+          "Polishing_Solution": 300,
+          "Design_Plans": 55,
+          "Lunar_Amber": 0
+        }
+      },
+      "21": {
+        "gear_name": "Clock of Fate",
+        "gear_tier": "T1",
+        "category": "right",
+        "stars": 2,
+        "icon": "assets/images/gears/Clock_of_Fate.png",
+        "preview": "assets/images/gears/Clock_of_Fate_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 32000,
+          "Polishing_Solution": 320,
+          "Design_Plans": 55,
+          "Lunar_Amber": 0
+        }
+      },
+      "22": {
+        "gear_name": "Clock of Fate",
+        "gear_tier": "T1",
+        "category": "right",
+        "stars": 3,
+        "icon": "assets/images/gears/Clock_of_Fate.png",
+        "preview": "assets/images/gears/Clock_of_Fate_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 35000,
+          "Polishing_Solution": 340,
+          "Design_Plans": 55,
+          "Lunar_Amber": 0
+        }
+      },    
+      "23": {
+        "gear_name": "Clock of Fate",
+        "gear_tier": "T2",
+        "category": "right",
+        "stars": 0,
+        "icon": "assets/images/gears/Clock_of_Fate.png",
+        "preview": "assets/images/gears/Clock_of_Fate_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 38000,
+          "Polishing_Solution": 360,
+          "Design_Plans": 55,
+          "Lunar_Amber": 0
+        }
+      },    
+      "24": {
+        "gear_name": "Clock of Fate",
+        "gear_tier": "T2",
+        "category": "right",
+        "stars": 1,
+        "icon": "assets/images/gears/Clock_of_Fate.png",
+        "preview": "assets/images/gears/Clock_of_Fate_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 43000,
+          "Polishing_Solution": 430,
+          "Design_Plans": 75,
+          "Lunar_Amber": 0
+        }
+      },    
+      "25": {
+        "gear_name": "Clock of Fate",
+        "gear_tier": "T2",
+        "category": "right",
+        "stars": 2,
+        "icon": "assets/images/gears/Clock_of_Fate.png",
+        "preview": "assets/images/gears/Clock_of_Fate_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 45000,
+          "Polishing_Solution": 460,
+          "Design_Plans": 80,
+          "Lunar_Amber": 0
+        }
+      },    
+      "26": {
+        "gear_name": "Clock of Fate",
+        "gear_tier": "T2",
+        "category": "right",
+        "stars": 3,
+        "icon": "assets/images/gears/Clock_of_Fate.png",
+        "preview": "assets/images/gears/Clock_of_Fate_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 48000,
+          "Polishing_Solution": 500,
+          "Design_Plans": 85,
+          "Lunar_Amber": 0
+        }
+      },    
+      "27": {
+        "gear_name": "Finite Infinitus",
+        "gear_tier": "",
+        "category": "right",
+        "stars": 0,
+        "icon": "assets/images/gears/Finite_Infinitus.png",
+        "preview": "assets/images/gears/Finite_Infinitus_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 50000,
+          "Polishing_Solution": 530,
+          "Design_Plans": 85,
+          "Lunar_Amber": 10
+        }
+      },    
+      "28": {
+        "gear_name": "Finite Infinitus",
+        "gear_tier": "",
+        "category": "right",
+        "stars": 1,
+        "icon": "assets/images/gears/Finite_Infinitus.png",
+        "preview": "assets/images/gears/Finite_Infinitus_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 52000,
+          "Polishing_Solution": 560,
+          "Design_Plans": 90,
+          "Lunar_Amber": 10
+        }
+      },    
+      "29": {
+        "gear_name": "Finite Infinitus",
+        "gear_tier": "",
+        "category": "right",
+        "stars": 2,
+        "icon": "assets/images/gears/Finite_Infinitus.png",
+        "preview": "assets/images/gears/Finite_Infinitus_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 54000,
+          "Polishing_Solution": 590,
+          "Design_Plans": 95,
+          "Lunar_Amber": 10
+        }
+      },    
+      "30": {
+        "gear_name": "Finite Infinitus",
+        "gear_tier": "",
+        "category": "right",
+        "stars": 3,
+        "icon": "assets/images/gears/Finite_Infinitus.png",
+        "preview": "assets/images/gears/Finite_Infinitus_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 56000,
+          "Polishing_Solution": 620,
+          "Design_Plans": 100,
+          "Lunar_Amber": 10
+        }
+      },    
+      "31": {
+        "gear_name": "Finite Infinitus",
+        "gear_tier": "T1",
+        "category": "right",
+        "stars": 0,
+        "icon": "assets/images/gears/Finite_Infinitus.png",
+        "preview": "assets/images/gears/Finite_Infinitus_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 59000,
+          "Polishing_Solution": 670,
+          "Design_Plans": 110,
+          "Lunar_Amber": 15
+        }
+      },    
+      "32": {
+        "gear_name": "Finite Infinitus",
+        "gear_tier": "T1",
+        "category": "right",
+        "stars": 1,
+        "icon": "assets/images/gears/Finite_Infinitus.png",
+        "preview": "assets/images/gears/Finite_Infinitus_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 61000,
+          "Polishing_Solution": 700,
+          "Design_Plans": 115,
+          "Lunar_Amber": 15
+        }
+      },    
+      "33": {
+        "gear_name": "Finite Infinitus",
+        "gear_tier": "T1",
+        "category": "right",
+        "stars": 2,
+        "icon": "assets/images/gears/Finite_Infinitus.png",
+        "preview": "assets/images/gears/Finite_Infinitus_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 63000,
+          "Polishing_Solution": 730,
+          "Design_Plans": 120,
+          "Lunar_Amber": 15
+        }
+      },    
+      "34": {
+        "gear_name": "Finite Infinitus",
+        "gear_tier": "T1",
+        "category": "right",
+        "stars": 3,
+        "icon": "assets/images/gears/Finite_Infinitus.png",
+        "preview": "assets/images/gears/Finite_Infinitus_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 65000,
+          "Polishing_Solution": 760,
+          "Design_Plans": 125,
+          "Lunar_Amber": 15
+        }
+      },    
+      "35": {
+        "gear_name": "Finite Infinitus",
+        "gear_tier": "T2",
+        "category": "right",
+        "stars": 0,
+        "icon": "assets/images/gears/Finite_Infinitus.png",
+        "preview": "assets/images/gears/Finite_Infinitus_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 68000,
+          "Polishing_Solution": 810,
+          "Design_Plans": 135,
+          "Lunar_Amber": 20
+        }
+      },    
+      "36": {
+        "gear_name": "Finite Infinitus",
+        "gear_tier": "T2",
+        "category": "right",
+        "stars": 1,
+        "icon": "assets/images/gears/Finite_Infinitus.png",
+        "preview": "assets/images/gears/Finite_Infinitus_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 70000,
+          "Polishing_Solution": 840,
+          "Design_Plans": 140,
+          "Lunar_Amber": 20
+        }
+      },    
+      "37": {
+        "gear_name": "Finite Infinitus",
+        "gear_tier": "T2",
+        "category": "right",
+        "stars": 2,
+        "icon": "assets/images/gears/Finite_Infinitus.png",
+        "preview": "assets/images/gears/Finite_Infinitus_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 72000,
+          "Polishing_Solution": 870,
+          "Design_Plans": 145,
+          "Lunar_Amber": 20
+        }
+      },    
+      "38": {
+        "gear_name": "Finite Infinitus",
+        "gear_tier": "T2",
+        "category": "right",
+        "stars": 3,
+        "icon": "assets/images/gears/Finite_Infinitus.png",
+        "preview": "assets/images/gears/Finite_Infinitus_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 74000,
+          "Polishing_Solution": 900,
+          "Design_Plans": 150,
+          "Lunar_Amber": 20
+        }
+      },    
+      "39": {
+        "gear_name": "Finite Infinitus",
+        "gear_tier": "T3",
+        "category": "right",
+        "stars": 0,
+        "icon": "assets/images/gears/Finite_Infinitus.png",
+        "preview": "assets/images/gears/Finite_Infinitus_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 77000,
+          "Polishing_Solution": 950,
+          "Design_Plans": 160,
+          "Lunar_Amber": 25
+        }
+      },    
+      "40": {
+        "gear_name": "Finite Infinitus",
+        "gear_tier": "T3",
+        "category": "right",
+        "stars": 1,
+        "icon": "assets/images/gears/Finite_Infinitus.png",
+        "preview": "assets/images/gears/Finite_Infinitus_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 80000,
+          "Polishing_Solution": 990,
+          "Design_Plans": 160,
+          "Lunar_Amber": 25
+        }
+      },    
+      "41": {
+        "gear_name": "Finite Infinitus",
+        "gear_tier": "T3",
+        "category": "right",
+        "stars": 2,
+        "icon": "assets/images/gears/Finite_Infinitus.png",
+        "preview": "assets/images/gears/Finite_Infinitus_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 83000,
+          "Polishing_Solution": 1030,
+          "Design_Plans": 170,
+          "Lunar_Amber": 25
+        }
+      },    
+      "42": {
+        "gear_name": "Finite Infinitus",
+        "gear_tier": "T3",
+        "category": "right",
+        "stars": 3,
+        "icon": "assets/images/gears/Finite_Infinitus.png",
+        "preview": "assets/images/gears/Finite_Infinitus_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 86000,
+          "Polishing_Solution": 1070,
+          "Design_Plans": 180,
+          "Lunar_Amber": 25
+        }
+      }
+    }
+  },
+  "5": {
+    "levels": {
+      "0": {
+        "gear_name": "Crude Pants",
+        "gear_tier": "",
+        "category": "right",
+        "stars": 0,
+        "icon": "",
+        "preview": "",
+        "materials": {
+          "Hardened_Alloy": 1500,
+          "Polishing_Solution": 15,
+          "Design_Plans": 0,
+          "Lunar_Amber": 0
+        }
+      },
+      "1": {
+        "gear_name": "Crude Pants",
+        "gear_tier": "",
+        "category": "right",
+        "stars": 0,
+        "icon": "assets/images/gears/Crude_Pants.png",
+        "preview": "assets/images/gears/Crude_Pants_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 1500,
+          "Polishing_Solution": 15,
+          "Design_Plans": 0,
+          "Lunar_Amber": 0
+        }
+      },
+      "2": {
+        "gear_name": "Crude Pants",
+        "gear_tier": "",
+        "category": "right",
+        "stars": 1,
+        "icon": "assets/images/gears/Crude_Pants.png",
+        "preview": "assets/images/gears/Crude_Pants_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 3800,
+          "Polishing_Solution": 40,
+          "Design_Plans": 0,
+          "Lunar_Amber": 0
+        }
+      },
+      "3": {
+        "gear_name": "Explorer Pants",
+        "gear_tier": "",
+        "category": "right",
+        "stars": 0,
+        "icon": "assets/images/gears/Explorer_Pants.png",
+        "preview": "assets/images/gears/Explorer_Pants_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 7000,
+          "Polishing_Solution": 70,
+          "Design_Plans": 0,
+          "Lunar_Amber": 0
+        }
+      },
+      "4": {
+        "gear_name": "Explorer Pants",
+        "gear_tier": "",
+        "category": "right",
+        "stars": 1,
+        "icon": "assets/images/gears/Explorer_Pants.png",
+        "preview": "assets/images/gears/Explorer_Pants_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 9700,
+          "Polishing_Solution": 95,
+          "Design_Plans": 0,
+          "Lunar_Amber": 0
+        }
+      },
+      "5": {
+        "gear_name": "Explorer Pants",
+        "gear_tier": "",
+        "category": "right",
+        "stars": 2,
+        "icon": "assets/images/gears/Explorer_Pants.png",
+        "preview": "assets/images/gears/Explorer_Pants_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 0,
+          "Polishing_Solution": 0,
+          "Design_Plans": 45,
+          "Lunar_Amber": 0
+        }
+      },
+      "6": {
+        "gear_name": "Explorer Pants",
+        "gear_tier": "",
+        "category": "right",
+        "stars": 3,
+        "icon": "assets/images/gears/Explorer_Pants.png",
+        "preview": "assets/images/gears/Explorer_Pants_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 0,
+          "Polishing_Solution": 0,
+          "Design_Plans": 50,
+          "Lunar_Amber": 0
+        }
+      },
+      "7": {
+        "gear_name": "Frost Pacer",
+        "gear_tier": "",
+        "category": "right",
+        "stars": 0,
+        "icon": "assets/images/gears/Frost_Pacer.png",
+        "preview": "assets/images/gears/Frost_Pacer_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 0,
+          "Polishing_Solution": 0,
+          "Design_Plans": 60,
+          "Lunar_Amber": 0
+        }
+      },
+      "8": {
+        "gear_name": "Frost Pacer",
+        "gear_tier": "",
+        "category": "right",
+        "stars": 1,
+        "icon": "assets/images/gears/Frost_Pacer.png",
+        "preview": "assets/images/gears/Frost_Pacer_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 0,
+          "Polishing_Solution": 0,
+          "Design_Plans": 70,
+          "Lunar_Amber": 0
+        }
+      },
+      "9": {
+        "gear_name": "Frost Pacer",
+        "gear_tier": "",
+        "category": "right",
+        "stars": 2,
+        "icon": "assets/images/gears/Frost_Pacer.png",
+        "preview": "assets/images/gears/Frost_Pacer_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 6500,
+          "Polishing_Solution": 65,
+          "Design_Plans": 40,
+          "Lunar_Amber": 0
+        }
+      },
+      "10": {
+        "gear_name": "Frost Pacer",
+        "gear_tier": "",
+        "category": "right",
+        "stars": 3,
+        "icon": "assets/images/gears/Frost_Pacer.png",
+        "preview": "assets/images/gears/Frost_Pacer_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 8000,
+          "Polishing_Solution": 80,
+          "Design_Plans": 50,
+          "Lunar_Amber": 0
+        }
+      },
+      "11": {
+        "gear_name": "Frost Pacer",
+        "gear_tier": "T1",
+        "category": "right",
+        "stars": 0,
+        "icon": "assets/images/gears/Frost_Pacer.png",
+        "preview": "assets/images/gears/Frost_Pacer_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 10000,
+          "Polishing_Solution": 95,
+          "Design_Plans": 60,
+          "Lunar_Amber": 0
+        }
+      },
+      "12": {
+        "gear_name": "Frost Pacer",
+        "gear_tier": "T1",
+        "category": "right",
+        "stars": 1,
+        "icon": "assets/images/gears/Frost_Pacer.png",
+        "preview": "assets/images/gears/Frost_Pacer_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 11000,
+          "Polishing_Solution": 110,
+          "Design_Plans": 70,
+          "Lunar_Amber": 0
+        }
+      },
+      "13": {
+        "gear_name": "Frost Pacer",
+        "gear_tier": "T1",
+        "category": "right",
+        "stars": 2,
+        "icon": "assets/images/gears/Frost_Pacer.png",
+        "preview": "assets/images/gears/Frost_Pacer_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 13000,
+          "Polishing_Solution": 130,
+          "Design_Plans": 85,
+          "Lunar_Amber": 0
+        }
+      },
+      "14": {
+        "gear_name": "Frost Pacer",
+        "gear_tier": "T1",
+        "category": "right",
+        "stars": 3,
+        "icon": "assets/images/gears/Frost_Pacer.png",
+        "preview": "assets/images/gears/Frost_Pacer_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 15000,
+          "Polishing_Solution": 160,
+          "Design_Plans": 100,
+          "Lunar_Amber": 0
+        }
+      },
+      "15": {
+        "gear_name": "Triumphs Stride",
+        "gear_tier": "",
+        "category": "right",
+        "stars": 0,
+        "icon": "assets/images/gears/Triumphs_Stride.png",
+        "preview": "assets/images/gears/Triumphs_Stride_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 22000,
+          "Polishing_Solution": 220,
+          "Design_Plans": 40,
+          "Lunar_Amber": 0
+        }
+      },
+      "16": {
+        "gear_name": "Triumphs Stride",
+        "gear_tier": "",
+        "category": "right",
+        "stars": 1,
+        "icon": "assets/images/gears/Triumphs_Stride.png",
+        "preview": "assets/images/gears/Triumphs_Stride_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 23000,
+          "Polishing_Solution": 230,
+          "Design_Plans": 40,
+          "Lunar_Amber": 0
+        }
+      },
+      "17": {
+        "gear_name": "Triumphs Stride",
+        "gear_tier": "",
+        "category": "right",
+        "stars": 2,
+        "icon": "assets/images/gears/Triumphs_Stride.png",
+        "preview": "assets/images/gears/Triumphs_Stride_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 25000,
+          "Polishing_Solution": 250,
+          "Design_Plans": 45,
+          "Lunar_Amber": 0
+        }
+      },
+      "18": {
+        "gear_name": "Triumphs Stride",
+        "gear_tier": "",
+        "category": "right",
+        "stars": 3,
+        "icon": "assets/images/gears/Triumphs_Stride.png",
+        "preview": "assets/images/gears/Triumphs_Stride_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 26000,
+          "Polishing_Solution": 260,
+          "Design_Plans": 45,
+          "Lunar_Amber": 0
+        }
+      },
+      "19": {
+        "gear_name": "Triumphs Stride",
+        "gear_tier": "T1",
+        "category": "right",
+        "stars": 0,
+        "icon": "assets/images/gears/Triumphs_Stride.png",
+        "preview": "assets/images/gears/Triumphs_Stride_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 28000,
+          "Polishing_Solution": 280,
+          "Design_Plans": 45,
+          "Lunar_Amber": 0
+        }
+      },
+      "20": {
+        "gear_name": "Triumphs Stride",
+        "gear_tier": "T1",
+        "category": "right",
+        "stars": 1,
+        "icon": "assets/images/gears/Triumphs_Stride.png",
+        "preview": "assets/images/gears/Triumphs_Stride_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 28000,
+          "Polishing_Solution": 300,
+          "Design_Plans": 55,
+          "Lunar_Amber": 0
+        }
+      },
+      "21": {
+        "gear_name": "Triumphs Stride",
+        "gear_tier": "T1",
+        "category": "right",
+        "stars": 2,
+        "icon": "assets/images/gears/Triumphs_Stride.png",
+        "preview": "assets/images/gears/Triumphs_Stride_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 32000,
+          "Polishing_Solution": 320,
+          "Design_Plans": 55,
+          "Lunar_Amber": 0
+        }
+      },
+      "22": {
+        "gear_name": "Triumphs Stride",
+        "gear_tier": "T1",
+        "category": "right",
+        "stars": 3,
+        "icon": "assets/images/gears/Triumphs_Stride.png",
+        "preview": "assets/images/gears/Triumphs_Stride_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 35000,
+          "Polishing_Solution": 340,
+          "Design_Plans": 55,
+          "Lunar_Amber": 0
+        }
+      },    
+      "23": {
+        "gear_name": "Triumphs Stride",
+        "gear_tier": "T2",
+        "category": "right",
+        "stars": 0,
+        "icon": "assets/images/gears/Triumphs_Stride.png",
+        "preview": "assets/images/gears/Triumphs_Stride_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 38000,
+          "Polishing_Solution": 360,
+          "Design_Plans": 55,
+          "Lunar_Amber": 0
+        }
+      },    
+      "24": {
+        "gear_name": "Triumphs Stride",
+        "gear_tier": "T2",
+        "category": "right",
+        "stars": 1,
+        "icon": "assets/images/gears/Triumphs_Stride.png",
+        "preview": "assets/images/gears/Triumphs_Stride_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 43000,
+          "Polishing_Solution": 430,
+          "Design_Plans": 75,
+          "Lunar_Amber": 0
+        }
+      },    
+      "25": {
+        "gear_name": "Triumphs Stride",
+        "gear_tier": "T2",
+        "category": "right",
+        "stars": 2,
+        "icon": "assets/images/gears/Triumphs_Stride.png",
+        "preview": "assets/images/gears/Triumphs_Stride_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 45000,
+          "Polishing_Solution": 460,
+          "Design_Plans": 80,
+          "Lunar_Amber": 0
+        }
+      },    
+      "26": {
+        "gear_name": "Triumphs Stride",
+        "gear_tier": "T2",
+        "category": "right",
+        "stars": 3,
+        "icon": "assets/images/gears/Triumphs_Stride.png",
+        "preview": "assets/images/gears/Triumphs_Stride_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 48000,
+          "Polishing_Solution": 500,
+          "Design_Plans": 85,
+          "Lunar_Amber": 0
+        }
+      },    
+      "27": {
+        "gear_name": "Conquerors Cadence",
+        "gear_tier": "",
+        "category": "right",
+        "stars": 0,
+        "icon": "assets/images/gears/Conquerors_Cadence.png",
+        "preview": "assets/images/gears/Conquerors_Cadence_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 50000,
+          "Polishing_Solution": 530,
+          "Design_Plans": 85,
+          "Lunar_Amber": 10
+        }
+      },    
+      "28": {
+        "gear_name": "Conquerors Cadence",
+        "gear_tier": "",
+        "category": "right",
+        "stars": 1,
+        "icon": "assets/images/gears/Conquerors_Cadence.png",
+        "preview": "assets/images/gears/Conquerors_Cadence_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 52000,
+          "Polishing_Solution": 560,
+          "Design_Plans": 90,
+          "Lunar_Amber": 10
+        }
+      },    
+      "29": {
+        "gear_name": "Conquerors Cadence",
+        "gear_tier": "",
+        "category": "right",
+        "stars": 2,
+        "icon": "assets/images/gears/Conquerors_Cadence.png",
+        "preview": "assets/images/gears/Conquerors_Cadence_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 54000,
+          "Polishing_Solution": 590,
+          "Design_Plans": 95,
+          "Lunar_Amber": 10
+        }
+      },    
+      "30": {
+        "gear_name": "Conquerors Cadence",
+        "gear_tier": "",
+        "category": "right",
+        "stars": 3,
+        "icon": "assets/images/gears/Conquerors_Cadence.png",
+        "preview": "assets/images/gears/Conquerors_Cadence_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 56000,
+          "Polishing_Solution": 620,
+          "Design_Plans": 100,
+          "Lunar_Amber": 10
+        }
+      },    
+      "31": {
+        "gear_name": "Conquerors Cadence",
+        "gear_tier": "T1",
+        "category": "right",
+        "stars": 0,
+        "icon": "assets/images/gears/Conquerors_Cadence.png",
+        "preview": "assets/images/gears/Conquerors_Cadence_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 59000,
+          "Polishing_Solution": 670,
+          "Design_Plans": 110,
+          "Lunar_Amber": 15
+        }
+      },    
+      "32": {
+        "gear_name": "Conquerors Cadence",
+        "gear_tier": "T1",
+        "category": "right",
+        "stars": 1,
+        "icon": "assets/images/gears/Conquerors_Cadence.png",
+        "preview": "assets/images/gears/Conquerors_Cadence_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 61000,
+          "Polishing_Solution": 700,
+          "Design_Plans": 115,
+          "Lunar_Amber": 15
+        }
+      },    
+      "33": {
+        "gear_name": "Conquerors Cadence",
+        "gear_tier": "T1",
+        "category": "right",
+        "stars": 2,
+        "icon": "assets/images/gears/Conquerors_Cadence.png",
+        "preview": "assets/images/gears/Conquerors_Cadence_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 63000,
+          "Polishing_Solution": 730,
+          "Design_Plans": 120,
+          "Lunar_Amber": 15
+        }
+      },    
+      "34": {
+        "gear_name": "Conquerors Cadence",
+        "gear_tier": "T1",
+        "category": "right",
+        "stars": 3,
+        "icon": "assets/images/gears/Conquerors_Cadence.png",
+        "preview": "assets/images/gears/Conquerors_Cadence_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 65000,
+          "Polishing_Solution": 760,
+          "Design_Plans": 125,
+          "Lunar_Amber": 15
+        }
+      },    
+      "35": {
+        "gear_name": "Conquerors Cadence",
+        "gear_tier": "T2",
+        "category": "right",
+        "stars": 0,
+        "icon": "assets/images/gears/Conquerors_Cadence.png",
+        "preview": "assets/images/gears/Conquerors_Cadence_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 68000,
+          "Polishing_Solution": 810,
+          "Design_Plans": 135,
+          "Lunar_Amber": 20
+        }
+      },    
+      "36": {
+        "gear_name": "Conquerors Cadence",
+        "gear_tier": "T2",
+        "category": "right",
+        "stars": 1,
+        "icon": "assets/images/gears/Conquerors_Cadence.png",
+        "preview": "assets/images/gears/Conquerors_Cadence_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 70000,
+          "Polishing_Solution": 840,
+          "Design_Plans": 140,
+          "Lunar_Amber": 20
+        }
+      },    
+      "37": {
+        "gear_name": "Conquerors Cadence",
+        "gear_tier": "T2",
+        "category": "right",
+        "stars": 2,
+        "icon": "assets/images/gears/Conquerors_Cadence.png",
+        "preview": "assets/images/gears/Conquerors_Cadence_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 72000,
+          "Polishing_Solution": 870,
+          "Design_Plans": 145,
+          "Lunar_Amber": 20
+        }
+      },    
+      "38": {
+        "gear_name": "Conquerors Cadence",
+        "gear_tier": "T2",
+        "category": "right",
+        "stars": 3,
+        "icon": "assets/images/gears/Conquerors_Cadence.png",
+        "preview": "assets/images/gears/Conquerors_Cadence_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 74000,
+          "Polishing_Solution": 900,
+          "Design_Plans": 150,
+          "Lunar_Amber": 20
+        }
+      },    
+      "39": {
+        "gear_name": "Conquerors Cadence",
+        "gear_tier": "T3",
+        "category": "right",
+        "stars": 0,
+        "icon": "assets/images/gears/Conquerors_Cadence.png",
+        "preview": "assets/images/gears/Conquerors_Cadence_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 77000,
+          "Polishing_Solution": 950,
+          "Design_Plans": 160,
+          "Lunar_Amber": 25
+        }
+      },    
+      "40": {
+        "gear_name": "Conquerors Cadence",
+        "gear_tier": "T3",
+        "category": "right",
+        "stars": 1,
+        "icon": "assets/images/gears/Conquerors_Cadence.png",
+        "preview": "assets/images/gears/Conquerors_Cadence_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 80000,
+          "Polishing_Solution": 990,
+          "Design_Plans": 160,
+          "Lunar_Amber": 25
+        }
+      },    
+      "41": {
+        "gear_name": "Conquerors Cadence",
+        "gear_tier": "T3",
+        "category": "right",
+        "stars": 2,
+        "icon": "assets/images/gears/Conquerors_Cadence.png",
+        "preview": "assets/images/gears/Conquerors_Cadence_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 83000,
+          "Polishing_Solution": 1030,
+          "Design_Plans": 170,
+          "Lunar_Amber": 25
+        }
+      },    
+      "42": {
+        "gear_name": "Conquerors Cadence",
+        "gear_tier": "T3",
+        "category": "right",
+        "stars": 3,
+        "icon": "assets/images/gears/Conquerors_Cadence.png",
+        "preview": "assets/images/gears/Conquerors_Cadence_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 86000,
+          "Polishing_Solution": 1070,
+          "Design_Plans": 180,
+          "Lunar_Amber": 25
+        }
+      }
+    }
+  },
+  "6": {
+    "levels": {
+      "0": {
+        "gear_name": "Crude Shortstaff",
+        "gear_tier": "",
+        "category": "right",
+        "stars": 0,
+        "icon": "",
+        "preview": "",
+        "materials": {
+          "Hardened_Alloy": 1500,
+          "Polishing_Solution": 15,
+          "Design_Plans": 0,
+          "Lunar_Amber": 0
+        }
+      },
+      "1": {
+        "gear_name": "Crude Shortstaff",
+        "gear_tier": "",
+        "category": "right",
+        "stars": 0,
+        "icon": "assets/images/gears/Crude_Shortstaff.png",
+        "preview": "assets/images/gears/Crude_Shortstaff_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 1500,
+          "Polishing_Solution": 15,
+          "Design_Plans": 0,
+          "Lunar_Amber": 0
+        }
+      },
+      "2": {
+        "gear_name": "Crude Shortstaff",
+        "gear_tier": "",
+        "category": "right",
+        "stars": 1,
+        "icon": "assets/images/gears/Crude_Shortstaff.png",
+        "preview": "assets/images/gears/Crude_Shortstaff_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 3800,
+          "Polishing_Solution": 40,
+          "Design_Plans": 0,
+          "Lunar_Amber": 0
+        }
+      },
+      "3": {
+        "gear_name": "Cudgei",
+        "gear_tier": "",
+        "category": "right",
+        "stars": 0,
+        "icon": "assets/images/gears/Cudgei.png",
+        "preview": "assets/images/gears/Cudgei_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 7000,
+          "Polishing_Solution": 70,
+          "Design_Plans": 0,
+          "Lunar_Amber": 0
+        }
+      },
+      "4": {
+        "gear_name": "Cudgei",
+        "gear_tier": "",
+        "category": "right",
+        "stars": 1,
+        "icon": "assets/images/gears/Cudgei.png",
+        "preview": "assets/images/gears/Cudgei_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 9700,
+          "Polishing_Solution": 95,
+          "Design_Plans": 0,
+          "Lunar_Amber": 0
+        }
+      },
+      "5": {
+        "gear_name": "Cudgei",
+        "gear_tier": "",
+        "category": "right",
+        "stars": 2,
+        "icon": "assets/images/gears/Cudgei.png",
+        "preview": "assets/images/gears/Cudgei_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 0,
+          "Polishing_Solution": 0,
+          "Design_Plans": 45,
+          "Lunar_Amber": 0
+        }
+      },
+      "6": {
+        "gear_name": "Cudgei",
+        "gear_tier": "",
+        "category": "right",
+        "stars": 3,
+        "icon": "assets/images/gears/Cudgei.png",
+        "preview": "assets/images/gears/Cudgei_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 0,
+          "Polishing_Solution": 0,
+          "Design_Plans": 50,
+          "Lunar_Amber": 0
+        }
+      },
+      "7": {
+        "gear_name": "Starfires Melody",
+        "gear_tier": "",
+        "category": "right",
+        "stars": 0,
+        "icon": "assets/images/gears/Starfires_Melody.png",
+        "preview": "assets/images/gears/Starfires_Melody_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 0,
+          "Polishing_Solution": 0,
+          "Design_Plans": 60,
+          "Lunar_Amber": 0
+        }
+      },
+      "8": {
+        "gear_name": "Starfires Melody",
+        "gear_tier": "",
+        "category": "right",
+        "stars": 1,
+        "icon": "assets/images/gears/Starfires_Melody.png",
+        "preview": "assets/images/gears/Starfires_Melody_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 0,
+          "Polishing_Solution": 0,
+          "Design_Plans": 70,
+          "Lunar_Amber": 0
+        }
+      },
+      "9": {
+        "gear_name": "Starfires Melody",
+        "gear_tier": "",
+        "category": "right",
+        "stars": 2,
+        "icon": "assets/images/gears/Starfires_Melody.png",
+        "preview": "assets/images/gears/Starfires_Melody_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 6500,
+          "Polishing_Solution": 65,
+          "Design_Plans": 40,
+          "Lunar_Amber": 0
+        }
+      },
+      "10": {
+        "gear_name": "Starfires Melody",
+        "gear_tier": "",
+        "category": "right",
+        "stars": 3,
+        "icon": "assets/images/gears/Starfires_Melody.png",
+        "preview": "assets/images/gears/Starfires_Melody_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 8000,
+          "Polishing_Solution": 80,
+          "Design_Plans": 50,
+          "Lunar_Amber": 0
+        }
+      },
+      "11": {
+        "gear_name": "Starfires Melody",
+        "gear_tier": "T1",
+        "category": "right",
+        "stars": 0,
+        "icon": "assets/images/gears/Starfires_Melody.png",
+        "preview": "assets/images/gears/Starfires_Melody_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 10000,
+          "Polishing_Solution": 95,
+          "Design_Plans": 60,
+          "Lunar_Amber": 0
+        }
+      },
+      "12": {
+        "gear_name": "Starfires Melody",
+        "gear_tier": "T1",
+        "category": "right",
+        "stars": 1,
+        "icon": "assets/images/gears/Starfires_Melody.png",
+        "preview": "assets/images/gears/Starfires_Melody_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 11000,
+          "Polishing_Solution": 110,
+          "Design_Plans": 70,
+          "Lunar_Amber": 0
+        }
+      },
+      "13": {
+        "gear_name": "Starfires Melody",
+        "gear_tier": "T1",
+        "category": "right",
+        "stars": 2,
+        "icon": "assets/images/gears/Starfires_Melody.png",
+        "preview": "assets/images/gears/Starfires_Melody_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 13000,
+          "Polishing_Solution": 130,
+          "Design_Plans": 85,
+          "Lunar_Amber": 0
+        }
+      },
+      "14": {
+        "gear_name": "Starfires Melody",
+        "gear_tier": "T1",
+        "category": "right",
+        "stars": 3,
+        "icon": "assets/images/gears/Starfires_Melody.png",
+        "preview": "assets/images/gears/Starfires_Melody_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 15000,
+          "Polishing_Solution": 160,
+          "Design_Plans": 100,
+          "Lunar_Amber": 0
+        }
+      },
+      "15": {
+        "gear_name": "Key of Wisdom",
+        "gear_tier": "",
+        "category": "right",
+        "stars": 0,
+        "icon": "assets/images/gears/Key_of_Wisdom.png",
+        "preview": "assets/images/gears/Key_of_Wisdom_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 22000,
+          "Polishing_Solution": 220,
+          "Design_Plans": 40,
+          "Lunar_Amber": 0
+        }
+      },
+      "16": {
+        "gear_name": "Key of Wisdom",
+        "gear_tier": "",
+        "category": "right",
+        "stars": 1,
+        "icon": "assets/images/gears/Key_of_Wisdom.png",
+        "preview": "assets/images/gears/Key_of_Wisdom_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 23000,
+          "Polishing_Solution": 230,
+          "Design_Plans": 40,
+          "Lunar_Amber": 0
+        }
+      },
+      "17": {
+        "gear_name": "Key of Wisdom",
+        "gear_tier": "",
+        "category": "right",
+        "stars": 2,
+        "icon": "assets/images/gears/Key_of_Wisdom.png",
+        "preview": "assets/images/gears/Key_of_Wisdom_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 25000,
+          "Polishing_Solution": 250,
+          "Design_Plans": 45,
+          "Lunar_Amber": 0
+        }
+      },
+      "18": {
+        "gear_name": "Key of Wisdom",
+        "gear_tier": "",
+        "category": "right",
+        "stars": 3,
+        "icon": "assets/images/gears/Key_of_Wisdom.png",
+        "preview": "assets/images/gears/Key_of_Wisdom_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 26000,
+          "Polishing_Solution": 260,
+          "Design_Plans": 45,
+          "Lunar_Amber": 0
+        }
+      },
+      "19": {
+        "gear_name": "Key of Wisdom",
+        "gear_tier": "T1",
+        "category": "right",
+        "stars": 0,
+        "icon": "assets/images/gears/Key_of_Wisdom.png",
+        "preview": "assets/images/gears/Key_of_Wisdom_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 28000,
+          "Polishing_Solution": 280,
+          "Design_Plans": 45,
+          "Lunar_Amber": 0
+        }
+      },
+      "20": {
+        "gear_name": "Key of Wisdom",
+        "gear_tier": "T1",
+        "category": "right",
+        "stars": 1,
+        "icon": "assets/images/gears/Key_of_Wisdom.png",
+        "preview": "assets/images/gears/Key_of_Wisdom_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 28000,
+          "Polishing_Solution": 300,
+          "Design_Plans": 55,
+          "Lunar_Amber": 0
+        }
+      },
+      "21": {
+        "gear_name": "Key of Wisdom",
+        "gear_tier": "T1",
+        "category": "right",
+        "stars": 2,
+        "icon": "assets/images/gears/Key_of_Wisdom.png",
+        "preview": "assets/images/gears/Key_of_Wisdom_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 32000,
+          "Polishing_Solution": 320,
+          "Design_Plans": 55,
+          "Lunar_Amber": 0
+        }
+      },
+      "22": {
+        "gear_name": "Key of Wisdom",
+        "gear_tier": "T1",
+        "category": "right",
+        "stars": 3,
+        "icon": "assets/images/gears/Key_of_Wisdom.png",
+        "preview": "assets/images/gears/Key_of_Wisdom_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 35000,
+          "Polishing_Solution": 340,
+          "Design_Plans": 55,
+          "Lunar_Amber": 0
+        }
+      },    
+      "23": {
+        "gear_name": "Key of Wisdom",
+        "gear_tier": "T2",
+        "category": "right",
+        "stars": 0,
+        "icon": "assets/images/gears/Key_of_Wisdom.png",
+        "preview": "assets/images/gears/Key_of_Wisdom_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 38000,
+          "Polishing_Solution": 360,
+          "Design_Plans": 55,
+          "Lunar_Amber": 0
+        }
+      },    
+      "24": {
+        "gear_name": "Key of Wisdom",
+        "gear_tier": "T2",
+        "category": "right",
+        "stars": 1,
+        "icon": "assets/images/gears/Key_of_Wisdom.png",
+        "preview": "assets/images/gears/Key_of_Wisdom_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 43000,
+          "Polishing_Solution": 430,
+          "Design_Plans": 75,
+          "Lunar_Amber": 0
+        }
+      },    
+      "25": {
+        "gear_name": "Key of Wisdom",
+        "gear_tier": "T2",
+        "category": "right",
+        "stars": 2,
+        "icon": "assets/images/gears/Key_of_Wisdom.png",
+        "preview": "assets/images/gears/Key_of_Wisdom_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 45000,
+          "Polishing_Solution": 460,
+          "Design_Plans": 80,
+          "Lunar_Amber": 0
+        }
+      },    
+      "26": {
+        "gear_name": "Key of Wisdom",
+        "gear_tier": "T2",
+        "category": "right",
+        "stars": 3,
+        "icon": "assets/images/gears/Key_of_Wisdom.png",
+        "preview": "assets/images/gears/Key_of_Wisdom_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 48000,
+          "Polishing_Solution": 500,
+          "Design_Plans": 85,
+          "Lunar_Amber": 0
+        }
+      },    
+      "27": {
+        "gear_name": "Golden Zeal",
+        "gear_tier": "",
+        "category": "right",
+        "stars": 0,
+        "icon": "assets/images/gears/Golden_Zeal.png",
+        "preview": "assets/images/gears/Golden_Zeal_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 50000,
+          "Polishing_Solution": 530,
+          "Design_Plans": 85,
+          "Lunar_Amber": 10
+        }
+      },    
+      "28": {
+        "gear_name": "Golden Zeal",
+        "gear_tier": "",
+        "category": "right",
+        "stars": 1,
+        "icon": "assets/images/gears/Golden_Zeal.png",
+        "preview": "assets/images/gears/Golden_Zeal_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 52000,
+          "Polishing_Solution": 560,
+          "Design_Plans": 90,
+          "Lunar_Amber": 10
+        }
+      },    
+      "29": {
+        "gear_name": "Golden Zeal",
+        "gear_tier": "",
+        "category": "right",
+        "stars": 2,
+        "icon": "assets/images/gears/Golden_Zeal.png",
+        "preview": "assets/images/gears/Golden_Zeal_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 54000,
+          "Polishing_Solution": 590,
+          "Design_Plans": 95,
+          "Lunar_Amber": 10
+        }
+      },    
+      "30": {
+        "gear_name": "Golden Zeal",
+        "gear_tier": "",
+        "category": "right",
+        "stars": 3,
+        "icon": "assets/images/gears/Golden_Zeal.png",
+        "preview": "assets/images/gears/Golden_Zeal_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 56000,
+          "Polishing_Solution": 620,
+          "Design_Plans": 100,
+          "Lunar_Amber": 10
+        }
+      },    
+      "31": {
+        "gear_name": "Golden Zeal",
+        "gear_tier": "T1",
+        "category": "right",
+        "stars": 0,
+        "icon": "assets/images/gears/Golden_Zeal.png",
+        "preview": "assets/images/gears/Golden_Zeal_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 59000,
+          "Polishing_Solution": 670,
+          "Design_Plans": 110,
+          "Lunar_Amber": 15
+        }
+      },    
+      "32": {
+        "gear_name": "Golden Zeal",
+        "gear_tier": "T1",
+        "category": "right",
+        "stars": 1,
+        "icon": "assets/images/gears/Golden_Zeal.png",
+        "preview": "assets/images/gears/Golden_Zeal_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 61000,
+          "Polishing_Solution": 700,
+          "Design_Plans": 115,
+          "Lunar_Amber": 15
+        }
+      },    
+      "33": {
+        "gear_name": "Golden Zeal",
+        "gear_tier": "T1",
+        "category": "right",
+        "stars": 2,
+        "icon": "assets/images/gears/Golden_Zeal.png",
+        "preview": "assets/images/gears/Golden_Zeal_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 63000,
+          "Polishing_Solution": 730,
+          "Design_Plans": 120,
+          "Lunar_Amber": 15
+        }
+      },    
+      "34": {
+        "gear_name": "Golden Zeal",
+        "gear_tier": "T1",
+        "category": "right",
+        "stars": 3,
+        "icon": "assets/images/gears/Golden_Zeal.png",
+        "preview": "assets/images/gears/Golden_Zeal_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 65000,
+          "Polishing_Solution": 760,
+          "Design_Plans": 125,
+          "Lunar_Amber": 15
+        }
+      },    
+      "35": {
+        "gear_name": "Golden Zeal",
+        "gear_tier": "T2",
+        "category": "right",
+        "stars": 0,
+        "icon": "assets/images/gears/Golden_Zeal.png",
+        "preview": "assets/images/gears/Golden_Zeal_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 68000,
+          "Polishing_Solution": 810,
+          "Design_Plans": 135,
+          "Lunar_Amber": 20
+        }
+      },    
+      "36": {
+        "gear_name": "Golden Zeal",
+        "gear_tier": "T2",
+        "category": "right",
+        "stars": 1,
+        "icon": "assets/images/gears/Golden_Zeal.png",
+        "preview": "assets/images/gears/Golden_Zeal_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 70000,
+          "Polishing_Solution": 840,
+          "Design_Plans": 140,
+          "Lunar_Amber": 20
+        }
+      },    
+      "37": {
+        "gear_name": "Golden Zeal",
+        "gear_tier": "T2",
+        "category": "right",
+        "stars": 2,
+        "icon": "assets/images/gears/Golden_Zeal.png",
+        "preview": "assets/images/gears/Golden_Zeal_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 72000,
+          "Polishing_Solution": 870,
+          "Design_Plans": 145,
+          "Lunar_Amber": 20
+        }
+      },    
+      "38": {
+        "gear_name": "Golden Zeal",
+        "gear_tier": "T2",
+        "category": "right",
+        "stars": 3,
+        "icon": "assets/images/gears/Golden_Zeal.png",
+        "preview": "assets/images/gears/Golden_Zeal_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 74000,
+          "Polishing_Solution": 900,
+          "Design_Plans": 150,
+          "Lunar_Amber": 20
+        }
+      },    
+      "39": {
+        "gear_name": "Golden Zeal",
+        "gear_tier": "T3",
+        "category": "right",
+        "stars": 0,
+        "icon": "assets/images/gears/Golden_Zeal.png",
+        "preview": "assets/images/gears/Golden_Zeal_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 77000,
+          "Polishing_Solution": 950,
+          "Design_Plans": 160,
+          "Lunar_Amber": 25
+        }
+      },    
+      "40": {
+        "gear_name": "Golden Zeal",
+        "gear_tier": "T3",
+        "category": "right",
+        "stars": 1,
+        "icon": "assets/images/gears/Golden_Zeal.png",
+        "preview": "assets/images/gears/Golden_Zeal_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 80000,
+          "Polishing_Solution": 990,
+          "Design_Plans": 160,
+          "Lunar_Amber": 25
+        }
+      },    
+      "41": {
+        "gear_name": "Golden Zeal",
+        "gear_tier": "T3",
+        "category": "right",
+        "stars": 2,
+        "icon": "assets/images/gears/Golden_Zeal.png",
+        "preview": "assets/images/gears/Golden_Zeal_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 83000,
+          "Polishing_Solution": 1030,
+          "Design_Plans": 170,
+          "Lunar_Amber": 25
+        }
+      },    
+      "42": {
+        "gear_name": "Golden Zeal",
+        "gear_tier": "T3",
+        "category": "right",
+        "stars": 3,
+        "icon": "assets/images/gears/Golden_Zeal.png",
+        "preview": "assets/images/gears/Golden_Zeal_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 86000,
+          "Polishing_Solution": 1070,
+          "Design_Plans": 180,
+          "Lunar_Amber": 25
+        }
+      }
+    }
+  }
+}

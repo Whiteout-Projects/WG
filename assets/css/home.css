@@ -1,0 +1,445 @@
+/* ===================================================================
+   REVISI FINAL STYLE.CSS DENGAN TEMA MINIMALIS
+   VERSI: RAPIH (DIREFAKTORISASI UNTUK KEJELASAN & KETERBACAAN)
+   =================================================================== */
+
+/* ===================================================================
+   1. SETUP GLOBAL & VARIABEL
+   -------------------------------------------------------------------
+   Bagian ini mendefinisikan elemen dasar: variabel warna (palet),
+   reset gaya universal, dan gaya dasar untuk <body>.
+   =================================================================== */
+
+/* --- Variabel Warna (Palet Final) --- */
+:root {
+    --background-dark: #111827;
+    --background-card: #1F2937;
+    --background-feature: #374151;
+    --text-primary: #F9FAFB;
+    --text-secondary: #9CA3AF;
+    --accent-primary: #8A5CFE;
+    --accent-secondary: #6366F1;
+    --accent-gradient: linear-gradient(90deg, var(--accent-primary), var(--accent-secondary));
+    --shadow-color: rgba(0, 0, 0, 0.4);
+}
+
+/* --- Reset & Gaya Dasar Body --- */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', 'Segoe UI', sans-serif;
+    background-color: var(--background-dark);
+    color: var(--text-primary);
+}
+
+
+/* ===================================================================
+   2. STRUKTUR & LAYOUT UTAMA
+   -------------------------------------------------------------------
+   Gaya untuk elemen layout utama halaman seperti header, container
+   utama, dan footer.
+   =================================================================== */
+
+.container {
+    max-width: 900px;
+    margin: 0 auto 40px auto;
+    padding: 0 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+header {
+    padding: 2rem 0;
+}
+
+.logo {
+    width: fit-content;
+    margin: 0 auto;
+}
+
+.logo img {
+    height: 60px;
+    object-fit: contain;
+}
+
+footer {
+    text-align: center;
+    padding: 2rem 1rem;
+    margin-top: 2rem;
+    color: var(--text-secondary);
+    font-size: 0.9rem;
+    border-top: 1px solid var(--background-feature);
+}
+
+
+/* ===================================================================
+   3. KELAS UTILITAS (UTILITY CLASSES)
+   -------------------------------------------------------------------
+   Kelas kecil dan dapat digunakan kembali untuk tujuan spesifik,
+   seperti memberikan margin.
+   =================================================================== */
+
+.mt-1 {
+    margin-top: 10px;
+}
+
+
+/* ===================================================================
+   4. GAYA KOMPONEN
+   -------------------------------------------------------------------
+   Gaya spesifik untuk setiap komponen UI di halaman.
+   =================================================================== */
+
+/* --- 4a. Hero Section --- */
+.hero {
+    text-align: center;
+    padding: 20px 0;
+}
+.hero h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 10px;
+    background: var(--accent-gradient);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+}
+.hero .subtitle {
+    font-size: 1.2rem;
+    color: var(--text-secondary);
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+/* --- 4b. Kartu Konten Umum (Deskripsi & Dukungan) --- */
+.description-card, .support-card {
+    background-color: var(--background-card);
+    padding: 2.5rem;
+    border-radius: 16px;
+    border: 1px solid #374151;
+    box-shadow: 0 8px 24px var(--shadow-color);
+    text-align: center;
+}
+.description-card h2, .support-card h2 {
+    color: var(--text-primary);
+    margin-bottom: 1rem;
+    font-size: 2rem;
+}
+.description-card p, .support-card p {
+    color: var(--text-secondary);
+    line-height: 1.8;
+}
+
+/* --- 4c. Kartu Fitur --- */
+.features-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+.feature-item {
+    background-color: var(--background-feature);
+    padding: 25px;
+    border-radius: 12px;
+    transition: transform 0.3s ease;
+}
+.feature-item:hover {
+    transform: translateY(-5px);
+}
+.feature-item i {
+    font-size: 2.5rem;
+    background: var(--accent-gradient);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+    margin-bottom: 15px;
+}
+.feature-item h3 {
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+    color: var(--text-primary);
+}
+.feature-item p {
+    font-size: 0.9rem;
+    color: var(--text-secondary);
+    line-height: 1.6;
+}
+
+/* --- 4d. Tombol (Buttons) --- */
+.btn-primary, .btn-donate {
+    display: inline-block;
+    background: var(--accent-gradient);
+    color: #fff;
+    padding: 14px 32px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+}
+.btn-primary:hover, .btn-donate:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 7px 20px rgba(138, 92, 254, 0.4);
+}
+.btn-primary i, .btn-donate i {
+    margin-left: 10px;
+}
+
+/* --- 4e. Pemilih Bahasa (Language Switcher) --- */
+.language-switcher {
+    text-align: center;
+    margin-top: 1rem;
+}
+.language-switcher i {
+    margin-right: 8px;
+    color: var(--text-secondary);
+}
+.language-switcher select {
+    background-color: var(--background-feature);
+    color: var(--text-primary);
+    border: 1px solid var(--background-card);
+    padding: 5px 10px;
+    border-radius: 6px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-image: url('data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22292.4%22%20height%3D%22292.4%22%3E%3Cpath%20fill%3D%22%23ffffff%22%20d%3D%22M287%2069.4a17.6%2017.6%200%200%200-13-5.4H18.4c-5%200-9.3%201.8-12.9%205.4A17.6%2017.6%200%200%200%200%2082.2c0%205%201.8%209.3%205.4%2012.9l128%20127.9c3.6%203.6%207.8%205.4%2012.8%205.4s9.2-1.8%2012.8-5.4L287%2095c3.5-3.5%205.4-7.8%205.4-12.8%200-5-1.9-9.2-5.5-12.8z%22%2F%3E%3C%2Fsvg%3E');
+    background-repeat: no-repeat;
+    background-position: right 15px center;
+    background-size: 10px;
+    cursor: pointer;
+}
+.language-switcher select:focus {
+    outline: none;
+    box-shadow: 0 0 0 2px var(--accent-primary);
+}
+
+/* --- 4f. Kartu Profil (Profile Card) --- */
+.profile-card {
+    background-color: var(--background-card);
+    padding: 2rem;
+    border-radius: 16px;
+    border: 1px solid #374151;
+    box-shadow: 0 8px 24px var(--shadow-color);
+}
+.profile-main {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    border-bottom: 1px solid var(--background-feature);
+    padding-bottom: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+.profile-avatar video {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    object-position: 20% 25%;
+}
+.profile-info {
+    flex-grow: 1;
+}
+.profile-name {
+    font-size: 1rem;
+    font-weight: 700;
+    color: var(--text-primary);
+    margin-bottom: 0.25rem;
+}
+.profile-name span {
+    color: var(--text-secondary);
+}
+.profile-id {
+    font-size: 1rem;
+    color: var(--text-secondary);
+    margin-bottom: 1rem;
+    display: flex; /* Fix alignment */
+    align-items: center;
+}
+#username-text {
+    margin-right: 8px;
+}
+.profile-stats, .profile-meta {
+    display: flex;
+    gap: 1.5rem;
+    font-size: 0.9rem;
+    color: var(--text-secondary);
+}
+.profile-stats {
+    margin-bottom: 0.5rem;
+}
+.profile-stats i, .profile-meta i {
+    margin-right: 6px;
+    color: var(--text-primary);
+}
+.profile-links {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+}
+.link-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 12px;
+    border-radius: 8px;
+    text-decoration: none;
+    color: var(--text-primary);
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+.link-btn i {
+    margin-right: 10px;
+    font-size: 1.2rem;
+}
+.link-btn.github { background-color: #333; }
+.link-btn.kofi { background-color: #13C3FF; }
+.link-btn:hover {
+    transform: translateY(-3px);
+    filter: brightness(1.2);
+}
+
+/* --- 4g. Fungsionalitas Salin ke Papan Klip (Copy-to-Clipboard) --- */
+.copy-wrapper {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+#copy-username-btn {
+    cursor: pointer;
+    transition: color 0.2s ease;
+}
+#copy-username-btn:hover {
+    color: var(--accent-primary);
+}
+.copy-feedback {
+    position: absolute;
+    left: calc(100% + 8px); 
+    top: 50%;
+    background-color: var(--accent-primary);
+    color: white;
+    padding: 3px 10px;
+    border-radius: 5px;
+    font-size: 0.8rem;
+    font-weight: 600;
+    white-space: nowrap;
+    opacity: 0;
+    visibility: hidden;
+    transform: translate(-10px, -50%);
+    transition: all 0.3s ease;
+    pointer-events: none;
+}
+.copy-feedback.visible {
+    opacity: 1;
+    visibility: visible;
+    transform: translate(0, -50%);
+}
+
+
+/* ===================================================================
+   5. ANIMASI
+   -------------------------------------------------------------------
+   Definisi @keyframes untuk animasi dan pemicunya (misalnya, saat hover).
+   =================================================================== */
+
+/* --- 5a. Definisi Keyframes --- */
+@keyframes spin {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+}
+
+@keyframes aura-glow {
+    0% { text-shadow: 0 0 8px rgba(138, 92, 254, 0.6); }
+    50% { text-shadow: 0 0 25px rgba(138, 92, 254, 0.9); }
+    100% { text-shadow: 0 0 8px rgba(138, 92, 254, 0.6); }
+}
+
+@keyframes rocking {
+    0% { transform: rotate(0deg); }
+    25% { transform: rotate(10deg); }
+    75% { transform: rotate(-10deg); }
+    100% { transform: rotate(0deg); }
+}
+
+@keyframes pulse {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.1); }
+    100% { transform: scale(1); }
+}
+
+/* --- 5b. Pemicu Animasi saat Hover --- */
+
+/* Ikon yang Berputar (spin) */
+.feature-item:hover .fa-gear,
+.feature-item:hover .fa-sync-alt,
+.feature-item:hover .fa-hourglass-half {
+    animation: spin 2s linear infinite;
+}
+
+/* Ikon yang Bersinar (aura-glow) */
+.feature-item:hover .fa-shield-alt, /* Ikon lama ditambahkan */
+.feature-item:hover .fa-wand-magic-sparkles {
+    animation: aura-glow 1.5s ease-in-out infinite;
+}
+
+/* Ikon yang Berayun (rocking) */
+.feature-item:hover .fa-circle-info {
+    animation: rocking 1s ease-in-out infinite;
+}
+
+/* Ikon yang Berdenyut (pulse) */
+.feature-item:hover .fa-users-line {
+    animation: pulse 1.5s ease-in-out infinite;
+}
+
+
+/* ===================================================================
+   6. GAYA RESPONSIVE (MEDIA QUERIES)
+   -------------------------------------------------------------------
+   Penyesuaian gaya untuk perangkat dengan layar lebih kecil (<= 768px).
+   =================================================================== */
+
+@media (max-width: 768px) {
+    /* Penyesuaian Komponen Umum */
+    .hero h1 {
+        font-size: 2.2rem;
+    }
+    .description-card, .support-card {
+        padding: 1.5rem;
+    }
+
+    /* Penyesuaian Kartu Profil */
+    .profile-main {
+        flex-direction: column;
+        text-align: center;
+    }
+    .profile-stats, .profile-meta {
+        justify-content: center;
+        gap: 1rem;
+        flex-wrap: wrap;
+    }
+    .profile-links {
+        grid-template-columns: 1fr;
+    }
+
+    /* Penyesuaian Feedback "Copy" */
+    .profile-id {
+        justify-content: center;
+    }
+    .copy-feedback {
+        left: 50%;
+        top: auto;
+        bottom: calc(100% + 5px);
+        transform: translateX(-50%);
+    }
+    .copy-feedback.visible {
+        transform: translate(-50%, -5px);
+    }
+}

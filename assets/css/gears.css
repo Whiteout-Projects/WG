@@ -1,0 +1,709 @@
+/* ===================================================================
+   KODE CSS UNTUK HALAMAN GEARS (CALCULATOR)
+   VERSI: RAPIH (DIREFAKTORISASI UNTUK KEJELASAN & KETERBACAAN)
+   =================================================================== */
+
+/* ===================================================================
+   1. SETUP GLOBAL & VARIABEL
+   -------------------------------------------------------------------
+   Definisi variabel warna, reset gaya universal, dan gaya dasar
+   untuk <body>.
+   =================================================================== */
+:root {
+    --background-dark: #111827;
+    --background-card: #1F2937;
+    --background-feature: #374151;
+    --text-primary: #F9FAFB;
+    --text-secondary: #9CA3AF;
+    --accent-primary: #8A5CFE;
+    --accent-secondary: #6366F1;
+    --accent-gradient: linear-gradient(90deg, var(--accent-primary), var(--accent-secondary));
+    --shadow-color: rgba(0, 0, 0, 0.4);
+    --glow-color: rgba(138, 92, 254, 0.4);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', 'Segoe UI', sans-serif;
+    background-color: var(--background-dark);
+    color: var(--text-primary);
+}
+
+
+/* ===================================================================
+   2. STRUKTUR UTAMA & LAYOUT
+   -------------------------------------------------------------------
+   Gaya untuk elemen kerangka utama halaman: header, container, 
+   kartu utama, dan footer.
+   =================================================================== */
+header {
+    padding: 2rem 0;
+    text-align: center;
+}
+
+.logo img {
+    height: 60px;
+    object-fit: contain;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    padding: 0 2rem 2rem 2rem;
+    width: 100%;
+}
+
+.card {
+    background-color: var(--background-card);
+    padding: 2.5rem;
+    border-radius: 16px;
+    border: 1px solid var(--background-feature);
+    box-shadow: 0 8px 24px var(--shadow-color);
+    width: 100%;
+    max-width: 900px;
+}
+
+.card h2 {
+    background: var(--accent-gradient);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    padding: 2rem 1rem;
+    margin-top: 2rem;
+    color: var(--text-secondary);
+    font-size: 0.9rem;
+    border-top: 1px solid var(--background-feature);
+}
+
+
+/* ===================================================================
+   3. KOMPONEN UMUM & REUSABLE
+   -------------------------------------------------------------------
+   Gaya untuk elemen UI yang dapat digunakan kembali seperti tombol,
+   tautan, dan formulir.
+   =================================================================== */
+
+/* --- 3a. Tombol & Tautan Aksi --- */
+.top-actions {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: -10px;
+    margin-bottom: 1rem;
+}
+
+.btn {
+    display: inline-block;
+    padding: 8px 16px;
+    border-radius: 8px;
+    border: none;
+    font-weight: 600;
+    cursor: pointer;
+    text-decoration: none;
+    background: var(--accent-gradient);
+    color: #fff;
+    transition: all .3s ease;
+    font-size: 1rem;
+    text-align: center;
+}
+
+.btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 15px var(--glow-color);
+}
+
+.btn-secondary {
+    background: var(--background-feature);
+    color: var(--text-secondary);
+}
+
+.btn-secondary:hover {
+    color: var(--text-primary);
+    background: var(--accent-primary);
+    transform: none;
+    box-shadow: none;
+}
+
+#upgrade {
+    width: 100%;
+    max-width: 300px;
+    padding: 12px;
+    font-size: 1.1rem;
+    margin-top: 1rem;
+}
+
+.back-link {
+    display: inline-block;
+    color: var(--text-secondary);
+    text-decoration: none;
+    margin-bottom: 2rem;
+    transition: color 0.3s ease;
+    font-size: 0.9rem;
+}
+
+.back-link:hover {
+    color: var(--accent-primary);
+}
+
+.back-link i {
+    margin-right: 8px;
+}
+
+/* --- 3b. Elemen Formulir --- */
+.level-input-group {
+    margin-bottom: 1rem;
+}
+
+.level-input-group label {
+    color: var(--text-secondary);
+    display: block;
+    margin-bottom: 5px;
+    text-align: left;
+}
+
+.level-input-group input,
+#materialInput,
+.level-input-group select {
+    width: 100%;
+    padding: 10px;
+    border-radius: 6px;
+    border: 1px solid var(--background-feature);
+    background-color: var(--background-dark);
+    color: var(--text-primary);
+    font-size: 1rem;
+}
+
+.level-input-group input:focus,
+#materialInput:focus,
+.level-input-group select:focus {
+    outline: 0;
+    border-color: var(--accent-primary);
+    box-shadow: 0 0 0 3px var(--glow-color);
+}
+
+.level-input-group select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-image: url('data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22292.4%22%20height%3D%22292.4%22%3E%3Cpath%20fill%3D%22%23ffffff%22%20d%3D%22M287%2069.4a17.6%2017.6%200%200%200-13-5.4H18.4c-5%200-9.3%201.8-12.9%205.4A17.6%2017.6%200%200%200%200%2082.2c0%205%201.8%209.3%205.4%2012.9l128%20127.9c3.6%203.6%207.8%205.4%2012.8%205.4s9.2-1.8%2012.8-5.4L287%2095c3.5-3.5%205.4-7.8%205.4-12.8%200-5-1.9-9.2-5.5-12.8z%22%2F%3E%3C%2Fsvg%3E');
+    background-repeat: no-repeat;
+    background-position: right 15px center;
+    background-size: 10px;
+    cursor: pointer;
+}
+
+
+/* ===================================================================
+   4. KOMPONEN SPESIFIK HALAMAN "GEARS"
+   -------------------------------------------------------------------
+   Gaya untuk komponen yang unik di halaman ini.
+   =================================================================== */
+
+/* --- 4a. Tata Letak Pilihan Gear --- */
+.gear-layout {
+    display: flex;
+    justify-content: space-between;
+    max-width: 300px;
+    margin: 1.5rem auto 2rem auto;
+    position: relative;
+}
+.box-middle { flex-grow: 1; }
+.box-left, .box-right {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.gear-box {
+    position: relative;
+    width: 60px;
+    height: 60px;
+    background-color: var(--background-feature);
+    border-radius: 10px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, .3);
+    cursor: pointer;
+    transition: transform .2s ease, box-shadow .2s ease;
+}
+.gear-box:hover {
+    transform: scale(1.1);
+    box-shadow: 0 12px 30px rgba(0, 0, 0, .5);
+}
+.gear-box img.gear-img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    object-fit: cover;
+}
+.box-left .gear-box:nth-child(2) { transform: translateX(-20px); }
+.box-left .gear-box:nth-child(2):hover { transform: translateX(-20px) scale(1.1); }
+.box-right .gear-box:nth-child(2) { transform: translateX(20px); }
+.box-right .gear-box:nth-child(2):hover { transform: translateX(20px) scale(1.1); }
+
+/* --- 4b. Indikator pada Gear Box (Tier & Stars) --- */
+.gear-tier {
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    color: #ffcc24;
+    font-weight: 700;
+    font-size: 8px;
+    padding: 2px;
+    z-index: 3;
+    pointer-events: none;
+}
+.gear-stars {
+    position: absolute;
+    bottom: 4px;
+    left: 2px;
+    display: flex;
+    flex-direction: column;
+    font-size: 8px;
+    pointer-events: none;
+    z-index: 2;
+    line-height: 1;
+    gap: 3px;
+}
+.star {
+    text-shadow: 1px 1px 2px #000;
+}
+
+/* --- 4c. Pratinjau Gear di Tengah --- */
+#gear-preview {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 10;
+    pointer-events: none;
+    animation: floatUpDown 2s ease-in-out infinite;
+}
+#gear-preview img {
+    width: 120px;
+    height: auto;
+}
+
+/* --- 4d. Panel Pilihan Material --- */
+.card-materials {
+    position: relative;
+    background-color: var(--background-dark);
+    border-radius: 12px;
+    padding: 1.5rem;
+    margin: 2rem auto 0;
+    border: 1px solid var(--background-feature);
+    text-align: center;
+}
+.materials {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    margin: 1.5rem 0;
+    flex-wrap: wrap;
+}
+.material-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+    width: 65px;
+}
+.material-box img {
+    width: 100%;
+    height: 65px;
+    border-radius: 8px;
+    object-fit: cover;
+    background-color: var(--background-card);
+    border: 1px solid #4B5563;
+    transition: transform .3s ease;
+}
+.material-box:hover img {
+    transform: scale(1.05);
+}
+.material-amount {
+    margin-top: 6px;
+    font-size: 10px;
+    font-weight: 600;
+    color: var(--text-secondary);
+}
+.max-materials span {
+    font-size: 1.2rem;
+    background: var(--accent-gradient);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+}
+#resetMaterialsBtn {
+    position: absolute;
+    top: 1.5rem;
+    right: 1.5rem;
+    margin: 0;
+    padding: 6px 10px;
+    font-size: 1.2rem;
+}
+
+/* --- 4e. Dropdown Kustom (Pemilih Level Gear) --- */
+.custom-select-container {
+    position: relative;
+    width: 100%;
+}
+.custom-select-trigger {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px 10px;
+    border-radius: 6px;
+    border: 1px solid var(--background-feature);
+    background-color: var(--background-dark);
+    color: var(--text-primary);
+    cursor: pointer;
+    height: 45px;
+    box-sizing: border-box;
+    transition: border-color 0.2s;
+}
+.custom-select-trigger:hover, .custom-select-trigger.open {
+    border-color: var(--accent-primary);
+}
+.custom-select-trigger.open {
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+.trigger-content {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    overflow: hidden;
+}
+.trigger-content img {
+    width: 28px;
+    height: 28px;
+    object-fit: contain;
+    flex-shrink: 0;
+}
+.trigger-content span {
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+.arrow {
+    border: solid var(--text-primary);
+    border-width: 0 2px 2px 0;
+    padding: 3px;
+    transform: rotate(45deg);
+    transition: transform 0.3s ease;
+    flex-shrink: 0;
+}
+.open .arrow {
+    transform: rotate(-135deg);
+}
+.custom-options {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background-color: var(--background-dark);
+    border: 1px solid var(--accent-primary);
+    border-top: none;
+    border-radius: 0 0 6px 6px;
+    z-index: 1001;
+    max-height: 250px;
+    overflow-y: auto;
+}
+.custom-options.open {
+    display: block;
+}
+.custom-option {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+.custom-option:hover, .custom-option.selected {
+    background-color: var(--background-feature);
+}
+.custom-option img {
+    width: 32px;
+    height: 32px;
+    object-fit: contain;
+    flex-shrink: 0;
+}
+.custom-option .level-name {
+    color: var(--text-primary);
+}
+
+/* --- 4f. Pemilih Bahasa (Language Switcher) --- */
+.language-switcher {
+    text-align: right;
+    margin-bottom: 1rem;
+    position: relative;
+}
+.language-switcher i {
+    margin-right: 8px;
+    color: var(--text-secondary);
+}
+.language-switcher select {
+    background-color: var(--background-feature);
+    color: var(--text-primary);
+    border: 1px solid var(--background-card);
+    padding: 5px 35px 5px 10px; /* Tambah padding kanan untuk ruang panah */
+    border-radius: 6px;
+    font-family: 'Poppins', sans-serif;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-image: url('data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22292.4%22%20height%3D%22292.4%22%3E%3Cpath%20fill%3D%22%23ffffff%22%20d%3D%22M287%2069.4a17.6%2017.6%200%200%200-13-5.4H18.4c-5%200-9.3%201.8-12.9%205.4A17.6%2017.6%200%200%200%200%2082.2c0%205%201.8%209.3%205.4%2012.9l128%20127.9c3.6%203.6%207.8%205.4%2012.8%205.4s9.2-1.8%2012.8-5.4L287%2095c3.5-3.5%205.4-7.8%205.4-12.8%200-5-1.9-9.2-5.5-12.8z%22%2F%3E%3C%2Fsvg%3E');
+    background-repeat: no-repeat;
+    background-position: right 15px center;
+    background-size: 10px;
+    cursor: pointer;
+}
+.language-switcher select:focus {
+    outline: none;
+    box-shadow: 0 0 0 2px var(--accent-primary);
+}
+
+/* --- 4g. Kartu Ringkasan Material --- */
+.used-materials-summary-card {
+    background-color: var(--background-feature);
+    border-radius: 12px;
+    padding: 1rem 1.5rem;
+    max-width: 400px;
+    margin: 20px auto;
+}
+.used-materials-summary-card h4 {
+    margin: 0 0 12px;
+    text-align: center;
+    font-size: 1.2rem;
+    background: var(--accent-gradient);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+}
+.materials-list {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.material-row {
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--background-dark);
+    padding: 8px 12px;
+    border-radius: 8px;
+    font-size: .9rem;
+}
+.material-name { color: var(--text-secondary); }
+.material-total {
+    font-weight: 700;
+    color: var(--text-primary);
+}
+
+/* ===================================================================
+   5. KOMPONEN INTERAKTIF (MODAL & ALERT)
+   -------------------------------------------------------------------
+   Gaya untuk modal pop-up, overlay, dan notifikasi kustom.
+   =================================================================== */
+body.modal-open {
+  overflow: hidden;
+}
+
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    z-index: 9999;
+}
+
+.modal-content {
+    background: var(--background-card);
+    padding: 2rem;
+    border-radius: 12px;
+    border: 1px solid var(--background-feature);
+    box-shadow: 0 0 25px rgba(0, 0, 0, .5);
+    animation: scaleIn .3s ease;
+    text-align: center;
+    width: 100%;
+    max-width: 420px;
+    max-height: 90vh; /* Batasi tinggi total */
+    display: flex;        /* Gunakan flexbox untuk layout fleksibel */
+    flex-direction: column;
+}
+
+.modal-content h3 {
+    margin-bottom: 1.5rem;
+    flex-shrink: 0; /* Mencegah judul terkompresi */
+}
+
+/* Kunci utama: Hanya area form yang bisa di-scroll jika isinya panjang */
+.modal-content > form {
+    overflow-y: auto;
+    flex-grow: 1; /* Biarkan form mengisi sisa ruang */
+    padding-right: 15px; /* Beri ruang untuk scrollbar */
+    margin-right: -15px; /* Trik agar lebar konten tidak bergeser */
+    scrollbar-width: thin; /* Untuk Firefox */
+    scrollbar-color: var(--background-feature) var(--background-dark); /* Untuk Firefox */
+}
+.modal-content > form::-webkit-scrollbar { width: 8px; }
+.modal-content > form::-webkit-scrollbar-track { background: transparent; }
+.modal-content > form::-webkit-scrollbar-thumb {
+    background-color: var(--background-feature);
+    border-radius: 4px;
+}
+.modal-content > form::-webkit-scrollbar-thumb:hover { background-color: var(--accent-primary); }
+
+
+.modal-buttons {
+    margin-top: 1.5rem;
+    flex-shrink: 0; /* Mencegah tombol terkompresi */
+}
+
+.modal-buttons .btn {
+    flex: 1;
+    margin-top: 0;
+}
+
+#custom-alert-message {
+    margin-bottom: 20px;
+}
+
+
+/* ===================================================================
+   6. ANIMASI & KELAS UTILITAS
+   -------------------------------------------------------------------
+   Definisi @keyframes dan kelas helper kecil.
+   =================================================================== */
+.hidden {
+    display: none;
+}
+
+.gear-box.glow-gold {
+    animation: accent-glow-animation 1.5s infinite ease-in-out;
+}
+
+@keyframes floatUpDown {
+    0%, 100% { margin-top: 0; }
+    50% { margin-top: -10px; }
+}
+
+@keyframes accent-glow-animation {
+    0%, 100% { box-shadow: 0 0 4px 2px var(--glow-color); }
+    50% { box-shadow: 0 0 12px 5px var(--glow-color); }
+}
+
+@keyframes scaleIn {
+    0% { transform: scale(.8); opacity: 0; }
+    100% { transform: scale(1); opacity: 1; }
+}
+
+/* Kustomisasi scrollbar untuk dropdown */
+.custom-options::-webkit-scrollbar { width: 8px; }
+.custom-options::-webkit-scrollbar-track { background: var(--background-dark); }
+.custom-options::-webkit-scrollbar-thumb {
+  background-color: var(--background-feature);
+  border-radius: 4px;
+}
+
+/* ===================================================================
+   7. GAYA RESPONSIVE (MEDIA QUERIES)
+   -------------------------------------------------------------------
+   Penyesuaian gaya untuk perangkat dengan layar berbeda.
+   =================================================================== */
+
+/* Tablet & Perangkat Kecil (<= 768px) */
+@media (max-width: 768px) {
+    .container {
+        padding: 0 1rem 1rem 1rem;
+    }
+    .card {
+        padding: 1.5rem;
+    }
+}
+
+/* Mobile (<= 480px) */
+@media (max-width: 480px) {
+    body {
+        font-size: 14px;
+    }
+    .gear-box {
+        width: 55px;
+        height: 55px;
+    }
+    .gear-tier, .gear-stars {
+        font-size: 7px;
+    }
+    #gear-preview img {
+        width: 100px;
+    }
+    .materials {
+        gap: 1rem;
+    }
+    .material-box {
+        width: 60px;
+    }
+    .material-box img {
+        height: 60px;
+    }
+    /* Penyesuaian posisi gear di mobile */
+    .box-left .gear-box:nth-child(1),
+    .box-left .gear-box:nth-child(3) {
+        transform: translateX(15px);
+    }
+    .box-left .gear-box:nth-child(1):hover,
+    .box-left .gear-box:nth-child(3):hover {
+        transform: translateX(15px) scale(1.1);
+    }
+    .box-left .gear-box:nth-child(2) {
+        transform: translateX(0px);
+    }
+    .box-left .gear-box:nth-child(2):hover {
+        transform: translateX(0px) scale(1.1);
+    }
+    .box-right .gear-box:nth-child(1),
+    .box-right .gear-box:nth-child(3) {
+        transform: translateX(-15px);
+    }
+    .box-right .gear-box:nth-child(1):hover,
+    .box-right .gear-box:nth-child(3):hover {
+        transform: translateX(-15px) scale(1.1);
+    }
+    .box-right .gear-box:nth-child(2) {
+        transform: translateX(0px);
+    }
+    .box-right .gear-box:nth-child(2):hover {
+        transform: translateX(0px) scale(1.1);
+    }
+}
+
+/* Mobile Kecil (<= 360px) */
+@media (max-width: 360px) {
+    .gear-box {
+        width: 50px;
+        height: 50px;
+    }
+    
+    #gear-preview img {
+        width: 80px;
+    }
+}
