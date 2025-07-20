@@ -300,6 +300,7 @@ footer {
     font-size: 1.2rem;
 }
 .link-btn.github { background-color: #333; }
+.link-btn.discord { background-color: #5865F2; }
 .link-btn.kofi { background-color: #13C3FF; }
 .link-btn:hover {
     transform: translateY(-3px);
