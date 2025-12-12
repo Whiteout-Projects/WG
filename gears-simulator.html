@@ -1,150 +1,156 @@
 <!DOCTYPE html>
 <html lang="id">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Gear Simulator</title>
-    <link rel="icon" href="assets/images/Logo.png" type="image/png" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
-    <link rel="stylesheet" href="assets/css/gears.css" />
-  </head>
-  <body>
-    <header>
-      <div class="logo">
-        <img src="assets/images/Logo.png" alt="Logo" />
-      </div>
-    </header>
-    <div class="container">
-      <div class="card card-wide">
-        <div class="language-switcher">
-          <i class="fas fa-globe"></i>
-          <select id="lang-selector">
-            <option value="en">English</option>
-            <option value="id">Bahasa Indonesia</option>
-            <option value="jp">日本語</option>
-          </select>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Gear Simulator</title>
+        <link rel="icon" href="assets/images/Logo.png" type="image/png" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+        <link rel="stylesheet" href="assets/css/gears.css" />
+    </head>
+    <body>
+        <header>
+            <div class="logo">
+                <img src="assets/images/Logo.png" alt="Logo" />
+            </div>
+        </header>
+        <div class="container">
+            <div class="card card-wide">
+                <div class="language-switcher">
+                    <i class="fas fa-globe"></i>
+                    <select id="lang-selector">
+                        <option value="en">English</option>
+                        <option value="id">Bahasa Indonesia</option>
+                        <option value="jp">日本語</option>
+                        <option value="ru">Русский</option>
+                    </select>
+                </div>
+                <a href="index.html" class="back-link">
+                    <i class="fas fa-arrow-left"></i>
+                    <span data-i18n="back_to_home">Back to Home</span>
+                </a>
+                <h2 data-i18n="gear_simulator_title">Gear Simulator</h2>
+                <div class="top-actions">
+                    <button class="btn" id="open-level-modal" data-i18n-title="gears_set_start_levels">⚙️</button>
+                    <button class="btn" id="reset-levels" data-i18n-title="gears_reset_levels">🔄</button>
+                </div>
+                <div class="gear-layout">
+                    <div class="box-left">
+                        <div class="gear-box" id="1">
+                            <div class="gear-tier" id="gear-tier-1"></div>
+                            <div id="icon-data-1"></div>
+                            <div class="gear-stars" id="gear-stars-1"></div>
+                        </div>
+                        <div class="gear-box" id="2">
+                            <div class="gear-tier" id="gear-tier-2"></div>
+                            <div id="icon-data-2"></div>
+                            <div class="gear-stars" id="gear-stars-2"></div>
+                        </div>
+                        <div class="gear-box" id="3">
+                            <div class="gear-tier" id="gear-tier-3"></div>
+                            <div id="icon-data-3"></div>
+                            <div class="gear-stars" id="gear-stars-3"></div>
+                        </div>
+                    </div>
+                    <div class="box-middle">
+                        <div id="gear-preview" class="hidden">
+                            <img src="" alt="Preview Gear" />
+                        </div>
+                    </div>
+                    <div class="box-right">
+                        <div class="gear-box" id="4">
+                            <div class="gear-tier" id="gear-tier-4"></div>
+                            <div id="icon-data-4"></div>
+                            <div class="gear-stars" id="gear-stars-4"></div>
+                        </div>
+                        <div class="gear-box" id="5">
+                            <div class="gear-tier" id="gear-tier-5"></div>
+                            <div id="icon-data-5"></div>
+                            <div class="gear-stars" id="gear-stars-5"></div>
+                        </div>
+                        <div class="gear-box" id="6">
+                            <div class="gear-tier" id="gear-tier-6"></div>
+                            <div id="icon-data-6"></div>
+                            <div class="gear-stars" id="gear-stars-6"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-materials">
+                    <h2 data-i18n="gears_required_materials">Required Materials</h2>
+                    <button id="resetMaterialsBtn" class="btn" data-i18n-title="gears_reset_materials">🧹</button>
+                    <div class="materials"></div>
+                    <button class="btn" id="upgrade" data-i18n="gears_upgrade_button">Upgrade</button>
+                    <h2 class="hidden" style="margin-top: 20px"></h2>
+                    <div id="used-material-summary"></div>
+                </div>
+            </div>
         </div>
-        <a href="index.html" class="back-link">
-          <i class="fas fa-arrow-left"></i>
-          <span data-i18n="back_to_home">Back to Home</span>
-        </a>
-        <h2 data-i18n="gear_simulator_title">Gear Simulator</h2>
-        <div class="top-actions">
-          <button class="btn" id="open-level-modal" data-i18n-title="gears_set_start_levels">⚙️</button>
-          <button class="btn" id="reset-levels" data-i18n-title="gears_reset_levels">🔄</button>
+        <div id="materialModal" class="modal-overlay hidden">
+            <div class="modal-content">
+                <h3 id="modal-title">Add Material</h3>
+                <input type="number" id="materialInput" placeholder="0" min="0" />
+                <div class="modal-buttons">
+                    <button id="confirmAdd" class="btn" data-i18n="gears_add_material_button">Add</button>
+                    <button id="cancelAdd" class="btn btn-secondary" data-i18n="gears_cancel_button">Cancel</button>
+                </div>
+            </div>
         </div>
-        <div class="gear-layout">
-          <div class="box-left">
-            <div class="gear-box" id="1">
-              <div class="gear-tier" id="gear-tier-1"></div>
-              <div id="icon-data-1"></div>
-              <div class="gear-stars" id="gear-stars-1"></div>
+        <div id="levelModal" class="modal-overlay hidden">
+            <div class="modal-content">
+                <h3 data-i18n="gears_set_start_levels">Set Start Levels</h3>
+                <form id="levelForm">
+                    <div class="level-input-group">
+                        <label for="level1" data-i18n="cap_level">Cap</label>
+                        <div id="custom-select-1" class="custom-select-container"></div>
+                    </div>
+                    <div class="level-input-group">
+                        <label for="level2" data-i18n="coat_level">Coat</label>
+                        <div id="custom-select-2" class="custom-select-container"></div>
+                    </div>
+                    <div class="level-input-group">
+                        <label for="level3" data-i18n="ring_level">Ring</label>
+                        <div id="custom-select-3" class="custom-select-container"></div>
+                    </div>
+                    <div class="level-input-group">
+                        <label for="level4" data-i18n="watch_level">Watch</label>
+                        <div id="custom-select-4" class="custom-select-container"></div>
+                    </div>
+                    <div class="level-input-group">
+                        <label for="level5" data-i18n="pants_level">Pants</label>
+                        <div id="custom-select-5" class="custom-select-container"></div>
+                    </div>
+                    <div class="level-input-group">
+                        <label for="level6" data-i18n="weapon_level">Weapon</label>
+                        <div id="custom-select-6" class="custom-select-container"></div>
+                    </div>
+                </form>
+                <div class="modal-buttons">
+                    <button type="submit" form="levelForm" class="btn" data-i18n="gears_save_button">Save</button>
+                    <button type="button" id="cancelModal" class="btn btn-secondary" data-i18n="gears_cancel_button">
+                        Cancel
+                    </button>
+                </div>
             </div>
-            <div class="gear-box" id="2">
-              <div class="gear-tier" id="gear-tier-2"></div>
-              <div id="icon-data-2"></div>
-              <div class="gear-stars" id="gear-stars-2"></div>
-            </div>
-            <div class="gear-box" id="3">
-              <div class="gear-tier" id="gear-tier-3"></div>
-              <div id="icon-data-3"></div>
-              <div class="gear-stars" id="gear-stars-3"></div>
-            </div>
-          </div>
-          <div class="box-middle">
-            <div id="gear-preview" class="hidden">
-              <img src="" alt="Preview Gear" />
-            </div>
-          </div>
-          <div class="box-right">
-            <div class="gear-box" id="4">
-              <div class="gear-tier" id="gear-tier-4"></div>
-              <div id="icon-data-4"></div>
-              <div class="gear-stars" id="gear-stars-4"></div>
-            </div>
-            <div class="gear-box" id="5">
-              <div class="gear-tier" id="gear-tier-5"></div>
-              <div id="icon-data-5"></div>
-              <div class="gear-stars" id="gear-stars-5"></div>
-            </div>
-            <div class="gear-box" id="6">
-              <div class="gear-tier" id="gear-tier-6"></div>
-              <div id="icon-data-6"></div>
-              <div class="gear-stars" id="gear-stars-6"></div>
-            </div>
-          </div>
         </div>
-        <div class="card-materials">
-          <h2 data-i18n="gears_required_materials">Required Materials</h2>
-          <button id="resetMaterialsBtn" class="btn" data-i18n-title="gears_reset_materials">🧹</button>
-          <div class="materials"></div>
-          <button class="btn" id="upgrade" data-i18n="gears_upgrade_button">Upgrade</button>
-          <h2 class="hidden" style="margin-top: 20px;"></h2>
-          <div id="used-material-summary"></div>
+        <div id="custom-alert" class="modal-overlay hidden">
+            <div class="modal-content">
+                <p id="custom-alert-message"></p>
+                <button id="alert-ok-btn" class="btn">OK</button>
+            </div>
         </div>
-      </div>
-    </div>
-    <div id="materialModal" class="modal-overlay hidden">
-      <div class="modal-content">
-        <h3 id="modal-title">Add Material</h3>
-        <input type="number" id="materialInput" placeholder="0" min="0" />
-        <div class="modal-buttons">
-          <button id="confirmAdd" class="btn" data-i18n="gears_add_material_button">Add</button>
-          <button id="cancelAdd" class="btn btn-secondary" data-i18n="gears_cancel_button">Cancel</button>
-        </div>
-      </div>
-    </div>
-    <div id="levelModal" class="modal-overlay hidden">
-      <div class="modal-content">
-        <h3 data-i18n="gears_set_start_levels">Set Start Levels</h3>
-        <form id="levelForm">
-          <div class="level-input-group">
-            <label for="level1" data-i18n="cap_level">Cap</label>
-            <div id="custom-select-1" class="custom-select-container"></div>
-          </div>
-          <div class="level-input-group">
-            <label for="level2" data-i18n="coat_level">Coat</label>
-            <div id="custom-select-2" class="custom-select-container"></div>
-          </div>
-          <div class="level-input-group">
-            <label for="level3" data-i18n="ring_level">Ring</label>
-            <div id="custom-select-3" class="custom-select-container"></div>
-          </div>
-          <div class="level-input-group">
-            <label for="level4" data-i18n="watch_level">Watch</label>
-            <div id="custom-select-4" class="custom-select-container"></div>
-          </div>
-          <div class="level-input-group">
-            <label for="level5" data-i18n="pants_level">Pants</label>
-            <div id="custom-select-5" class="custom-select-container"></div>
-          </div>
-          <div class="level-input-group">
-            <label for="level6" data-i18n="weapon_level">Weapon</label>
-            <div id="custom-select-6" class="custom-select-container"></div>
-          </div>
-        </form>
-        <div class="modal-buttons">
-          <button type="submit" form="levelForm" class="btn" data-i18n="gears_save_button">Save</button>
-          <button type="button" id="cancelModal" class="btn btn-secondary" data-i18n="gears_cancel_button">Cancel</button>
-        </div>
-      </div>
-    </div>
-    <div id="custom-alert" class="modal-overlay hidden">
-      <div class="modal-content">
-        <p id="custom-alert-message"></p>
-        <button id="alert-ok-btn" class="btn">OK</button>
-      </div>
-    </div>
-    <footer>
-      <p>Copyright &copy; Leo-Karla 2025</p>
-    </footer>
-    <audio id="upgrade-sound" src="assets/sounds/upgrade_gear.mp3" preload="auto"></audio>
-    <audio id="click-sound" src="assets/sounds/click.mp3" preload="auto"></audio>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-    <script src="assets/js/i18n.js"></script>
-    <script src="assets/js/gears.js"></script>
-  </body>
+        <footer>
+            <p>Copyright &copy; Leo-Karla 2025</p>
+        </footer>
+        <audio id="upgrade-sound" src="assets/sounds/upgrade_gear.mp3" preload="auto"></audio>
+        <audio id="click-sound" src="assets/sounds/click.mp3" preload="auto"></audio>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+        <script src="assets/js/i18n.js"></script>
+        <script src="assets/js/gears.js"></script>
+    </body>
 </html>

@@ -322,7 +322,7 @@
           "Design_Plans": 55,
           "Lunar_Amber": 0
         }
-      },    
+      },
       "23": {
         "gear_name": "Pioneers Helm",
         "gear_tier": "T2",
@@ -336,7 +336,7 @@
           "Design_Plans": 55,
           "Lunar_Amber": 0
         }
-      },    
+      },
       "24": {
         "gear_name": "Pioneers Helm",
         "gear_tier": "T2",
@@ -350,7 +350,7 @@
           "Design_Plans": 75,
           "Lunar_Amber": 0
         }
-      },    
+      },
       "25": {
         "gear_name": "Pioneers Helm",
         "gear_tier": "T2",
@@ -364,7 +364,7 @@
           "Design_Plans": 80,
           "Lunar_Amber": 0
         }
-      },    
+      },
       "26": {
         "gear_name": "Pioneers Helm",
         "gear_tier": "T2",
@@ -378,7 +378,7 @@
           "Design_Plans": 85,
           "Lunar_Amber": 0
         }
-      },    
+      },
       "27": {
         "gear_name": "Frost Coronet",
         "gear_tier": "",
@@ -392,7 +392,7 @@
           "Design_Plans": 85,
           "Lunar_Amber": 10
         }
-      },    
+      },
       "28": {
         "gear_name": "Frost Coronet",
         "gear_tier": "",
@@ -406,7 +406,7 @@
           "Design_Plans": 90,
           "Lunar_Amber": 10
         }
-      },    
+      },
       "29": {
         "gear_name": "Frost Coronet",
         "gear_tier": "",
@@ -420,7 +420,7 @@
           "Design_Plans": 95,
           "Lunar_Amber": 10
         }
-      },    
+      },
       "30": {
         "gear_name": "Frost Coronet",
         "gear_tier": "",
@@ -434,7 +434,7 @@
           "Design_Plans": 100,
           "Lunar_Amber": 10
         }
-      },    
+      },
       "31": {
         "gear_name": "Frost Coronet",
         "gear_tier": "T1",
@@ -448,7 +448,7 @@
           "Design_Plans": 110,
           "Lunar_Amber": 15
         }
-      },    
+      },
       "32": {
         "gear_name": "Frost Coronet",
         "gear_tier": "T1",
@@ -462,7 +462,7 @@
           "Design_Plans": 115,
           "Lunar_Amber": 15
         }
-      },    
+      },
       "33": {
         "gear_name": "Frost Coronet",
         "gear_tier": "T1",
@@ -476,7 +476,7 @@
           "Design_Plans": 120,
           "Lunar_Amber": 15
         }
-      },    
+      },
       "34": {
         "gear_name": "Frost Coronet",
         "gear_tier": "T1",
@@ -490,7 +490,7 @@
           "Design_Plans": 125,
           "Lunar_Amber": 15
         }
-      },    
+      },
       "35": {
         "gear_name": "Frost Coronet",
         "gear_tier": "T2",
@@ -504,7 +504,7 @@
           "Design_Plans": 135,
           "Lunar_Amber": 20
         }
-      },    
+      },
       "36": {
         "gear_name": "Frost Coronet",
         "gear_tier": "T2",
@@ -518,7 +518,7 @@
           "Design_Plans": 140,
           "Lunar_Amber": 20
         }
-      },    
+      },
       "37": {
         "gear_name": "Frost Coronet",
         "gear_tier": "T2",
@@ -532,7 +532,7 @@
           "Design_Plans": 145,
           "Lunar_Amber": 20
         }
-      },    
+      },
       "38": {
         "gear_name": "Frost Coronet",
         "gear_tier": "T2",
@@ -546,7 +546,7 @@
           "Design_Plans": 150,
           "Lunar_Amber": 20
         }
-      },    
+      },
       "39": {
         "gear_name": "Frost Coronet",
         "gear_tier": "T3",
@@ -560,7 +560,7 @@
           "Design_Plans": 160,
           "Lunar_Amber": 25
         }
-      },    
+      },
       "40": {
         "gear_name": "Frost Coronet",
         "gear_tier": "T3",
@@ -574,7 +574,7 @@
           "Design_Plans": 160,
           "Lunar_Amber": 25
         }
-      },    
+      },
       "41": {
         "gear_name": "Frost Coronet",
         "gear_tier": "T3",
@@ -588,7 +588,7 @@
           "Design_Plans": 170,
           "Lunar_Amber": 25
         }
-      },    
+      },
       "42": {
         "gear_name": "Frost Coronet",
         "gear_tier": "T3",
@@ -601,6 +601,286 @@
           "Polishing_Solution": 1070,
           "Design_Plans": 180,
           "Lunar_Amber": 25
+        }
+      },
+      "43": {
+        "gear_name": "Frost Coronet",
+        "gear_tier": "T4-0",
+        "category": "left",
+        "stars": 0,
+        "icon": "assets/images/gears/Frost_Coronet.png",
+        "preview": "assets/images/gears/Frost_Coronet_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 24000,
+          "Polishing_Solution": 300,
+          "Design_Plans": 50,
+          "Lunar_Amber": 8
+        }
+      },
+      "44": {
+        "gear_name": "Frost Coronet",
+        "gear_tier": "T4-0",
+        "category": "left",
+        "stars": 1,
+        "icon": "assets/images/gears/Frost_Coronet.png",
+        "preview": "assets/images/gears/Frost_Coronet_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 24000,
+          "Polishing_Solution": 300,
+          "Design_Plans": 50,
+          "Lunar_Amber": 8
+        }
+      },
+      "45": {
+        "gear_name": "Frost Coronet",
+        "gear_tier": "T4-0",
+        "category": "left",
+        "stars": 2,
+        "icon": "assets/images/gears/Frost_Coronet.png",
+        "preview": "assets/images/gears/Frost_Coronet_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 24000,
+          "Polishing_Solution": 300,
+          "Design_Plans": 50,
+          "Lunar_Amber": 8
+        }
+      },
+      "46": {
+        "gear_name": "Frost Coronet",
+        "gear_tier": "T4-0",
+        "category": "left",
+        "stars": 3,
+        "icon": "assets/images/gears/Frost_Coronet.png",
+        "preview": "assets/images/gears/Frost_Coronet_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 24000,
+          "Polishing_Solution": 300,
+          "Design_Plans": 50,
+          "Lunar_Amber": 8
+        }
+      },
+      "47": {
+        "gear_name": "Frost Coronet",
+        "gear_tier": "T4-0",
+        "category": "left",
+        "stars": 4,
+        "icon": "assets/images/gears/Frost_Coronet.png",
+        "preview": "assets/images/gears/Frost_Coronet_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 24000,
+          "Polishing_Solution": 300,
+          "Design_Plans": 50,
+          "Lunar_Amber": 8
+        }
+      },
+      "48": {
+        "gear_name": "Frost Coronet",
+        "gear_tier": "T4-1",
+        "category": "left",
+        "stars": 0,
+        "icon": "assets/images/gears/Frost_Coronet.png",
+        "preview": "assets/images/gears/Frost_Coronet_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 28000,
+          "Polishing_Solution": 330,
+          "Design_Plans": 55,
+          "Lunar_Amber": 8
+        }
+      },
+      "49": {
+        "gear_name": "Frost Coronet",
+        "gear_tier": "T4-1",
+        "category": "left",
+        "stars": 1,
+        "icon": "assets/images/gears/Frost_Coronet.png",
+        "preview": "assets/images/gears/Frost_Coronet_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 28000,
+          "Polishing_Solution": 330,
+          "Design_Plans": 55,
+          "Lunar_Amber": 8
+        }
+      },
+      "50": {
+        "gear_name": "Frost Coronet",
+        "gear_tier": "T4-1",
+        "category": "left",
+        "stars": 2,
+        "icon": "assets/images/gears/Frost_Coronet.png",
+        "preview": "assets/images/gears/Frost_Coronet_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 28000,
+          "Polishing_Solution": 330,
+          "Design_Plans": 55,
+          "Lunar_Amber": 8
+        }
+      },
+      "51": {
+        "gear_name": "Frost Coronet",
+        "gear_tier": "T4-1",
+        "category": "left",
+        "stars": 3,
+        "icon": "assets/images/gears/Frost_Coronet.png",
+        "preview": "assets/images/gears/Frost_Coronet_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 28000,
+          "Polishing_Solution": 330,
+          "Design_Plans": 55,
+          "Lunar_Amber": 8
+        }
+      },
+      "52": {
+        "gear_name": "Frost Coronet",
+        "gear_tier": "T4-1",
+        "category": "left",
+        "stars": 4,
+        "icon": "assets/images/gears/Frost_Coronet.png",
+        "preview": "assets/images/gears/Frost_Coronet_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 28000,
+          "Polishing_Solution": 330,
+          "Design_Plans": 55,
+          "Lunar_Amber": 8
+        }
+      },
+      "53": {
+        "gear_name": "Frost Coronet",
+        "gear_tier": "T4-2",
+        "category": "left",
+        "stars": 0,
+        "icon": "assets/images/gears/Frost_Coronet.png",
+        "preview": "assets/images/gears/Frost_Coronet_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 32000,
+          "Polishing_Solution": 360,
+          "Design_Plans": 60,
+          "Lunar_Amber": 8
+        }
+      },
+      "54": {
+        "gear_name": "Frost Coronet",
+        "gear_tier": "T4-2",
+        "category": "left",
+        "stars": 1,
+        "icon": "assets/images/gears/Frost_Coronet.png",
+        "preview": "assets/images/gears/Frost_Coronet_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 32000,
+          "Polishing_Solution": 360,
+          "Design_Plans": 60,
+          "Lunar_Amber": 8
+        }
+      },
+      "55": {
+        "gear_name": "Frost Coronet",
+        "gear_tier": "T4-2",
+        "category": "left",
+        "stars": 2,
+        "icon": "assets/images/gears/Frost_Coronet.png",
+        "preview": "assets/images/gears/Frost_Coronet_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 32000,
+          "Polishing_Solution": 360,
+          "Design_Plans": 60,
+          "Lunar_Amber": 8
+        }
+      },
+      "56": {
+        "gear_name": "Frost Coronet",
+        "gear_tier": "T4-2",
+        "category": "left",
+        "stars": 3,
+        "icon": "assets/images/gears/Frost_Coronet.png",
+        "preview": "assets/images/gears/Frost_Coronet_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 32000,
+          "Polishing_Solution": 360,
+          "Design_Plans": 60,
+          "Lunar_Amber": 8
+        }
+      },
+      "57": {
+        "gear_name": "Frost Coronet",
+        "gear_tier": "T4-2",
+        "category": "left",
+        "stars": 4,
+        "icon": "assets/images/gears/Frost_Coronet.png",
+        "preview": "assets/images/gears/Frost_Coronet_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 32000,
+          "Polishing_Solution": 360,
+          "Design_Plans": 60,
+          "Lunar_Amber": 8
+        }
+      },
+      "58": {
+        "gear_name": "Frost Coronet",
+        "gear_tier": "T4-3",
+        "category": "left",
+        "stars": 0,
+        "icon": "assets/images/gears/Frost_Coronet.png",
+        "preview": "assets/images/gears/Frost_Coronet_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 36000,
+          "Polishing_Solution": 390,
+          "Design_Plans": 65,
+          "Lunar_Amber": 8
+        }
+      },
+      "59": {
+        "gear_name": "Frost Coronet",
+        "gear_tier": "T4-3",
+        "category": "left",
+        "stars": 1,
+        "icon": "assets/images/gears/Frost_Coronet.png",
+        "preview": "assets/images/gears/Frost_Coronet_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 36000,
+          "Polishing_Solution": 390,
+          "Design_Plans": 65,
+          "Lunar_Amber": 8
+        }
+      },
+      "60": {
+        "gear_name": "Frost Coronet",
+        "gear_tier": "T4-3",
+        "category": "left",
+        "stars": 2,
+        "icon": "assets/images/gears/Frost_Coronet.png",
+        "preview": "assets/images/gears/Frost_Coronet_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 36000,
+          "Polishing_Solution": 390,
+          "Design_Plans": 65,
+          "Lunar_Amber": 8
+        }
+      },
+      "61": {
+        "gear_name": "Frost Coronet",
+        "gear_tier": "T4-3",
+        "category": "left",
+        "stars": 3,
+        "icon": "assets/images/gears/Frost_Coronet.png",
+        "preview": "assets/images/gears/Frost_Coronet_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 36000,
+          "Polishing_Solution": 390,
+          "Design_Plans": 65,
+          "Lunar_Amber": 8
+        }
+      },
+      "62": {
+        "gear_name": "Frost Coronet",
+        "gear_tier": "T4-3",
+        "category": "left",
+        "stars": 4,
+        "icon": "assets/images/gears/Frost_Coronet.png",
+        "preview": "assets/images/gears/Frost_Coronet_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 36000,
+          "Polishing_Solution": 390,
+          "Design_Plans": 65,
+          "Lunar_Amber": 8
         }
       }
     }
@@ -928,7 +1208,7 @@
           "Design_Plans": 55,
           "Lunar_Amber": 0
         }
-      },    
+      },
       "23": {
         "gear_name": "Dawns Pride",
         "gear_tier": "T2",
@@ -942,7 +1222,7 @@
           "Design_Plans": 55,
           "Lunar_Amber": 0
         }
-      },    
+      },
       "24": {
         "gear_name": "Dawns Pride",
         "gear_tier": "T2",
@@ -956,7 +1236,7 @@
           "Design_Plans": 75,
           "Lunar_Amber": 0
         }
-      },    
+      },
       "25": {
         "gear_name": "Dawns Pride",
         "gear_tier": "T2",
@@ -970,7 +1250,7 @@
           "Design_Plans": 80,
           "Lunar_Amber": 0
         }
-      },    
+      },
       "26": {
         "gear_name": "Dawns Pride",
         "gear_tier": "T2",
@@ -984,7 +1264,7 @@
           "Design_Plans": 85,
           "Lunar_Amber": 0
         }
-      },    
+      },
       "27": {
         "gear_name": "Dynastic Ward",
         "gear_tier": "",
@@ -998,7 +1278,7 @@
           "Design_Plans": 85,
           "Lunar_Amber": 10
         }
-      },    
+      },
       "28": {
         "gear_name": "Dynastic Ward",
         "gear_tier": "",
@@ -1012,7 +1292,7 @@
           "Design_Plans": 90,
           "Lunar_Amber": 10
         }
-      },    
+      },
       "29": {
         "gear_name": "Dynastic Ward",
         "gear_tier": "",
@@ -1026,7 +1306,7 @@
           "Design_Plans": 95,
           "Lunar_Amber": 10
         }
-      },    
+      },
       "30": {
         "gear_name": "Dynastic Ward",
         "gear_tier": "",
@@ -1040,7 +1320,7 @@
           "Design_Plans": 100,
           "Lunar_Amber": 10
         }
-      },    
+      },
       "31": {
         "gear_name": "Dynastic Ward",
         "gear_tier": "T1",
@@ -1054,7 +1334,7 @@
           "Design_Plans": 110,
           "Lunar_Amber": 15
         }
-      },    
+      },
       "32": {
         "gear_name": "Dynastic Ward",
         "gear_tier": "T1",
@@ -1068,7 +1348,7 @@
           "Design_Plans": 115,
           "Lunar_Amber": 15
         }
-      },    
+      },
       "33": {
         "gear_name": "Dynastic Ward",
         "gear_tier": "T1",
@@ -1082,7 +1362,7 @@
           "Design_Plans": 120,
           "Lunar_Amber": 15
         }
-      },    
+      },
       "34": {
         "gear_name": "Dynastic Ward",
         "gear_tier": "T1",
@@ -1096,7 +1376,7 @@
           "Design_Plans": 125,
           "Lunar_Amber": 15
         }
-      },    
+      },
       "35": {
         "gear_name": "Dynastic Ward",
         "gear_tier": "T2",
@@ -1110,7 +1390,7 @@
           "Design_Plans": 135,
           "Lunar_Amber": 20
         }
-      },    
+      },
       "36": {
         "gear_name": "Dynastic Ward",
         "gear_tier": "T2",
@@ -1124,7 +1404,7 @@
           "Design_Plans": 140,
           "Lunar_Amber": 20
         }
-      },    
+      },
       "37": {
         "gear_name": "Dynastic Ward",
         "gear_tier": "T2",
@@ -1138,7 +1418,7 @@
           "Design_Plans": 145,
           "Lunar_Amber": 20
         }
-      },    
+      },
       "38": {
         "gear_name": "Dynastic Ward",
         "gear_tier": "T2",
@@ -1152,7 +1432,7 @@
           "Design_Plans": 150,
           "Lunar_Amber": 20
         }
-      },    
+      },
       "39": {
         "gear_name": "Dynastic Ward",
         "gear_tier": "T3",
@@ -1166,7 +1446,7 @@
           "Design_Plans": 160,
           "Lunar_Amber": 25
         }
-      },    
+      },
       "40": {
         "gear_name": "Dynastic Ward",
         "gear_tier": "T3",
@@ -1180,7 +1460,7 @@
           "Design_Plans": 160,
           "Lunar_Amber": 25
         }
-      },    
+      },
       "41": {
         "gear_name": "Dynastic Ward",
         "gear_tier": "T3",
@@ -1194,7 +1474,7 @@
           "Design_Plans": 170,
           "Lunar_Amber": 25
         }
-      },    
+      },
       "42": {
         "gear_name": "Dynastic Ward",
         "gear_tier": "T3",
@@ -1207,6 +1487,286 @@
           "Polishing_Solution": 1070,
           "Design_Plans": 180,
           "Lunar_Amber": 25
+        }
+      },
+      "43": {
+        "gear_name": "Dynastic Ward",
+        "gear_tier": "T4-0",
+        "category": "left",
+        "stars": 0,
+        "icon": "assets/images/gears/Dynastic_Ward.png",
+        "preview": "assets/images/gears/Dynastic_Ward_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 24000,
+          "Polishing_Solution": 300,
+          "Design_Plans": 50,
+          "Lunar_Amber": 8
+        }
+      },
+      "44": {
+        "gear_name": "Dynastic Ward",
+        "gear_tier": "T4-0",
+        "category": "left",
+        "stars": 1,
+        "icon": "assets/images/gears/Dynastic_Ward.png",
+        "preview": "assets/images/gears/Dynastic_Ward_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 24000,
+          "Polishing_Solution": 300,
+          "Design_Plans": 50,
+          "Lunar_Amber": 8
+        }
+      },
+      "45": {
+        "gear_name": "Dynastic Ward",
+        "gear_tier": "T4-0",
+        "category": "left",
+        "stars": 2,
+        "icon": "assets/images/gears/Dynastic_Ward.png",
+        "preview": "assets/images/gears/Dynastic_Ward_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 24000,
+          "Polishing_Solution": 300,
+          "Design_Plans": 50,
+          "Lunar_Amber": 8
+        }
+      },
+      "46": {
+        "gear_name": "Dynastic Ward",
+        "gear_tier": "T4-0",
+        "category": "left",
+        "stars": 3,
+        "icon": "assets/images/gears/Dynastic_Ward.png",
+        "preview": "assets/images/gears/Dynastic_Ward_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 24000,
+          "Polishing_Solution": 300,
+          "Design_Plans": 50,
+          "Lunar_Amber": 8
+        }
+      },
+      "47": {
+        "gear_name": "Dynastic Ward",
+        "gear_tier": "T4-0",
+        "category": "left",
+        "stars": 4,
+        "icon": "assets/images/gears/Dynastic_Ward.png",
+        "preview": "assets/images/gears/Dynastic_Ward_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 24000,
+          "Polishing_Solution": 300,
+          "Design_Plans": 50,
+          "Lunar_Amber": 8
+        }
+      },
+      "48": {
+        "gear_name": "Dynastic Ward",
+        "gear_tier": "T4-1",
+        "category": "left",
+        "stars": 0,
+        "icon": "assets/images/gears/Dynastic_Ward.png",
+        "preview": "assets/images/gears/Dynastic_Ward_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 28000,
+          "Polishing_Solution": 330,
+          "Design_Plans": 55,
+          "Lunar_Amber": 8
+        }
+      },
+      "49": {
+        "gear_name": "Dynastic Ward",
+        "gear_tier": "T4-1",
+        "category": "left",
+        "stars": 1,
+        "icon": "assets/images/gears/Dynastic_Ward.png",
+        "preview": "assets/images/gears/Dynastic_Ward_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 28000,
+          "Polishing_Solution": 330,
+          "Design_Plans": 55,
+          "Lunar_Amber": 8
+        }
+      },
+      "50": {
+        "gear_name": "Dynastic Ward",
+        "gear_tier": "T4-1",
+        "category": "left",
+        "stars": 2,
+        "icon": "assets/images/gears/Dynastic_Ward.png",
+        "preview": "assets/images/gears/Dynastic_Ward_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 28000,
+          "Polishing_Solution": 330,
+          "Design_Plans": 55,
+          "Lunar_Amber": 8
+        }
+      },
+      "51": {
+        "gear_name": "Dynastic Ward",
+        "gear_tier": "T4-1",
+        "category": "left",
+        "stars": 3,
+        "icon": "assets/images/gears/Dynastic_Ward.png",
+        "preview": "assets/images/gears/Dynastic_Ward_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 28000,
+          "Polishing_Solution": 330,
+          "Design_Plans": 55,
+          "Lunar_Amber": 8
+        }
+      },
+      "52": {
+        "gear_name": "Dynastic Ward",
+        "gear_tier": "T4-1",
+        "category": "left",
+        "stars": 4,
+        "icon": "assets/images/gears/Dynastic_Ward.png",
+        "preview": "assets/images/gears/Dynastic_Ward_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 28000,
+          "Polishing_Solution": 330,
+          "Design_Plans": 55,
+          "Lunar_Amber": 8
+        }
+      },
+      "53": {
+        "gear_name": "Dynastic Ward",
+        "gear_tier": "T4-2",
+        "category": "left",
+        "stars": 0,
+        "icon": "assets/images/gears/Dynastic_Ward.png",
+        "preview": "assets/images/gears/Dynastic_Ward_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 32000,
+          "Polishing_Solution": 360,
+          "Design_Plans": 60,
+          "Lunar_Amber": 8
+        }
+      },
+      "54": {
+        "gear_name": "Dynastic Ward",
+        "gear_tier": "T4-2",
+        "category": "left",
+        "stars": 1,
+        "icon": "assets/images/gears/Dynastic_Ward.png",
+        "preview": "assets/images/gears/Dynastic_Ward_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 32000,
+          "Polishing_Solution": 360,
+          "Design_Plans": 60,
+          "Lunar_Amber": 8
+        }
+      },
+      "55": {
+        "gear_name": "Dynastic Ward",
+        "gear_tier": "T4-2",
+        "category": "left",
+        "stars": 2,
+        "icon": "assets/images/gears/Dynastic_Ward.png",
+        "preview": "assets/images/gears/Dynastic_Ward_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 32000,
+          "Polishing_Solution": 360,
+          "Design_Plans": 60,
+          "Lunar_Amber": 8
+        }
+      },
+      "56": {
+        "gear_name": "Dynastic Ward",
+        "gear_tier": "T4-2",
+        "category": "left",
+        "stars": 3,
+        "icon": "assets/images/gears/Dynastic_Ward.png",
+        "preview": "assets/images/gears/Dynastic_Ward_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 32000,
+          "Polishing_Solution": 360,
+          "Design_Plans": 60,
+          "Lunar_Amber": 8
+        }
+      },
+      "57": {
+        "gear_name": "Dynastic Ward",
+        "gear_tier": "T4-2",
+        "category": "left",
+        "stars": 4,
+        "icon": "assets/images/gears/Dynastic_Ward.png",
+        "preview": "assets/images/gears/Dynastic_Ward_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 32000,
+          "Polishing_Solution": 360,
+          "Design_Plans": 60,
+          "Lunar_Amber": 8
+        }
+      },
+      "58": {
+        "gear_name": "Dynastic Ward",
+        "gear_tier": "T4-3",
+        "category": "left",
+        "stars": 0,
+        "icon": "assets/images/gears/Dynastic_Ward.png",
+        "preview": "assets/images/gears/Dynastic_Ward_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 36000,
+          "Polishing_Solution": 390,
+          "Design_Plans": 65,
+          "Lunar_Amber": 8
+        }
+      },
+      "59": {
+        "gear_name": "Dynastic Ward",
+        "gear_tier": "T4-3",
+        "category": "left",
+        "stars": 1,
+        "icon": "assets/images/gears/Dynastic_Ward.png",
+        "preview": "assets/images/gears/Dynastic_Ward_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 36000,
+          "Polishing_Solution": 390,
+          "Design_Plans": 65,
+          "Lunar_Amber": 8
+        }
+      },
+      "60": {
+        "gear_name": "Dynastic Ward",
+        "gear_tier": "T4-3",
+        "category": "left",
+        "stars": 2,
+        "icon": "assets/images/gears/Dynastic_Ward.png",
+        "preview": "assets/images/gears/Dynastic_Ward_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 36000,
+          "Polishing_Solution": 390,
+          "Design_Plans": 65,
+          "Lunar_Amber": 8
+        }
+      },
+      "61": {
+        "gear_name": "Dynastic Ward",
+        "gear_tier": "T4-3",
+        "category": "left",
+        "stars": 3,
+        "icon": "assets/images/gears/Dynastic_Ward.png",
+        "preview": "assets/images/gears/Dynastic_Ward_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 36000,
+          "Polishing_Solution": 390,
+          "Design_Plans": 65,
+          "Lunar_Amber": 8
+        }
+      },
+      "62": {
+        "gear_name": "Dynastic Ward",
+        "gear_tier": "T4-3",
+        "category": "left",
+        "stars": 4,
+        "icon": "assets/images/gears/Dynastic_Ward.png",
+        "preview": "assets/images/gears/Dynastic_Ward_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 36000,
+          "Polishing_Solution": 390,
+          "Design_Plans": 65,
+          "Lunar_Amber": 8
         }
       }
     }
@@ -1534,7 +2094,7 @@
           "Design_Plans": 55,
           "Lunar_Amber": 0
         }
-      },    
+      },
       "23": {
         "gear_name": "Frosty Blessing",
         "gear_tier": "T2",
@@ -1548,7 +2108,7 @@
           "Design_Plans": 55,
           "Lunar_Amber": 0
         }
-      },    
+      },
       "24": {
         "gear_name": "Frosty Blessing",
         "gear_tier": "T2",
@@ -1562,7 +2122,7 @@
           "Design_Plans": 75,
           "Lunar_Amber": 0
         }
-      },    
+      },
       "25": {
         "gear_name": "Frosty Blessing",
         "gear_tier": "T2",
@@ -1576,7 +2136,7 @@
           "Design_Plans": 80,
           "Lunar_Amber": 0
         }
-      },    
+      },
       "26": {
         "gear_name": "Frosty Blessing",
         "gear_tier": "T2",
@@ -1590,7 +2150,7 @@
           "Design_Plans": 85,
           "Lunar_Amber": 0
         }
-      },    
+      },
       "27": {
         "gear_name": "Solaris Incandescence",
         "gear_tier": "",
@@ -1604,7 +2164,7 @@
           "Design_Plans": 85,
           "Lunar_Amber": 10
         }
-      },    
+      },
       "28": {
         "gear_name": "Solaris Incandescence",
         "gear_tier": "",
@@ -1618,7 +2178,7 @@
           "Design_Plans": 90,
           "Lunar_Amber": 10
         }
-      },    
+      },
       "29": {
         "gear_name": "Solaris Incandescence",
         "gear_tier": "",
@@ -1632,7 +2192,7 @@
           "Design_Plans": 95,
           "Lunar_Amber": 10
         }
-      },    
+      },
       "30": {
         "gear_name": "Solaris Incandescence",
         "gear_tier": "",
@@ -1646,7 +2206,7 @@
           "Design_Plans": 100,
           "Lunar_Amber": 10
         }
-      },    
+      },
       "31": {
         "gear_name": "Solaris Incandescence",
         "gear_tier": "T1",
@@ -1660,7 +2220,7 @@
           "Design_Plans": 110,
           "Lunar_Amber": 15
         }
-      },    
+      },
       "32": {
         "gear_name": "Solaris Incandescence",
         "gear_tier": "T1",
@@ -1674,7 +2234,7 @@
           "Design_Plans": 115,
           "Lunar_Amber": 15
         }
-      },    
+      },
       "33": {
         "gear_name": "Solaris Incandescence",
         "gear_tier": "T1",
@@ -1688,7 +2248,7 @@
           "Design_Plans": 120,
           "Lunar_Amber": 15
         }
-      },    
+      },
       "34": {
         "gear_name": "Solaris Incandescence",
         "gear_tier": "T1",
@@ -1702,7 +2262,7 @@
           "Design_Plans": 125,
           "Lunar_Amber": 15
         }
-      },    
+      },
       "35": {
         "gear_name": "Solaris Incandescence",
         "gear_tier": "T2",
@@ -1716,7 +2276,7 @@
           "Design_Plans": 135,
           "Lunar_Amber": 20
         }
-      },    
+      },
       "36": {
         "gear_name": "Solaris Incandescence",
         "gear_tier": "T2",
@@ -1730,7 +2290,7 @@
           "Design_Plans": 140,
           "Lunar_Amber": 20
         }
-      },    
+      },
       "37": {
         "gear_name": "Solaris Incandescence",
         "gear_tier": "T2",
@@ -1744,7 +2304,7 @@
           "Design_Plans": 145,
           "Lunar_Amber": 20
         }
-      },    
+      },
       "38": {
         "gear_name": "Solaris Incandescence",
         "gear_tier": "T2",
@@ -1758,7 +2318,7 @@
           "Design_Plans": 150,
           "Lunar_Amber": 20
         }
-      },    
+      },
       "39": {
         "gear_name": "Solaris Incandescence",
         "gear_tier": "T3",
@@ -1772,7 +2332,7 @@
           "Design_Plans": 160,
           "Lunar_Amber": 25
         }
-      },    
+      },
       "40": {
         "gear_name": "Solaris Incandescence",
         "gear_tier": "T3",
@@ -1786,7 +2346,7 @@
           "Design_Plans": 160,
           "Lunar_Amber": 25
         }
-      },    
+      },
       "41": {
         "gear_name": "Solaris Incandescence",
         "gear_tier": "T3",
@@ -1800,7 +2360,7 @@
           "Design_Plans": 170,
           "Lunar_Amber": 25
         }
-      },    
+      },
       "42": {
         "gear_name": "Solaris Incandescence",
         "gear_tier": "T3",
@@ -1813,6 +2373,286 @@
           "Polishing_Solution": 1070,
           "Design_Plans": 180,
           "Lunar_Amber": 25
+        }
+      },
+      "43": {
+        "gear_name": "Solaris Incandescence",
+        "gear_tier": "T4-0",
+        "category": "left",
+        "stars": 0,
+        "icon": "assets/images/gears/Solaris_Incandescence.png",
+        "preview": "assets/images/gears/Solaris_Incandescence_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 24000,
+          "Polishing_Solution": 300,
+          "Design_Plans": 50,
+          "Lunar_Amber": 8
+        }
+      },
+      "44": {
+        "gear_name": "Solaris Incandescence",
+        "gear_tier": "T4-0",
+        "category": "left",
+        "stars": 1,
+        "icon": "assets/images/gears/Solaris_Incandescence.png",
+        "preview": "assets/images/gears/Solaris_Incandescence_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 24000,
+          "Polishing_Solution": 300,
+          "Design_Plans": 50,
+          "Lunar_Amber": 8
+        }
+      },
+      "45": {
+        "gear_name": "Solaris Incandescence",
+        "gear_tier": "T4-0",
+        "category": "left",
+        "stars": 2,
+        "icon": "assets/images/gears/Solaris_Incandescence.png",
+        "preview": "assets/images/gears/Solaris_Incandescence_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 24000,
+          "Polishing_Solution": 300,
+          "Design_Plans": 50,
+          "Lunar_Amber": 8
+        }
+      },
+      "46": {
+        "gear_name": "Solaris Incandescence",
+        "gear_tier": "T4-0",
+        "category": "left",
+        "stars": 3,
+        "icon": "assets/images/gears/Solaris_Incandescence.png",
+        "preview": "assets/images/gears/Solaris_Incandescence_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 24000,
+          "Polishing_Solution": 300,
+          "Design_Plans": 50,
+          "Lunar_Amber": 8
+        }
+      },
+      "47": {
+        "gear_name": "Solaris Incandescence",
+        "gear_tier": "T4-0",
+        "category": "left",
+        "stars": 4,
+        "icon": "assets/images/gears/Solaris_Incandescence.png",
+        "preview": "assets/images/gears/Solaris_Incandescence_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 24000,
+          "Polishing_Solution": 300,
+          "Design_Plans": 50,
+          "Lunar_Amber": 8
+        }
+      },
+      "48": {
+        "gear_name": "Solaris Incandescence",
+        "gear_tier": "T4-1",
+        "category": "left",
+        "stars": 0,
+        "icon": "assets/images/gears/Solaris_Incandescence.png",
+        "preview": "assets/images/gears/Solaris_Incandescence_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 28000,
+          "Polishing_Solution": 330,
+          "Design_Plans": 55,
+          "Lunar_Amber": 8
+        }
+      },
+      "49": {
+        "gear_name": "Solaris Incandescence",
+        "gear_tier": "T4-1",
+        "category": "left",
+        "stars": 1,
+        "icon": "assets/images/gears/Solaris_Incandescence.png",
+        "preview": "assets/images/gears/Solaris_Incandescence_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 28000,
+          "Polishing_Solution": 330,
+          "Design_Plans": 55,
+          "Lunar_Amber": 8
+        }
+      },
+      "50": {
+        "gear_name": "Solaris Incandescence",
+        "gear_tier": "T4-1",
+        "category": "left",
+        "stars": 2,
+        "icon": "assets/images/gears/Solaris_Incandescence.png",
+        "preview": "assets/images/gears/Solaris_Incandescence_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 28000,
+          "Polishing_Solution": 330,
+          "Design_Plans": 55,
+          "Lunar_Amber": 8
+        }
+      },
+      "51": {
+        "gear_name": "Solaris Incandescence",
+        "gear_tier": "T4-1",
+        "category": "left",
+        "stars": 3,
+        "icon": "assets/images/gears/Solaris_Incandescence.png",
+        "preview": "assets/images/gears/Solaris_Incandescence_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 28000,
+          "Polishing_Solution": 330,
+          "Design_Plans": 55,
+          "Lunar_Amber": 8
+        }
+      },
+      "52": {
+        "gear_name": "Solaris Incandescence",
+        "gear_tier": "T4-1",
+        "category": "left",
+        "stars": 4,
+        "icon": "assets/images/gears/Solaris_Incandescence.png",
+        "preview": "assets/images/gears/Solaris_Incandescence_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 28000,
+          "Polishing_Solution": 330,
+          "Design_Plans": 55,
+          "Lunar_Amber": 8
+        }
+      },
+      "53": {
+        "gear_name": "Solaris Incandescence",
+        "gear_tier": "T4-2",
+        "category": "left",
+        "stars": 0,
+        "icon": "assets/images/gears/Solaris_Incandescence.png",
+        "preview": "assets/images/gears/Solaris_Incandescence_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 32000,
+          "Polishing_Solution": 360,
+          "Design_Plans": 60,
+          "Lunar_Amber": 8
+        }
+      },
+      "54": {
+        "gear_name": "Solaris Incandescence",
+        "gear_tier": "T4-2",
+        "category": "left",
+        "stars": 1,
+        "icon": "assets/images/gears/Solaris_Incandescence.png",
+        "preview": "assets/images/gears/Solaris_Incandescence_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 32000,
+          "Polishing_Solution": 360,
+          "Design_Plans": 60,
+          "Lunar_Amber": 8
+        }
+      },
+      "55": {
+        "gear_name": "Solaris Incandescence",
+        "gear_tier": "T4-2",
+        "category": "left",
+        "stars": 2,
+        "icon": "assets/images/gears/Solaris_Incandescence.png",
+        "preview": "assets/images/gears/Solaris_Incandescence_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 32000,
+          "Polishing_Solution": 360,
+          "Design_Plans": 60,
+          "Lunar_Amber": 8
+        }
+      },
+      "56": {
+        "gear_name": "Solaris Incandescence",
+        "gear_tier": "T4-2",
+        "category": "left",
+        "stars": 3,
+        "icon": "assets/images/gears/Solaris_Incandescence.png",
+        "preview": "assets/images/gears/Solaris_Incandescence_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 32000,
+          "Polishing_Solution": 360,
+          "Design_Plans": 60,
+          "Lunar_Amber": 8
+        }
+      },
+      "57": {
+        "gear_name": "Solaris Incandescence",
+        "gear_tier": "T4-2",
+        "category": "left",
+        "stars": 4,
+        "icon": "assets/images/gears/Solaris_Incandescence.png",
+        "preview": "assets/images/gears/Solaris_Incandescence_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 32000,
+          "Polishing_Solution": 360,
+          "Design_Plans": 60,
+          "Lunar_Amber": 8
+        }
+      },
+      "58": {
+        "gear_name": "Solaris Incandescence",
+        "gear_tier": "T4-3",
+        "category": "left",
+        "stars": 0,
+        "icon": "assets/images/gears/Solaris_Incandescence.png",
+        "preview": "assets/images/gears/Solaris_Incandescence_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 36000,
+          "Polishing_Solution": 390,
+          "Design_Plans": 65,
+          "Lunar_Amber": 8
+        }
+      },
+      "59": {
+        "gear_name": "Solaris Incandescence",
+        "gear_tier": "T4-3",
+        "category": "left",
+        "stars": 1,
+        "icon": "assets/images/gears/Solaris_Incandescence.png",
+        "preview": "assets/images/gears/Solaris_Incandescence_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 36000,
+          "Polishing_Solution": 390,
+          "Design_Plans": 65,
+          "Lunar_Amber": 8
+        }
+      },
+      "60": {
+        "gear_name": "Solaris Incandescence",
+        "gear_tier": "T4-3",
+        "category": "left",
+        "stars": 2,
+        "icon": "assets/images/gears/Solaris_Incandescence.png",
+        "preview": "assets/images/gears/Solaris_Incandescence_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 36000,
+          "Polishing_Solution": 390,
+          "Design_Plans": 65,
+          "Lunar_Amber": 8
+        }
+      },
+      "61": {
+        "gear_name": "Solaris Incandescence",
+        "gear_tier": "T4-3",
+        "category": "left",
+        "stars": 3,
+        "icon": "assets/images/gears/Solaris_Incandescence.png",
+        "preview": "assets/images/gears/Solaris_Incandescence_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 36000,
+          "Polishing_Solution": 390,
+          "Design_Plans": 65,
+          "Lunar_Amber": 8
+        }
+      },
+      "62": {
+        "gear_name": "Solaris Incandescence",
+        "gear_tier": "T4-3",
+        "category": "left",
+        "stars": 4,
+        "icon": "assets/images/gears/Solaris_Incandescence.png",
+        "preview": "assets/images/gears/Solaris_Incandescence_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 36000,
+          "Polishing_Solution": 390,
+          "Design_Plans": 65,
+          "Lunar_Amber": 8
         }
       }
     }
@@ -2140,7 +2980,7 @@
           "Design_Plans": 55,
           "Lunar_Amber": 0
         }
-      },    
+      },
       "23": {
         "gear_name": "Clock of Fate",
         "gear_tier": "T2",
@@ -2154,7 +2994,7 @@
           "Design_Plans": 55,
           "Lunar_Amber": 0
         }
-      },    
+      },
       "24": {
         "gear_name": "Clock of Fate",
         "gear_tier": "T2",
@@ -2168,7 +3008,7 @@
           "Design_Plans": 75,
           "Lunar_Amber": 0
         }
-      },    
+      },
       "25": {
         "gear_name": "Clock of Fate",
         "gear_tier": "T2",
@@ -2182,7 +3022,7 @@
           "Design_Plans": 80,
           "Lunar_Amber": 0
         }
-      },    
+      },
       "26": {
         "gear_name": "Clock of Fate",
         "gear_tier": "T2",
@@ -2196,7 +3036,7 @@
           "Design_Plans": 85,
           "Lunar_Amber": 0
         }
-      },    
+      },
       "27": {
         "gear_name": "Finite Infinitus",
         "gear_tier": "",
@@ -2210,7 +3050,7 @@
           "Design_Plans": 85,
           "Lunar_Amber": 10
         }
-      },    
+      },
       "28": {
         "gear_name": "Finite Infinitus",
         "gear_tier": "",
@@ -2224,7 +3064,7 @@
           "Design_Plans": 90,
           "Lunar_Amber": 10
         }
-      },    
+      },
       "29": {
         "gear_name": "Finite Infinitus",
         "gear_tier": "",
@@ -2238,7 +3078,7 @@
           "Design_Plans": 95,
           "Lunar_Amber": 10
         }
-      },    
+      },
       "30": {
         "gear_name": "Finite Infinitus",
         "gear_tier": "",
@@ -2252,7 +3092,7 @@
           "Design_Plans": 100,
           "Lunar_Amber": 10
         }
-      },    
+      },
       "31": {
         "gear_name": "Finite Infinitus",
         "gear_tier": "T1",
@@ -2266,7 +3106,7 @@
           "Design_Plans": 110,
           "Lunar_Amber": 15
         }
-      },    
+      },
       "32": {
         "gear_name": "Finite Infinitus",
         "gear_tier": "T1",
@@ -2280,7 +3120,7 @@
           "Design_Plans": 115,
           "Lunar_Amber": 15
         }
-      },    
+      },
       "33": {
         "gear_name": "Finite Infinitus",
         "gear_tier": "T1",
@@ -2294,7 +3134,7 @@
           "Design_Plans": 120,
           "Lunar_Amber": 15
         }
-      },    
+      },
       "34": {
         "gear_name": "Finite Infinitus",
         "gear_tier": "T1",
@@ -2308,7 +3148,7 @@
           "Design_Plans": 125,
           "Lunar_Amber": 15
         }
-      },    
+      },
       "35": {
         "gear_name": "Finite Infinitus",
         "gear_tier": "T2",
@@ -2322,7 +3162,7 @@
           "Design_Plans": 135,
           "Lunar_Amber": 20
         }
-      },    
+      },
       "36": {
         "gear_name": "Finite Infinitus",
         "gear_tier": "T2",
@@ -2336,7 +3176,7 @@
           "Design_Plans": 140,
           "Lunar_Amber": 20
         }
-      },    
+      },
       "37": {
         "gear_name": "Finite Infinitus",
         "gear_tier": "T2",
@@ -2350,7 +3190,7 @@
           "Design_Plans": 145,
           "Lunar_Amber": 20
         }
-      },    
+      },
       "38": {
         "gear_name": "Finite Infinitus",
         "gear_tier": "T2",
@@ -2364,7 +3204,7 @@
           "Design_Plans": 150,
           "Lunar_Amber": 20
         }
-      },    
+      },
       "39": {
         "gear_name": "Finite Infinitus",
         "gear_tier": "T3",
@@ -2378,7 +3218,7 @@
           "Design_Plans": 160,
           "Lunar_Amber": 25
         }
-      },    
+      },
       "40": {
         "gear_name": "Finite Infinitus",
         "gear_tier": "T3",
@@ -2392,7 +3232,7 @@
           "Design_Plans": 160,
           "Lunar_Amber": 25
         }
-      },    
+      },
       "41": {
         "gear_name": "Finite Infinitus",
         "gear_tier": "T3",
@@ -2406,7 +3246,7 @@
           "Design_Plans": 170,
           "Lunar_Amber": 25
         }
-      },    
+      },
       "42": {
         "gear_name": "Finite Infinitus",
         "gear_tier": "T3",
@@ -2419,6 +3259,286 @@
           "Polishing_Solution": 1070,
           "Design_Plans": 180,
           "Lunar_Amber": 25
+        }
+      },
+      "43": {
+        "gear_name": "Finite Infinitus",
+        "gear_tier": "T4-0",
+        "category": "right",
+        "stars": 0,
+        "icon": "assets/images/gears/Finite_Infinitus.png",
+        "preview": "assets/images/gears/Finite_Infinitus_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 24000,
+          "Polishing_Solution": 300,
+          "Design_Plans": 50,
+          "Lunar_Amber": 8
+        }
+      },
+      "44": {
+        "gear_name": "Finite Infinitus",
+        "gear_tier": "T4-0",
+        "category": "right",
+        "stars": 1,
+        "icon": "assets/images/gears/Finite_Infinitus.png",
+        "preview": "assets/images/gears/Finite_Infinitus_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 24000,
+          "Polishing_Solution": 300,
+          "Design_Plans": 50,
+          "Lunar_Amber": 8
+        }
+      },
+      "45": {
+        "gear_name": "Finite Infinitus",
+        "gear_tier": "T4-0",
+        "category": "right",
+        "stars": 2,
+        "icon": "assets/images/gears/Finite_Infinitus.png",
+        "preview": "assets/images/gears/Finite_Infinitus_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 24000,
+          "Polishing_Solution": 300,
+          "Design_Plans": 50,
+          "Lunar_Amber": 8
+        }
+      },
+      "46": {
+        "gear_name": "Finite Infinitus",
+        "gear_tier": "T4-0",
+        "category": "right",
+        "stars": 3,
+        "icon": "assets/images/gears/Finite_Infinitus.png",
+        "preview": "assets/images/gears/Finite_Infinitus_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 24000,
+          "Polishing_Solution": 300,
+          "Design_Plans": 50,
+          "Lunar_Amber": 8
+        }
+      },
+      "47": {
+        "gear_name": "Finite Infinitus",
+        "gear_tier": "T4-0",
+        "category": "right",
+        "stars": 4,
+        "icon": "assets/images/gears/Finite_Infinitus.png",
+        "preview": "assets/images/gears/Finite_Infinitus_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 24000,
+          "Polishing_Solution": 300,
+          "Design_Plans": 50,
+          "Lunar_Amber": 8
+        }
+      },
+      "48": {
+        "gear_name": "Finite Infinitus",
+        "gear_tier": "T4-1",
+        "category": "right",
+        "stars": 0,
+        "icon": "assets/images/gears/Finite_Infinitus.png",
+        "preview": "assets/images/gears/Finite_Infinitus_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 28000,
+          "Polishing_Solution": 330,
+          "Design_Plans": 55,
+          "Lunar_Amber": 8
+        }
+      },
+      "49": {
+        "gear_name": "Finite Infinitus",
+        "gear_tier": "T4-1",
+        "category": "right",
+        "stars": 1,
+        "icon": "assets/images/gears/Finite_Infinitus.png",
+        "preview": "assets/images/gears/Finite_Infinitus_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 28000,
+          "Polishing_Solution": 330,
+          "Design_Plans": 55,
+          "Lunar_Amber": 8
+        }
+      },
+      "50": {
+        "gear_name": "Finite Infinitus",
+        "gear_tier": "T4-1",
+        "category": "right",
+        "stars": 2,
+        "icon": "assets/images/gears/Finite_Infinitus.png",
+        "preview": "assets/images/gears/Finite_Infinitus_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 28000,
+          "Polishing_Solution": 330,
+          "Design_Plans": 55,
+          "Lunar_Amber": 8
+        }
+      },
+      "51": {
+        "gear_name": "Finite Infinitus",
+        "gear_tier": "T4-1",
+        "category": "right",
+        "stars": 3,
+        "icon": "assets/images/gears/Finite_Infinitus.png",
+        "preview": "assets/images/gears/Finite_Infinitus_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 28000,
+          "Polishing_Solution": 330,
+          "Design_Plans": 55,
+          "Lunar_Amber": 8
+        }
+      },
+      "52": {
+        "gear_name": "Finite Infinitus",
+        "gear_tier": "T4-1",
+        "category": "right",
+        "stars": 4,
+        "icon": "assets/images/gears/Finite_Infinitus.png",
+        "preview": "assets/images/gears/Finite_Infinitus_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 28000,
+          "Polishing_Solution": 330,
+          "Design_Plans": 55,
+          "Lunar_Amber": 8
+        }
+      },
+      "53": {
+        "gear_name": "Finite Infinitus",
+        "gear_tier": "T4-2",
+        "category": "right",
+        "stars": 0,
+        "icon": "assets/images/gears/Finite_Infinitus.png",
+        "preview": "assets/images/gears/Finite_Infinitus_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 32000,
+          "Polishing_Solution": 360,
+          "Design_Plans": 60,
+          "Lunar_Amber": 8
+        }
+      },
+      "54": {
+        "gear_name": "Finite Infinitus",
+        "gear_tier": "T4-2",
+        "category": "right",
+        "stars": 1,
+        "icon": "assets/images/gears/Finite_Infinitus.png",
+        "preview": "assets/images/gears/Finite_Infinitus_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 32000,
+          "Polishing_Solution": 360,
+          "Design_Plans": 60,
+          "Lunar_Amber": 8
+        }
+      },
+      "55": {
+        "gear_name": "Finite Infinitus",
+        "gear_tier": "T4-2",
+        "category": "right",
+        "stars": 2,
+        "icon": "assets/images/gears/Finite_Infinitus.png",
+        "preview": "assets/images/gears/Finite_Infinitus_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 32000,
+          "Polishing_Solution": 360,
+          "Design_Plans": 60,
+          "Lunar_Amber": 8
+        }
+      },
+      "56": {
+        "gear_name": "Finite Infinitus",
+        "gear_tier": "T4-2",
+        "category": "right",
+        "stars": 3,
+        "icon": "assets/images/gears/Finite_Infinitus.png",
+        "preview": "assets/images/gears/Finite_Infinitus_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 32000,
+          "Polishing_Solution": 360,
+          "Design_Plans": 60,
+          "Lunar_Amber": 8
+        }
+      },
+      "57": {
+        "gear_name": "Finite Infinitus",
+        "gear_tier": "T4-2",
+        "category": "right",
+        "stars": 4,
+        "icon": "assets/images/gears/Finite_Infinitus.png",
+        "preview": "assets/images/gears/Finite_Infinitus_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 32000,
+          "Polishing_Solution": 360,
+          "Design_Plans": 60,
+          "Lunar_Amber": 8
+        }
+      },
+      "58": {
+        "gear_name": "Finite Infinitus",
+        "gear_tier": "T4-3",
+        "category": "right",
+        "stars": 0,
+        "icon": "assets/images/gears/Finite_Infinitus.png",
+        "preview": "assets/images/gears/Finite_Infinitus_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 36000,
+          "Polishing_Solution": 390,
+          "Design_Plans": 65,
+          "Lunar_Amber": 8
+        }
+      },
+      "59": {
+        "gear_name": "Finite Infinitus",
+        "gear_tier": "T4-3",
+        "category": "right",
+        "stars": 1,
+        "icon": "assets/images/gears/Finite_Infinitus.png",
+        "preview": "assets/images/gears/Finite_Infinitus_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 36000,
+          "Polishing_Solution": 390,
+          "Design_Plans": 65,
+          "Lunar_Amber": 8
+        }
+      },
+      "60": {
+        "gear_name": "Finite Infinitus",
+        "gear_tier": "T4-3",
+        "category": "right",
+        "stars": 2,
+        "icon": "assets/images/gears/Finite_Infinitus.png",
+        "preview": "assets/images/gears/Finite_Infinitus_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 36000,
+          "Polishing_Solution": 390,
+          "Design_Plans": 65,
+          "Lunar_Amber": 8
+        }
+      },
+      "61": {
+        "gear_name": "Finite Infinitus",
+        "gear_tier": "T4-3",
+        "category": "right",
+        "stars": 3,
+        "icon": "assets/images/gears/Finite_Infinitus.png",
+        "preview": "assets/images/gears/Finite_Infinitus_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 36000,
+          "Polishing_Solution": 390,
+          "Design_Plans": 65,
+          "Lunar_Amber": 8
+        }
+      },
+      "62": {
+        "gear_name": "Finite Infinitus",
+        "gear_tier": "T4-3",
+        "category": "right",
+        "stars": 4,
+        "icon": "assets/images/gears/Finite_Infinitus.png",
+        "preview": "assets/images/gears/Finite_Infinitus_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 36000,
+          "Polishing_Solution": 390,
+          "Design_Plans": 65,
+          "Lunar_Amber": 8
         }
       }
     }
@@ -2746,7 +3866,7 @@
           "Design_Plans": 55,
           "Lunar_Amber": 0
         }
-      },    
+      },
       "23": {
         "gear_name": "Triumphs Stride",
         "gear_tier": "T2",
@@ -2760,7 +3880,7 @@
           "Design_Plans": 55,
           "Lunar_Amber": 0
         }
-      },    
+      },
       "24": {
         "gear_name": "Triumphs Stride",
         "gear_tier": "T2",
@@ -2774,7 +3894,7 @@
           "Design_Plans": 75,
           "Lunar_Amber": 0
         }
-      },    
+      },
       "25": {
         "gear_name": "Triumphs Stride",
         "gear_tier": "T2",
@@ -2788,7 +3908,7 @@
           "Design_Plans": 80,
           "Lunar_Amber": 0
         }
-      },    
+      },
       "26": {
         "gear_name": "Triumphs Stride",
         "gear_tier": "T2",
@@ -2802,7 +3922,7 @@
           "Design_Plans": 85,
           "Lunar_Amber": 0
         }
-      },    
+      },
       "27": {
         "gear_name": "Conquerors Cadence",
         "gear_tier": "",
@@ -2816,7 +3936,7 @@
           "Design_Plans": 85,
           "Lunar_Amber": 10
         }
-      },    
+      },
       "28": {
         "gear_name": "Conquerors Cadence",
         "gear_tier": "",
@@ -2830,7 +3950,7 @@
           "Design_Plans": 90,
           "Lunar_Amber": 10
         }
-      },    
+      },
       "29": {
         "gear_name": "Conquerors Cadence",
         "gear_tier": "",
@@ -2844,7 +3964,7 @@
           "Design_Plans": 95,
           "Lunar_Amber": 10
         }
-      },    
+      },
       "30": {
         "gear_name": "Conquerors Cadence",
         "gear_tier": "",
@@ -2858,7 +3978,7 @@
           "Design_Plans": 100,
           "Lunar_Amber": 10
         }
-      },    
+      },
       "31": {
         "gear_name": "Conquerors Cadence",
         "gear_tier": "T1",
@@ -2872,7 +3992,7 @@
           "Design_Plans": 110,
           "Lunar_Amber": 15
         }
-      },    
+      },
       "32": {
         "gear_name": "Conquerors Cadence",
         "gear_tier": "T1",
@@ -2886,7 +4006,7 @@
           "Design_Plans": 115,
           "Lunar_Amber": 15
         }
-      },    
+      },
       "33": {
         "gear_name": "Conquerors Cadence",
         "gear_tier": "T1",
@@ -2900,7 +4020,7 @@
           "Design_Plans": 120,
           "Lunar_Amber": 15
         }
-      },    
+      },
       "34": {
         "gear_name": "Conquerors Cadence",
         "gear_tier": "T1",
@@ -2914,7 +4034,7 @@
           "Design_Plans": 125,
           "Lunar_Amber": 15
         }
-      },    
+      },
       "35": {
         "gear_name": "Conquerors Cadence",
         "gear_tier": "T2",
@@ -2928,7 +4048,7 @@
           "Design_Plans": 135,
           "Lunar_Amber": 20
         }
-      },    
+      },
       "36": {
         "gear_name": "Conquerors Cadence",
         "gear_tier": "T2",
@@ -2942,7 +4062,7 @@
           "Design_Plans": 140,
           "Lunar_Amber": 20
         }
-      },    
+      },
       "37": {
         "gear_name": "Conquerors Cadence",
         "gear_tier": "T2",
@@ -2956,7 +4076,7 @@
           "Design_Plans": 145,
           "Lunar_Amber": 20
         }
-      },    
+      },
       "38": {
         "gear_name": "Conquerors Cadence",
         "gear_tier": "T2",
@@ -2970,7 +4090,7 @@
           "Design_Plans": 150,
           "Lunar_Amber": 20
         }
-      },    
+      },
       "39": {
         "gear_name": "Conquerors Cadence",
         "gear_tier": "T3",
@@ -2984,7 +4104,7 @@
           "Design_Plans": 160,
           "Lunar_Amber": 25
         }
-      },    
+      },
       "40": {
         "gear_name": "Conquerors Cadence",
         "gear_tier": "T3",
@@ -2998,7 +4118,7 @@
           "Design_Plans": 160,
           "Lunar_Amber": 25
         }
-      },    
+      },
       "41": {
         "gear_name": "Conquerors Cadence",
         "gear_tier": "T3",
@@ -3012,7 +4132,7 @@
           "Design_Plans": 170,
           "Lunar_Amber": 25
         }
-      },    
+      },
       "42": {
         "gear_name": "Conquerors Cadence",
         "gear_tier": "T3",
@@ -3025,6 +4145,286 @@
           "Polishing_Solution": 1070,
           "Design_Plans": 180,
           "Lunar_Amber": 25
+        }
+      },
+      "43": {
+        "gear_name": "Conquerors Cadence",
+        "gear_tier": "T4-0",
+        "category": "right",
+        "stars": 0,
+        "icon": "assets/images/gears/Conquerors_Cadence.png",
+        "preview": "assets/images/gears/Conquerors_Cadence_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 24000,
+          "Polishing_Solution": 300,
+          "Design_Plans": 50,
+          "Lunar_Amber": 8
+        }
+      },
+      "44": {
+        "gear_name": "Conquerors Cadence",
+        "gear_tier": "T4-0",
+        "category": "right",
+        "stars": 1,
+        "icon": "assets/images/gears/Conquerors_Cadence.png",
+        "preview": "assets/images/gears/Conquerors_Cadence_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 24000,
+          "Polishing_Solution": 300,
+          "Design_Plans": 50,
+          "Lunar_Amber": 8
+        }
+      },
+      "45": {
+        "gear_name": "Conquerors Cadence",
+        "gear_tier": "T4-0",
+        "category": "right",
+        "stars": 2,
+        "icon": "assets/images/gears/Conquerors_Cadence.png",
+        "preview": "assets/images/gears/Conquerors_Cadence_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 24000,
+          "Polishing_Solution": 300,
+          "Design_Plans": 50,
+          "Lunar_Amber": 8
+        }
+      },
+      "46": {
+        "gear_name": "Conquerors Cadence",
+        "gear_tier": "T4-0",
+        "category": "right",
+        "stars": 3,
+        "icon": "assets/images/gears/Conquerors_Cadence.png",
+        "preview": "assets/images/gears/Conquerors_Cadence_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 24000,
+          "Polishing_Solution": 300,
+          "Design_Plans": 50,
+          "Lunar_Amber": 8
+        }
+      },
+      "47": {
+        "gear_name": "Conquerors Cadence",
+        "gear_tier": "T4-0",
+        "category": "right",
+        "stars": 4,
+        "icon": "assets/images/gears/Conquerors_Cadence.png",
+        "preview": "assets/images/gears/Conquerors_Cadence_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 24000,
+          "Polishing_Solution": 300,
+          "Design_Plans": 50,
+          "Lunar_Amber": 8
+        }
+      },
+      "48": {
+        "gear_name": "Conquerors Cadence",
+        "gear_tier": "T4-1",
+        "category": "right",
+        "stars": 0,
+        "icon": "assets/images/gears/Conquerors_Cadence.png",
+        "preview": "assets/images/gears/Conquerors_Cadence_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 28000,
+          "Polishing_Solution": 330,
+          "Design_Plans": 55,
+          "Lunar_Amber": 8
+        }
+      },
+      "49": {
+        "gear_name": "Conquerors Cadence",
+        "gear_tier": "T4-1",
+        "category": "right",
+        "stars": 1,
+        "icon": "assets/images/gears/Conquerors_Cadence.png",
+        "preview": "assets/images/gears/Conquerors_Cadence_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 28000,
+          "Polishing_Solution": 330,
+          "Design_Plans": 55,
+          "Lunar_Amber": 8
+        }
+      },
+      "50": {
+        "gear_name": "Conquerors Cadence",
+        "gear_tier": "T4-1",
+        "category": "right",
+        "stars": 2,
+        "icon": "assets/images/gears/Conquerors_Cadence.png",
+        "preview": "assets/images/gears/Conquerors_Cadence_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 28000,
+          "Polishing_Solution": 330,
+          "Design_Plans": 55,
+          "Lunar_Amber": 8
+        }
+      },
+      "51": {
+        "gear_name": "Conquerors Cadence",
+        "gear_tier": "T4-1",
+        "category": "right",
+        "stars": 3,
+        "icon": "assets/images/gears/Conquerors_Cadence.png",
+        "preview": "assets/images/gears/Conquerors_Cadence_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 28000,
+          "Polishing_Solution": 330,
+          "Design_Plans": 55,
+          "Lunar_Amber": 8
+        }
+      },
+      "52": {
+        "gear_name": "Conquerors Cadence",
+        "gear_tier": "T4-1",
+        "category": "right",
+        "stars": 4,
+        "icon": "assets/images/gears/Conquerors_Cadence.png",
+        "preview": "assets/images/gears/Conquerors_Cadence_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 28000,
+          "Polishing_Solution": 330,
+          "Design_Plans": 55,
+          "Lunar_Amber": 8
+        }
+      },
+      "53": {
+        "gear_name": "Conquerors Cadence",
+        "gear_tier": "T4-2",
+        "category": "right",
+        "stars": 0,
+        "icon": "assets/images/gears/Conquerors_Cadence.png",
+        "preview": "assets/images/gears/Conquerors_Cadence_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 32000,
+          "Polishing_Solution": 360,
+          "Design_Plans": 60,
+          "Lunar_Amber": 8
+        }
+      },
+      "54": {
+        "gear_name": "Conquerors Cadence",
+        "gear_tier": "T4-2",
+        "category": "right",
+        "stars": 1,
+        "icon": "assets/images/gears/Conquerors_Cadence.png",
+        "preview": "assets/images/gears/Conquerors_Cadence_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 32000,
+          "Polishing_Solution": 360,
+          "Design_Plans": 60,
+          "Lunar_Amber": 8
+        }
+      },
+      "55": {
+        "gear_name": "Conquerors Cadence",
+        "gear_tier": "T4-2",
+        "category": "right",
+        "stars": 2,
+        "icon": "assets/images/gears/Conquerors_Cadence.png",
+        "preview": "assets/images/gears/Conquerors_Cadence_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 32000,
+          "Polishing_Solution": 360,
+          "Design_Plans": 60,
+          "Lunar_Amber": 8
+        }
+      },
+      "56": {
+        "gear_name": "Conquerors Cadence",
+        "gear_tier": "T4-2",
+        "category": "right",
+        "stars": 3,
+        "icon": "assets/images/gears/Conquerors_Cadence.png",
+        "preview": "assets/images/gears/Conquerors_Cadence_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 32000,
+          "Polishing_Solution": 360,
+          "Design_Plans": 60,
+          "Lunar_Amber": 8
+        }
+      },
+      "57": {
+        "gear_name": "Conquerors Cadence",
+        "gear_tier": "T4-2",
+        "category": "right",
+        "stars": 4,
+        "icon": "assets/images/gears/Conquerors_Cadence.png",
+        "preview": "assets/images/gears/Conquerors_Cadence_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 32000,
+          "Polishing_Solution": 360,
+          "Design_Plans": 60,
+          "Lunar_Amber": 8
+        }
+      },
+      "58": {
+        "gear_name": "Conquerors Cadence",
+        "gear_tier": "T4-3",
+        "category": "right",
+        "stars": 0,
+        "icon": "assets/images/gears/Conquerors_Cadence.png",
+        "preview": "assets/images/gears/Conquerors_Cadence_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 36000,
+          "Polishing_Solution": 390,
+          "Design_Plans": 65,
+          "Lunar_Amber": 8
+        }
+      },
+      "59": {
+        "gear_name": "Conquerors Cadence",
+        "gear_tier": "T4-3",
+        "category": "right",
+        "stars": 1,
+        "icon": "assets/images/gears/Conquerors_Cadence.png",
+        "preview": "assets/images/gears/Conquerors_Cadence_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 36000,
+          "Polishing_Solution": 390,
+          "Design_Plans": 65,
+          "Lunar_Amber": 8
+        }
+      },
+      "60": {
+        "gear_name": "Conquerors Cadence",
+        "gear_tier": "T4-3",
+        "category": "right",
+        "stars": 2,
+        "icon": "assets/images/gears/Conquerors_Cadence.png",
+        "preview": "assets/images/gears/Conquerors_Cadence_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 36000,
+          "Polishing_Solution": 390,
+          "Design_Plans": 65,
+          "Lunar_Amber": 8
+        }
+      },
+      "61": {
+        "gear_name": "Conquerors Cadence",
+        "gear_tier": "T4-3",
+        "category": "right",
+        "stars": 3,
+        "icon": "assets/images/gears/Conquerors_Cadence.png",
+        "preview": "assets/images/gears/Conquerors_Cadence_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 36000,
+          "Polishing_Solution": 390,
+          "Design_Plans": 65,
+          "Lunar_Amber": 8
+        }
+      },
+      "62": {
+        "gear_name": "Conquerors Cadence",
+        "gear_tier": "T4-3",
+        "category": "right",
+        "stars": 4,
+        "icon": "assets/images/gears/Conquerors_Cadence.png",
+        "preview": "assets/images/gears/Conquerors_Cadence_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 36000,
+          "Polishing_Solution": 390,
+          "Design_Plans": 65,
+          "Lunar_Amber": 8
         }
       }
     }
@@ -3352,7 +4752,7 @@
           "Design_Plans": 55,
           "Lunar_Amber": 0
         }
-      },    
+      },
       "23": {
         "gear_name": "Key of Wisdom",
         "gear_tier": "T2",
@@ -3366,7 +4766,7 @@
           "Design_Plans": 55,
           "Lunar_Amber": 0
         }
-      },    
+      },
       "24": {
         "gear_name": "Key of Wisdom",
         "gear_tier": "T2",
@@ -3380,7 +4780,7 @@
           "Design_Plans": 75,
           "Lunar_Amber": 0
         }
-      },    
+      },
       "25": {
         "gear_name": "Key of Wisdom",
         "gear_tier": "T2",
@@ -3394,7 +4794,7 @@
           "Design_Plans": 80,
           "Lunar_Amber": 0
         }
-      },    
+      },
       "26": {
         "gear_name": "Key of Wisdom",
         "gear_tier": "T2",
@@ -3408,7 +4808,7 @@
           "Design_Plans": 85,
           "Lunar_Amber": 0
         }
-      },    
+      },
       "27": {
         "gear_name": "Golden Zeal",
         "gear_tier": "",
@@ -3422,7 +4822,7 @@
           "Design_Plans": 85,
           "Lunar_Amber": 10
         }
-      },    
+      },
       "28": {
         "gear_name": "Golden Zeal",
         "gear_tier": "",
@@ -3436,7 +4836,7 @@
           "Design_Plans": 90,
           "Lunar_Amber": 10
         }
-      },    
+      },
       "29": {
         "gear_name": "Golden Zeal",
         "gear_tier": "",
@@ -3450,7 +4850,7 @@
           "Design_Plans": 95,
           "Lunar_Amber": 10
         }
-      },    
+      },
       "30": {
         "gear_name": "Golden Zeal",
         "gear_tier": "",
@@ -3464,7 +4864,7 @@
           "Design_Plans": 100,
           "Lunar_Amber": 10
         }
-      },    
+      },
       "31": {
         "gear_name": "Golden Zeal",
         "gear_tier": "T1",
@@ -3478,7 +4878,7 @@
           "Design_Plans": 110,
           "Lunar_Amber": 15
         }
-      },    
+      },
       "32": {
         "gear_name": "Golden Zeal",
         "gear_tier": "T1",
@@ -3492,7 +4892,7 @@
           "Design_Plans": 115,
           "Lunar_Amber": 15
         }
-      },    
+      },
       "33": {
         "gear_name": "Golden Zeal",
         "gear_tier": "T1",
@@ -3506,7 +4906,7 @@
           "Design_Plans": 120,
           "Lunar_Amber": 15
         }
-      },    
+      },
       "34": {
         "gear_name": "Golden Zeal",
         "gear_tier": "T1",
@@ -3520,7 +4920,7 @@
           "Design_Plans": 125,
           "Lunar_Amber": 15
         }
-      },    
+      },
       "35": {
         "gear_name": "Golden Zeal",
         "gear_tier": "T2",
@@ -3534,7 +4934,7 @@
           "Design_Plans": 135,
           "Lunar_Amber": 20
         }
-      },    
+      },
       "36": {
         "gear_name": "Golden Zeal",
         "gear_tier": "T2",
@@ -3548,7 +4948,7 @@
           "Design_Plans": 140,
           "Lunar_Amber": 20
         }
-      },    
+      },
       "37": {
         "gear_name": "Golden Zeal",
         "gear_tier": "T2",
@@ -3562,7 +4962,7 @@
           "Design_Plans": 145,
           "Lunar_Amber": 20
         }
-      },    
+      },
       "38": {
         "gear_name": "Golden Zeal",
         "gear_tier": "T2",
@@ -3576,7 +4976,7 @@
           "Design_Plans": 150,
           "Lunar_Amber": 20
         }
-      },    
+      },
       "39": {
         "gear_name": "Golden Zeal",
         "gear_tier": "T3",
@@ -3590,7 +4990,7 @@
           "Design_Plans": 160,
           "Lunar_Amber": 25
         }
-      },    
+      },
       "40": {
         "gear_name": "Golden Zeal",
         "gear_tier": "T3",
@@ -3604,7 +5004,7 @@
           "Design_Plans": 160,
           "Lunar_Amber": 25
         }
-      },    
+      },
       "41": {
         "gear_name": "Golden Zeal",
         "gear_tier": "T3",
@@ -3618,7 +5018,7 @@
           "Design_Plans": 170,
           "Lunar_Amber": 25
         }
-      },    
+      },
       "42": {
         "gear_name": "Golden Zeal",
         "gear_tier": "T3",
@@ -3631,6 +5031,286 @@
           "Polishing_Solution": 1070,
           "Design_Plans": 180,
           "Lunar_Amber": 25
+        }
+      },
+      "43": {
+        "gear_name": "Golden Zeal",
+        "gear_tier": "T4-0",
+        "category": "right",
+        "stars": 0,
+        "icon": "assets/images/gears/Golden_Zeal.png",
+        "preview": "assets/images/gears/Golden_Zeal_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 24000,
+          "Polishing_Solution": 300,
+          "Design_Plans": 50,
+          "Lunar_Amber": 8
+        }
+      },
+      "44": {
+        "gear_name": "Golden Zeal",
+        "gear_tier": "T4-0",
+        "category": "right",
+        "stars": 1,
+        "icon": "assets/images/gears/Golden_Zeal.png",
+        "preview": "assets/images/gears/Golden_Zeal_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 24000,
+          "Polishing_Solution": 300,
+          "Design_Plans": 50,
+          "Lunar_Amber": 8
+        }
+      },
+      "45": {
+        "gear_name": "Golden Zeal",
+        "gear_tier": "T4-0",
+        "category": "right",
+        "stars": 2,
+        "icon": "assets/images/gears/Golden_Zeal.png",
+        "preview": "assets/images/gears/Golden_Zeal_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 24000,
+          "Polishing_Solution": 300,
+          "Design_Plans": 50,
+          "Lunar_Amber": 8
+        }
+      },
+      "46": {
+        "gear_name": "Golden Zeal",
+        "gear_tier": "T4-0",
+        "category": "right",
+        "stars": 3,
+        "icon": "assets/images/gears/Golden_Zeal.png",
+        "preview": "assets/images/gears/Golden_Zeal_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 24000,
+          "Polishing_Solution": 300,
+          "Design_Plans": 50,
+          "Lunar_Amber": 8
+        }
+      },
+      "47": {
+        "gear_name": "Golden Zeal",
+        "gear_tier": "T4-0",
+        "category": "right",
+        "stars": 4,
+        "icon": "assets/images/gears/Golden_Zeal.png",
+        "preview": "assets/images/gears/Golden_Zeal_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 24000,
+          "Polishing_Solution": 300,
+          "Design_Plans": 50,
+          "Lunar_Amber": 8
+        }
+      },
+      "48": {
+        "gear_name": "Golden Zeal",
+        "gear_tier": "T4-1",
+        "category": "right",
+        "stars": 0,
+        "icon": "assets/images/gears/Golden_Zeal.png",
+        "preview": "assets/images/gears/Golden_Zeal_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 28000,
+          "Polishing_Solution": 330,
+          "Design_Plans": 55,
+          "Lunar_Amber": 8
+        }
+      },
+      "49": {
+        "gear_name": "Golden Zeal",
+        "gear_tier": "T4-1",
+        "category": "right",
+        "stars": 1,
+        "icon": "assets/images/gears/Golden_Zeal.png",
+        "preview": "assets/images/gears/Golden_Zeal_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 28000,
+          "Polishing_Solution": 330,
+          "Design_Plans": 55,
+          "Lunar_Amber": 8
+        }
+      },
+      "50": {
+        "gear_name": "Golden Zeal",
+        "gear_tier": "T4-1",
+        "category": "right",
+        "stars": 2,
+        "icon": "assets/images/gears/Golden_Zeal.png",
+        "preview": "assets/images/gears/Golden_Zeal_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 28000,
+          "Polishing_Solution": 330,
+          "Design_Plans": 55,
+          "Lunar_Amber": 8
+        }
+      },
+      "51": {
+        "gear_name": "Golden Zeal",
+        "gear_tier": "T4-1",
+        "category": "right",
+        "stars": 3,
+        "icon": "assets/images/gears/Golden_Zeal.png",
+        "preview": "assets/images/gears/Golden_Zeal_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 28000,
+          "Polishing_Solution": 330,
+          "Design_Plans": 55,
+          "Lunar_Amber": 8
+        }
+      },
+      "52": {
+        "gear_name": "Golden Zeal",
+        "gear_tier": "T4-1",
+        "category": "right",
+        "stars": 4,
+        "icon": "assets/images/gears/Golden_Zeal.png",
+        "preview": "assets/images/gears/Golden_Zeal_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 28000,
+          "Polishing_Solution": 330,
+          "Design_Plans": 55,
+          "Lunar_Amber": 8
+        }
+      },
+      "53": {
+        "gear_name": "Golden Zeal",
+        "gear_tier": "T4-2",
+        "category": "right",
+        "stars": 0,
+        "icon": "assets/images/gears/Golden_Zeal.png",
+        "preview": "assets/images/gears/Golden_Zeal_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 32000,
+          "Polishing_Solution": 360,
+          "Design_Plans": 60,
+          "Lunar_Amber": 8
+        }
+      },
+      "54": {
+        "gear_name": "Golden Zeal",
+        "gear_tier": "T4-2",
+        "category": "right",
+        "stars": 1,
+        "icon": "assets/images/gears/Golden_Zeal.png",
+        "preview": "assets/images/gears/Golden_Zeal_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 32000,
+          "Polishing_Solution": 360,
+          "Design_Plans": 60,
+          "Lunar_Amber": 8
+        }
+      },
+      "55": {
+        "gear_name": "Golden Zeal",
+        "gear_tier": "T4-2",
+        "category": "right",
+        "stars": 2,
+        "icon": "assets/images/gears/Golden_Zeal.png",
+        "preview": "assets/images/gears/Golden_Zeal_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 32000,
+          "Polishing_Solution": 360,
+          "Design_Plans": 60,
+          "Lunar_Amber": 8
+        }
+      },
+      "56": {
+        "gear_name": "Golden Zeal",
+        "gear_tier": "T4-2",
+        "category": "right",
+        "stars": 3,
+        "icon": "assets/images/gears/Golden_Zeal.png",
+        "preview": "assets/images/gears/Golden_Zeal_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 32000,
+          "Polishing_Solution": 360,
+          "Design_Plans": 60,
+          "Lunar_Amber": 8
+        }
+      },
+      "57": {
+        "gear_name": "Golden Zeal",
+        "gear_tier": "T4-2",
+        "category": "right",
+        "stars": 4,
+        "icon": "assets/images/gears/Golden_Zeal.png",
+        "preview": "assets/images/gears/Golden_Zeal_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 32000,
+          "Polishing_Solution": 360,
+          "Design_Plans": 60,
+          "Lunar_Amber": 8
+        }
+      },
+      "58": {
+        "gear_name": "Golden Zeal",
+        "gear_tier": "T4-3",
+        "category": "right",
+        "stars": 0,
+        "icon": "assets/images/gears/Golden_Zeal.png",
+        "preview": "assets/images/gears/Golden_Zeal_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 36000,
+          "Polishing_Solution": 390,
+          "Design_Plans": 65,
+          "Lunar_Amber": 8
+        }
+      },
+      "59": {
+        "gear_name": "Golden Zeal",
+        "gear_tier": "T4-3",
+        "category": "right",
+        "stars": 1,
+        "icon": "assets/images/gears/Golden_Zeal.png",
+        "preview": "assets/images/gears/Golden_Zeal_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 36000,
+          "Polishing_Solution": 390,
+          "Design_Plans": 65,
+          "Lunar_Amber": 8
+        }
+      },
+      "60": {
+        "gear_name": "Golden Zeal",
+        "gear_tier": "T4-3",
+        "category": "right",
+        "stars": 2,
+        "icon": "assets/images/gears/Golden_Zeal.png",
+        "preview": "assets/images/gears/Golden_Zeal_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 36000,
+          "Polishing_Solution": 390,
+          "Design_Plans": 65,
+          "Lunar_Amber": 8
+        }
+      },
+      "61": {
+        "gear_name": "Golden Zeal",
+        "gear_tier": "T4-3",
+        "category": "right",
+        "stars": 3,
+        "icon": "assets/images/gears/Golden_Zeal.png",
+        "preview": "assets/images/gears/Golden_Zeal_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 36000,
+          "Polishing_Solution": 390,
+          "Design_Plans": 65,
+          "Lunar_Amber": 8
+        }
+      },
+      "62": {
+        "gear_name": "Golden Zeal",
+        "gear_tier": "T4-3",
+        "category": "right",
+        "stars": 4,
+        "icon": "assets/images/gears/Golden_Zeal.png",
+        "preview": "assets/images/gears/Golden_Zeal_No_Background.png",
+        "materials": {
+          "Hardened_Alloy": 36000,
+          "Polishing_Solution": 390,
+          "Design_Plans": 65,
+          "Lunar_Amber": 8
         }
       }
     }
